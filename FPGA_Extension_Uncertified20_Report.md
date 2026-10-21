@@ -109,7 +109,11 @@ These were reviewed (APPROVE after one fix) and tested (189 tests pass).
 
 | Phase | Status |
 |---|---|
-| CPU (cpu-v1-5000s) | running since 2026-10-20T23:17Z; results pending |
-| FPGA | not started; waits for CPU certification |
+| CPU (cpu-v1-5000s) | running since 2026-10-20T23:17Z. Interim at 2026-10-21T14:30Z: 9/20 done; certified so far MRB0-001 (UNSAT, proof), MRB0-003 (UNSAT, proof), MRB0-009 (SAT, witness) |
+| FPGA | armed: a detached watcher (`/tmp/pigweed-ext20-continue.sh`; log `calibration/ext20-continuation.log`) starts prepare → qualify → supervised run → report when the CPU campaign completes |
+
+The FPGA prepare path was dry-run on 2026-10-21 against the partial cpu-v1
+data. It recorded the 2,600 s / 1-repetition campaign with both CPU sources
+and found 3 of the 20 ids eligible at that point.
 
 Results will be added here as each phase completes.
