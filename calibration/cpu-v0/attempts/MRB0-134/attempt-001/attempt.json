@@ -1,0 +1,85 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-134/attempt-001",
+ "certified": true,
+ "certified_kind": "unsat_proof",
+ "check": {
+  "classification": "verified",
+  "detail": null,
+  "exit_code": 0,
+  "reported_verification_seconds": 268.687,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 471,
+  "stdout_sha256": "01c7091e1dca2ac49a2cde20deb34a267002f16f3f162dea71200843ecab3f82",
+  "timeout": false,
+  "wall_seconds": 268.76587641681544
+ },
+ "claimed": "unsat",
+ "commands": {
+  "check": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/drat-trim/drat-trim",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-134/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-134/attempt-001/proof.drat",
+   "-t",
+   "3000"
+  ],
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-134/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-134/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": "agree",
+ "id": "MRB0-134",
+ "identity": {
+  "cnf_sha256": "87036e4ea432086a6613088b02620407f24f3c93736b38e015ec3e5526dcb5ff",
+  "compressed_sha256": "85004f4a01275e59b2b1bcdce700988adac8eccfe3491437258c97cbc15e4be9",
+  "input_bytes": 98867
+ },
+ "manifest": {
+  "alias": "php17-mixed-35percent-blocked.cnf.xz",
+  "category": "main",
+  "clauses": "8655",
+  "cnf_sha256": "87036e4ea432086a6613088b02620407f24f3c93736b38e015ec3e5526dcb5ff",
+  "family": "pigeon-hole",
+  "id": "MRB0-134",
+  "literals": "17580",
+  "max_width": "17",
+  "mean_width": "2.031",
+  "result_gbd": "unsat",
+  "tier": "M-low",
+  "variables": "460"
+ },
+ "proof": {
+  "gz_bytes": 268370652,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "d0d7511c09a7220d95a7d7eb6994948720bf6cad03ceebe657344286547cc259",
+  "raw_bytes": 712587404,
+  "raw_sha256": "07305a050175bff4104f8130ac94224dcff3050a43dadbefca7e05c11f0f2967",
+  "roundtrip_verified": true
+ },
+ "reason": "ok",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": 20,
+  "kissat_max_rss_bytes": 96670318592,
+  "kissat_process_time_seconds": 152.98,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 102409,
+  "stdout_sha256": "e31bb6c9d8280c05be8c20ead75277e74799852db4823ce51f0b65907561f94f",
+  "timeout": false,
+  "wall_seconds": 153.53604654199444
+ },
+ "terminal": true,
+ "witness": null
+}

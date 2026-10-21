@@ -1,0 +1,10 @@
+{
+ "note": "Byte-exact organizer files of epoch 2 (identity recorded in run.json). Later organizer edits for the 5000 s extension do not apply to this run; to re-run `report` here, copy these files next to the tests (as with cpu-v0-executed-harness) and run them, then delete the copies.",
+ "files": {
+  "benchmark_cnf.py": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+  "calibrate_cpu.py": "1ac590691a603cc4be11b2c7165d7c62615fa6eb48425721b40165e2177218c8",
+  "pigweed_fpga_worker.py": "f807f77dd6762971c497a4aad37cb6e20f80dfa71677bae1245ede11a7c98c02",
+  "run_pigweed_fpga.py": "0a8c93d66ae4658ceb963f45b735ec9789266be95877106a542d1c0fa3193942",
+  "screen_pigweed.py": "d0318a137a998b4e446e706b811e5028513f9ce0fd3dd8274a1c757e84180100"
+ }
+}

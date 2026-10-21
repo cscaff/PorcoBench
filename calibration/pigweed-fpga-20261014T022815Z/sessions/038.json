@@ -1,0 +1,17 @@
+{
+ "acquired_utc": "2026-10-18T20:41:23Z",
+ "build_job_id": "f6a95ec2-3800-47bf-ad4b-f7f708e4d83e",
+ "clock_evidence": {
+  "expires_at": "2026-10-18T21:41:22.028531Z",
+  "note": "expiry from GET /fpga/{id}/session; skew from server Date headers; dispatch gates subtract latency+skew",
+  "skew_s": -0.7439229488372803
+ },
+ "expires_at": "2026-10-18T21:41:22.028531Z",
+ "fpga_id": 3,
+ "index": 38,
+ "owner": "mhidalg3",
+ "qualified": true,
+ "qualified_utc": "2026-10-18T20:41:31Z",
+ "released": false,
+ "session_id": "06a46c50-5172-4e98-b907-04ff2ff2e5fe"
+}

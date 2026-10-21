@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-204/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-204/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-204/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-204",
+ "identity": {
+  "cnf_sha256": "283ae0c5a29856e4cdd0e7c0e44614087bd2fc1a586c65153594b55b63918a3d",
+  "compressed_sha256": "959aec6d9e0e93b9f52dfae312925bad456dfdcbec6eb7c734b3f33b789bfb9c",
+  "input_bytes": 117971
+ },
+ "manifest": {
+  "alias": "unif-p12-k5-r21.117-v250-c5279-S1173863765273039011.cnf.xz",
+  "category": "random",
+  "clauses": "5279",
+  "cnf_sha256": "283ae0c5a29856e4cdd0e7c0e44614087bd2fc1a586c65153594b55b63918a3d",
+  "family": "uniform-random",
+  "id": "MRB0-204",
+  "literals": "26395",
+  "max_width": "5",
+  "mean_width": "5.0",
+  "result_gbd": "sat",
+  "tier": "M-high",
+  "variables": "250"
+ },
+ "proof": {
+  "gz_bytes": 1403699624,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "0bf569844407fc9e5a043c902e9245ecc42edc67f121b1e2a358283bb225fbf8",
+  "raw_bytes": 3424649216,
+  "raw_sha256": "01e3bc6568c09cf49cac69483333578b0ed649d23a029163e4d288d04d187436",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 157605167104,
+  "kissat_process_time_seconds": 950.23,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 151766,
+  "stdout_sha256": "0794f30694e67fb71bb6c6be8924f6879205f46b62486fa41d35d064b6bed8f1",
+  "timeout": true,
+  "wall_seconds": 1000.0203284169547
+ },
+ "terminal": true,
+ "witness": null
+}

@@ -1,0 +1,221 @@
+{
+ "candidate_snapshot": {
+  "checkout_clean": true,
+  "dirty_paths": [],
+  "files": {
+   "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "NOTICE": "ef90aef7ffa1f2c6015c449f6e90fe81086b32b217c18a3bb11aa8006e9d8775",
+   "design.py": "30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+   "sat/aim50.dimacs": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+   "sat/uf20.dimacs": "b6e907efdea2337deec653c576f1b6ef38cb5e0ed3468c253b520b48d627a7e8",
+   "satlat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "satlat/driver.py": "ac51e9807f1b28944cc1c256d998a10b64d62b40b602b83a0e6d8a2718de873a",
+   "satlat/figure.py": "932bf7f9249ca547a4d973bf3f7741ffb4765adb57ff7b92b9fa29ef2d5e03e4",
+   "satlat/golden.py": "ca24f750f882b887f680911c5827bbed365e83e98f4df1b8b61210ee937136de",
+   "satlat/host.py": "2e6e1039972bb4fec474da24328c8248c8066216a52377caa5471a688a15bdf7",
+   "satlat/report.py": "77840e4492b1b9ec1ffaac134fd2d561ebd726304f06332cee3ca4e75469569c",
+   "satlat/rtlsim.py": "a7b3add4d3f4af0182e88c9b59d1f486f08dd7b97e62480f4a52045d70bd11e0",
+   "satlat/run_golden.py": "0c06a59fa5441080079fc98d312afb5e8a3fde1138209261affd2f21e59c7e58",
+   "unsat/aalto_2.dimacs": "b7180ccefe0e419773c995c71d80dd88d6d158dd01751425a9e77d885b779401",
+   "unsat/pret150_75.dimacs": "979f18526888346d34bcbfaa2f02e4f547bea5ef267006e15797a0920ce6c63d"
+  },
+  "git_head": "27e4de5e2868ddf366163a99466c07bbc1149b31"
+ },
+ "counts": {
+  "eligible": 68,
+  "rows": 210
+ },
+ "cpu_run": "calibration/cpu-v0",
+ "created_utc": "2026-10-14T02:28:20Z",
+ "halt_clearances": [
+  {
+   "cleared_utc": "2026-10-16T03:00:45Z",
+   "decision": "user (chat, 2026-10-15): resume and finish the remaining campaign",
+   "justification": "Manhattan Reasoning platform was redeployed; the board-3 WebSocket drop at 20:09Z (MRB0-072 rep 2, read at 403 s, before the deadline) coincides with the redeploy, as do the API 502 and session-21 qualification transport failure at 17:43Z. Not a candidate or correctness failure. MRB0-072 rep 2 stays recorded as transport_error (no replay).",
+   "previous_halt_reason": "transport failure at MRB0-072 rep 2; no replay/retry; campaign halted (board released)",
+   "previous_phase": "run_blocked"
+  },
+  {
+   "cleared_utc": "2026-10-16T17:26:15Z",
+   "decision": "user (chat, 2026-10-16): platform should be up; resume the campaign",
+   "justification": "MRB0-075 rep 2 drop at 04:04Z was a platform host-agent failure (server close 4502: Host agent /stream failed (503): host agent unreachable) on board 6, during the platform redeploy instability. Not a candidate or correctness failure. The user reports the platform is up (fleet at 17:26Z: boards 1/2/3/5/6 idle). MRB0-075 rep 2 stays recorded as transport_error (no replay).",
+   "previous_halt_reason": "transport failure at MRB0-075 rep 2; no replay/retry; campaign halted (board released)",
+   "previous_phase": "run_blocked"
+  },
+  {
+   "cleared_utc": "2026-10-18T04:02:20Z",
+   "decision": "user (chat, 2026-10-16): run rep 3, do not use board 6",
+   "justification": "MRB0-087 rep 2 drop was the board-6 host-agent 4502/503 failure; epoch 2 releases board-6 assignments before any board I/O. MRB0-087 rep 2 stays transport_error (no replay).",
+   "previous_halt_reason": "transport failure at MRB0-087 rep 2; no replay/retry; campaign halted (board released)",
+   "previous_phase": "run_blocked"
+  },
+  {
+   "cleared_utc": "2026-10-18T16:56:49Z",
+   "decision": "user (chat, 2026-10-18): keep running the campaign one board at a time",
+   "justification": "Operator error: the user's \"stop run as is\" referred to a parallel documentation-research job, not the campaign; the coordinator sent SIGTERM to the runner at 16:55:52Z. Board 1 released (reset 60c0e6c0). MRB0-055 rep 3 attempt-001 stays recorded as interrupted (non-terminal) and is re-run as a new attempt.",
+   "previous_halt_reason": "attempt interrupted mid-flight at MRB0-055 rep 3 (worker killed or died: stop requested); session state uncertain; campaign halted (board released); resume with --resume",
+   "previous_phase": "run_blocked"
+  }
+ ],
+ "identity": {
+  "artifacts": {
+   "evidence_validation": "3680d18cee0ff103e66f12856ca751be205f6b5cad5a054d25b25bd4d3b84a9f",
+   "inputs_tree": "cf48a717d7db0e16a760cb07e4a9fdf9b20407bcb3d5f642268c327c05a07213",
+   "inventory": "a391477dc70e1878514e508adc46ccee60387edd91e50956a448cc50dea69e09",
+   "manifest_snapshot": "23305e51e46e326b1bd150b97190dcac99e4b3030e3a6a0cbc691932d97315f6",
+   "qualification": "c189c3d5e04c20a330d7700f8f3c58e7ad7d1099915528a1e296fd9c4c5dc49f"
+  },
+  "candidate": {
+   "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "NOTICE": "ef90aef7ffa1f2c6015c449f6e90fe81086b32b217c18a3bb11aa8006e9d8775",
+   "design.py": "30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+   "sat/aim50.dimacs": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+   "sat/uf20.dimacs": "b6e907efdea2337deec653c576f1b6ef38cb5e0ed3468c253b520b48d627a7e8",
+   "satlat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "satlat/driver.py": "ac51e9807f1b28944cc1c256d998a10b64d62b40b602b83a0e6d8a2718de873a",
+   "satlat/figure.py": "932bf7f9249ca547a4d973bf3f7741ffb4765adb57ff7b92b9fa29ef2d5e03e4",
+   "satlat/golden.py": "ca24f750f882b887f680911c5827bbed365e83e98f4df1b8b61210ee937136de",
+   "satlat/host.py": "2e6e1039972bb4fec474da24328c8248c8066216a52377caa5471a688a15bdf7",
+   "satlat/report.py": "77840e4492b1b9ec1ffaac134fd2d561ebd726304f06332cee3ca4e75469569c",
+   "satlat/rtlsim.py": "a7b3add4d3f4af0182e88c9b59d1f486f08dd7b97e62480f4a52045d70bd11e0",
+   "satlat/run_golden.py": "0c06a59fa5441080079fc98d312afb5e8a3fde1138209261affd2f21e59c7e58",
+   "unsat/aalto_2.dimacs": "b7180ccefe0e419773c995c71d80dd88d6d158dd01751425a9e77d885b779401",
+   "unsat/pret150_75.dimacs": "979f18526888346d34bcbfaa2f02e4f547bea5ef267006e15797a0920ce6c63d"
+  },
+  "config": {
+   "api_url": "https://api.manhattanreasoning.com",
+   "build_ceiling_s": 14400.0,
+   "lease_min_go_s": 1680.0,
+   "lease_min_load_s": 1800.0,
+   "lease_min_qualify_s": 2400.0,
+   "lit_page": 16,
+   "max_board_skips": 3,
+   "poll_s": 0.05,
+   "repetitions": 3,
+   "sandbox_digest": "sha256:a5c74a81bff5d3874c6a10993d99236f9aa52b2d7d01368cc7d2156f20e19034",
+   "sim_cycle_cap": 2000000,
+   "skip_fpga_ids": [
+    6
+   ],
+   "solve_timeout_s": 1000.0,
+   "sys_clk_hz": 50000000,
+   "timing_target_mhz": 50.0,
+   "wd_go_s": 1060.0,
+   "wd_load_s": 120.0,
+   "wd_qualify_s": 600.0,
+   "wd_readback_s": 120.0,
+   "wd_recovery_s": 120.0
+  },
+  "organizer": {
+   "benchmark_cnf.py": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+   "calibrate_cpu.py": "1ac590691a603cc4be11b2c7165d7c62615fa6eb48425721b40165e2177218c8",
+   "pigweed_fpga_worker.py": "f807f77dd6762971c497a4aad37cb6e20f80dfa71677bae1245ede11a7c98c02",
+   "run_pigweed_fpga.py": "0a8c93d66ae4658ceb963f45b735ec9789266be95877106a542d1c0fa3193942",
+   "screen_pigweed.py": "d0318a137a998b4e446e706b811e5028513f9ce0fd3dd8274a1c757e84180100"
+  },
+  "sdk": {
+   "amaranth": "0.5.8",
+   "commit": "d77d68d19f0cddf5730aa8d5f17b64df4a333632",
+   "package_tree_sha256": "e51fe860b8e2de3cb026b5c4960ae792489a5c4e8e29aea9f796f9fcdcd0ddb9",
+   "python": "3.12.13",
+   "requests": "2.34.2",
+   "version": "0.1.10",
+   "websockets": "17.2"
+  }
+ },
+ "identity_epochs": [
+  {
+   "attempt_records_at_transition": 136,
+   "ended_utc": "2026-10-18T04:02:20Z",
+   "epoch": 1,
+   "identity": {
+    "artifacts": {
+     "evidence_validation": "3680d18cee0ff103e66f12856ca751be205f6b5cad5a054d25b25bd4d3b84a9f",
+     "inputs_tree": "cf48a717d7db0e16a760cb07e4a9fdf9b20407bcb3d5f642268c327c05a07213",
+     "inventory": "a391477dc70e1878514e508adc46ccee60387edd91e50956a448cc50dea69e09",
+     "manifest_snapshot": "23305e51e46e326b1bd150b97190dcac99e4b3030e3a6a0cbc691932d97315f6",
+     "qualification": "b1baaad8b619cfdc469a0cc6484ed80ccb4ce0732a38b2271b3833d86c41bc96"
+    },
+    "candidate": {
+     "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+     "NOTICE": "ef90aef7ffa1f2c6015c449f6e90fe81086b32b217c18a3bb11aa8006e9d8775",
+     "design.py": "30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+     "sat/aim50.dimacs": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+     "sat/uf20.dimacs": "b6e907efdea2337deec653c576f1b6ef38cb5e0ed3468c253b520b48d627a7e8",
+     "satlat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "satlat/driver.py": "ac51e9807f1b28944cc1c256d998a10b64d62b40b602b83a0e6d8a2718de873a",
+     "satlat/figure.py": "932bf7f9249ca547a4d973bf3f7741ffb4765adb57ff7b92b9fa29ef2d5e03e4",
+     "satlat/golden.py": "ca24f750f882b887f680911c5827bbed365e83e98f4df1b8b61210ee937136de",
+     "satlat/host.py": "2e6e1039972bb4fec474da24328c8248c8066216a52377caa5471a688a15bdf7",
+     "satlat/report.py": "77840e4492b1b9ec1ffaac134fd2d561ebd726304f06332cee3ca4e75469569c",
+     "satlat/rtlsim.py": "a7b3add4d3f4af0182e88c9b59d1f486f08dd7b97e62480f4a52045d70bd11e0",
+     "satlat/run_golden.py": "0c06a59fa5441080079fc98d312afb5e8a3fde1138209261affd2f21e59c7e58",
+     "unsat/aalto_2.dimacs": "b7180ccefe0e419773c995c71d80dd88d6d158dd01751425a9e77d885b779401",
+     "unsat/pret150_75.dimacs": "979f18526888346d34bcbfaa2f02e4f547bea5ef267006e15797a0920ce6c63d"
+    },
+    "config": {
+     "api_url": "https://api.manhattanreasoning.com",
+     "build_ceiling_s": 14400.0,
+     "lease_min_go_s": 1680.0,
+     "lease_min_load_s": 1800.0,
+     "lease_min_qualify_s": 2400.0,
+     "lit_page": 16,
+     "poll_s": 0.05,
+     "repetitions": 3,
+     "sandbox_digest": "sha256:a5c74a81bff5d3874c6a10993d99236f9aa52b2d7d01368cc7d2156f20e19034",
+     "sim_cycle_cap": 2000000,
+     "solve_timeout_s": 1000.0,
+     "sys_clk_hz": 50000000,
+     "timing_target_mhz": 50.0,
+     "wd_go_s": 1060.0,
+     "wd_load_s": 120.0,
+     "wd_qualify_s": 600.0,
+     "wd_readback_s": 120.0,
+     "wd_recovery_s": 120.0
+    },
+    "organizer": {
+     "benchmark_cnf.py": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+     "calibrate_cpu.py": "1ac590691a603cc4be11b2c7165d7c62615fa6eb48425721b40165e2177218c8",
+     "pigweed_fpga_worker.py": "f807f77dd6762971c497a4aad37cb6e20f80dfa71677bae1245ede11a7c98c02",
+     "run_pigweed_fpga.py": "1a8480c3fe5e7b28159e02c620dd835ea11d835f3e1d83934756d189b6ac5cc9",
+     "screen_pigweed.py": "d0318a137a998b4e446e706b811e5028513f9ce0fd3dd8274a1c757e84180100"
+    },
+    "sdk": {
+     "amaranth": "0.5.8",
+     "commit": "d77d68d19f0cddf5730aa8d5f17b64df4a333632",
+     "package_tree_sha256": "e51fe860b8e2de3cb026b5c4960ae792489a5c4e8e29aea9f796f9fcdcd0ddb9",
+     "python": "3.12.13",
+     "requests": "2.34.2",
+     "version": "0.1.10",
+     "websockets": "17.2"
+    }
+   },
+   "qualification_record": "qualification.epoch-1.json",
+   "qualify_gates": {
+    "pnr": true,
+    "rtl_abort": true,
+    "rtl_pilots": true,
+    "rtl_semantic": true
+   },
+   "transition_reason": "User-authorized organizer change (2026-10-16): release-and-rebuild when a build lands on board 6 (SKIP_FPGA_IDS=(6,), MAX_BOARD_SKIPS=3), because board 6 host agent dropped /stream with 4502/503 \"host agent unreachable\" ~15-18 s into solves (board6-incident.md). POST /submit cannot target a board. Change reviewed (APPROVE) and tested (180 pass). Every attempt.json keeps its own identity snapshot: rep 1-2 ran under epoch 1, rep 3 runs under epoch 2. Full local qualify is re-run under the new organizer hash."
+  }
+ ],
+ "manifest": "manifest.csv",
+ "phase": "run_done",
+ "phase_resets": [
+  {
+   "from": "run_blocked",
+   "reason": "epoch 2: re-run local qualify under the new organizer hash",
+   "to": "prepared",
+   "utc": "2026-10-18T04:02:20Z"
+  }
+ ],
+ "qualify_gates": {
+  "pnr": true,
+  "rtl_abort": true,
+  "rtl_pilots": true,
+  "rtl_semantic": true
+ },
+ "schema": "pigweed-fpga-run/1",
+ "updated_utc": "2026-10-19T01:53:05Z"
+}

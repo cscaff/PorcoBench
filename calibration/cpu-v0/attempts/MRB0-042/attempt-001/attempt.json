@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-042/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-042/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-042/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-042",
+ "identity": {
+  "cnf_sha256": "7e3b80732b5c4b69e059effda1a52029c9ace8a534f1298b4f168c7e10e0c656",
+  "compressed_sha256": "4988a54c3d43ffd45cdde46c6bdc7691463689254c25a3c0fa604447ae45f9c5",
+  "input_bytes": 36251
+ },
+ "manifest": {
+  "alias": "harder-fphp-016-015.sat05-1230.reshuffled-07.cnf.xz",
+  "category": "main",
+  "clauses": "3496",
+  "cnf_sha256": "7e3b80732b5c4b69e059effda1a52029c9ace8a534f1298b4f168c7e10e0c656",
+  "family": "pigeon-hole",
+  "id": "MRB0-042",
+  "literals": "7200",
+  "max_width": "15",
+  "mean_width": "2.059",
+  "result_gbd": "unsat",
+  "tier": "S-tight",
+  "variables": "240"
+ },
+ "proof": {
+  "gz_bytes": 1118846387,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "c95f4367d365cdd5ec01e0c089ded9493734ed24b5224def7238d30080b6e6da",
+  "raw_bytes": 3306160128,
+  "raw_sha256": "f8c9a88d4e5ce90dffc9d580fd11c779fa9893f305871a61c5bd1867edb6e039",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 523298144256,
+  "kissat_process_time_seconds": 991.49,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 220631,
+  "stdout_sha256": "e5002c7808bb7a837fb40eb37886451e816817d4908927239f642c00f8a34de0",
+  "timeout": true,
+  "wall_seconds": 1000.0181424589828
+ },
+ "terminal": true,
+ "witness": null
+}

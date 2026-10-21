@@ -1,0 +1,31 @@
+{
+ "binding_errors": [],
+ "eligibility": {
+  "by_reason": {
+   "eligible": 68,
+   "non_fitting": 122,
+   "uncertified": 62
+  },
+  "eligible": 68,
+  "rows_210": 210
+ },
+ "generated_utc": "2026-10-19T01:53:25Z",
+ "identity_ok": true,
+ "no_official_score": true,
+ "rows": 204,
+ "schema": "pigweed-fpga-summary/1",
+ "status_counts": {
+  "resource_error": 78,
+  "sat": 51,
+  "timeout": 66,
+  "transport_error": 3,
+  "unsat": 6
+ },
+ "timing": {
+  "censoring": "medians aggregate validated completions only; timeouts/resource errors censored explicitly",
+  "completed": 57,
+  "device_seconds_withheld_unless_clock_confirmed": true,
+  "median_cycles": 50277839,
+  "median_host_total_s": 8.9199
+ }
+}

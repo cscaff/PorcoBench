@@ -1,0 +1,233 @@
+{
+ "distinct_ids": 210,
+ "max_occupancy_p16": {
+  "clause_ids_used": 2039,
+  "cls_words": 8156,
+  "id": "MRB0-021",
+  "lit_words": 16352,
+  "occupancy": 0.998047
+ },
+ "notes": [
+  "Packing success proves neither dynamic headroom nor physical/semantic correctness.",
+  "MAX_LEARN=1024 is a dynamic learned-clause limit, not an original width cap; packing does not exercise it.",
+  "P=16 is the baseline (matches Table3/satbench); P=4/8 are sensitivity, not per-instance tuning."
+ ],
+ "per_page": {
+  "16": {
+   "by_tier": {
+    "M-high": {
+     "dispatchable": 0,
+     "dispatchable_and_cpu_certified": 0,
+     "loaded": 0,
+     "total": 52
+    },
+    "M-low": {
+     "dispatchable": 0,
+     "dispatchable_and_cpu_certified": 0,
+     "loaded": 0,
+     "total": 68
+    },
+    "S": {
+     "dispatchable": 19,
+     "dispatchable_and_cpu_certified": 9,
+     "loaded": 19,
+     "total": 19
+    },
+    "S-tight": {
+     "dispatchable": 69,
+     "dispatchable_and_cpu_certified": 59,
+     "loaded": 69,
+     "total": 71
+    }
+   },
+   "crash": 0,
+   "dispatchable": 88,
+   "dispatchable_and_cpu_certified": 68,
+   "field_flagged": 0,
+   "loaded": 88,
+   "loaded_but_cpu_uncertified": 20,
+   "unsupported": 122,
+   "unsupported_buckets": {
+    "clause_store": 12,
+    "clauses": 85,
+    "literal_store": 10,
+    "variables": 15
+   }
+  },
+  "4": {
+   "by_tier": {
+    "M-high": {
+     "dispatchable": 0,
+     "dispatchable_and_cpu_certified": 0,
+     "loaded": 0,
+     "total": 52
+    },
+    "M-low": {
+     "dispatchable": 0,
+     "dispatchable_and_cpu_certified": 0,
+     "loaded": 0,
+     "total": 68
+    },
+    "S": {
+     "dispatchable": 19,
+     "dispatchable_and_cpu_certified": 9,
+     "loaded": 19,
+     "total": 19
+    },
+    "S-tight": {
+     "dispatchable": 69,
+     "dispatchable_and_cpu_certified": 58,
+     "loaded": 69,
+     "total": 71
+    }
+   },
+   "crash": 0,
+   "dispatchable": 88,
+   "dispatchable_and_cpu_certified": 67,
+   "field_flagged": 0,
+   "loaded": 88,
+   "loaded_but_cpu_uncertified": 21,
+   "unsupported": 122,
+   "unsupported_buckets": {
+    "clause_store": 12,
+    "clauses": 85,
+    "literal_store": 10,
+    "variables": 15
+   }
+  },
+  "8": {
+   "by_tier": {
+    "M-high": {
+     "dispatchable": 0,
+     "dispatchable_and_cpu_certified": 0,
+     "loaded": 0,
+     "total": 52
+    },
+    "M-low": {
+     "dispatchable": 3,
+     "dispatchable_and_cpu_certified": 2,
+     "loaded": 3,
+     "total": 68
+    },
+    "S": {
+     "dispatchable": 19,
+     "dispatchable_and_cpu_certified": 9,
+     "loaded": 19,
+     "total": 19
+    },
+    "S-tight": {
+     "dispatchable": 71,
+     "dispatchable_and_cpu_certified": 60,
+     "loaded": 71,
+     "total": 71
+    }
+   },
+   "crash": 0,
+   "dispatchable": 93,
+   "dispatchable_and_cpu_certified": 71,
+   "field_flagged": 0,
+   "loaded": 93,
+   "loaded_but_cpu_uncertified": 22,
+   "unsupported": 117,
+   "unsupported_buckets": {
+    "clause_store": 12,
+    "clauses": 85,
+    "literal_store": 5,
+    "variables": 15
+   }
+  }
+ },
+ "pilots": {
+  "M-high": {
+   "cells": {
+    "fastest_sat": null,
+    "fastest_unsat": null,
+    "max_occupancy": null
+   },
+   "gaps": [
+    "fastest_sat",
+    "fastest_unsat",
+    "max_occupancy"
+   ],
+   "ids": []
+  },
+  "M-low": {
+   "cells": {
+    "fastest_sat": null,
+    "fastest_unsat": null,
+    "max_occupancy": null
+   },
+   "gaps": [
+    "fastest_sat",
+    "fastest_unsat",
+    "max_occupancy"
+   ],
+   "ids": []
+  },
+  "S": {
+   "cells": {
+    "fastest_sat": {
+     "cpu_solve_wall_seconds": 906.222069707932,
+     "id": "MRB0-011",
+     "occupancy": 0.390625
+    },
+    "fastest_unsat": {
+     "cpu_solve_wall_seconds": 0.3530484999064356,
+     "id": "MRB0-017",
+     "occupancy": 0.193359
+    },
+    "max_occupancy": {
+     "cpu_certified_kind": "unsat_proof",
+     "id": "MRB0-005",
+     "occupancy": 0.416016
+    }
+   },
+   "gaps": [],
+   "ids": [
+    "MRB0-005",
+    "MRB0-011",
+    "MRB0-017"
+   ]
+  },
+  "S-tight": {
+   "cells": {
+    "fastest_sat": {
+     "cpu_solve_wall_seconds": 0.02054991712793708,
+     "id": "MRB0-077",
+     "occupancy": 0.560547
+    },
+    "fastest_unsat": {
+     "cpu_solve_wall_seconds": 0.021944333100691438,
+     "id": "MRB0-078",
+     "occupancy": 0.5
+    },
+    "max_occupancy": {
+     "cpu_certified_kind": "unsat_proof",
+     "id": "MRB0-026",
+     "occupancy": 0.984375
+    }
+   },
+   "gaps": [],
+   "ids": [
+    "MRB0-026",
+    "MRB0-077",
+    "MRB0-078"
+   ]
+  },
+  "all_ids": [
+   "MRB0-005",
+   "MRB0-011",
+   "MRB0-017",
+   "MRB0-026",
+   "MRB0-077",
+   "MRB0-078"
+  ]
+ },
+ "rows": 630,
+ "semantics": {
+  "candidate_crash": 0,
+  "input_semantics_error": 0,
+  "instances_with_within_clause_normalization": 158,
+  "ok": 210
+ }
+}

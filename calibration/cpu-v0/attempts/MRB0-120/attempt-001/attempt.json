@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-120/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-120/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-120/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-120",
+ "identity": {
+  "cnf_sha256": "163e390edd9a4dd010ef36ab7299e62cbb9ee0e1edbbd3f724b14a8d839b951e",
+  "compressed_sha256": "bc80e58d8b3f0cad7c2553ada269639afef339767f08a13518258a06bb63073e",
+  "input_bytes": 85307
+ },
+ "manifest": {
+  "alias": "lockchart-group3-L11-K23-p4d3j1.normalised.cnf.xz",
+  "category": "main",
+  "clauses": "6248",
+  "cnf_sha256": "163e390edd9a4dd010ef36ab7299e62cbb9ee0e1edbbd3f724b14a8d839b951e",
+  "family": "mechanical-master-key",
+  "id": "MRB0-120",
+  "literals": "15096",
+  "max_width": "12",
+  "mean_width": "2.416",
+  "result_gbd": "unsat",
+  "tier": "M-low",
+  "variables": "3432"
+ },
+ "proof": {
+  "gz_bytes": 856899196,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "a44998d55165e80fb7890715de834805ea2eeb7bc705f2f782ed9fc041193f29",
+  "raw_bytes": 1555038208,
+  "raw_sha256": "f68451caa3649f06652813dee677bbe0ad4ff7903153ce0cfce096cd786e7a56",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 404431568896,
+  "kissat_process_time_seconds": 995.23,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 159813,
+  "stdout_sha256": "a2587ace2e27f85558671b469117de8ace87ff51bc46766f983b0b241309baf8",
+  "timeout": true,
+  "wall_seconds": 1000.0078274169937
+ },
+ "terminal": true,
+ "witness": null
+}

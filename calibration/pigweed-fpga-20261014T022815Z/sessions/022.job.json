@@ -1,0 +1,42 @@
+{
+ "_job_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/sessions/022.job.json",
+ "api_url": "https://api.manhattanreasoning.com",
+ "candidate_root": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/candidate",
+ "command": "qualify",
+ "events_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/sessions/022.events.jsonl",
+ "fixture_dir": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/candidate",
+ "fpga_id": 1,
+ "pilot_cnfs": [
+  [
+   "MRB0-005",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/inputs/MRB0-005.cnf"
+  ],
+  [
+   "MRB0-011",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/inputs/MRB0-011.cnf"
+  ],
+  [
+   "MRB0-017",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/inputs/MRB0-017.cnf"
+  ],
+  [
+   "MRB0-026",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/inputs/MRB0-026.cnf"
+  ],
+  [
+   "MRB0-077",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/inputs/MRB0-077.cnf"
+  ],
+  [
+   "MRB0-078",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/inputs/MRB0-078.cnf"
+  ]
+ ],
+ "release_job_id": "dfbae851-3130-4f82-ade7-0eb1ae595f47",
+ "release_skipped": false,
+ "released": true,
+ "released_utc": "2026-10-15T18:43:10Z",
+ "result_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/sessions/022.qualify.json",
+ "session_id": "e87ee53f-57ef-462f-86a9-5fa45f2beac1",
+ "stderr_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/sessions/022.stderr.log"
+}

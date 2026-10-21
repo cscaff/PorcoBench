@@ -1,0 +1,631 @@
+id,tier,family,category,result_gbd,variables,clauses,literals,max_width,cpu_certified,cpu_certified_kind,cpu_reason,cpu_solve_wall_seconds,semantics_status,semantics_detail,normalized_clauses,lit_page,build_status,build_reason,unsupported_bucket,lit_words,cls_words,fixed_height,clause_ids_used,clause_ids_free,clause_word_frac,lit_word_frac,clause_id_frac,occupancy,field_flags,dispatchable
+MRB0-001,S,long-learned-clauses,main,unsat,190,632,1894,3,false,,solve_timeout,1000.0087344171479,ok,,527,4,loaded,,,5304,2528,0,632,3464,0.154297,0.323730,0.154297,0.323730,,true
+MRB0-001,S,long-learned-clauses,main,unsat,190,632,1894,3,false,,solve_timeout,1000.0087344171479,ok,,527,8,loaded,,,4544,2528,0,632,3464,0.154297,0.277344,0.154297,0.277344,,true
+MRB0-001,S,long-learned-clauses,main,unsat,190,632,1894,3,false,,solve_timeout,1000.0087344171479,ok,,527,16,loaded,,,6080,2528,0,632,3464,0.154297,0.371094,0.154297,0.371094,,true
+MRB0-002,S,pigeon-hole,main,unsat,90,415,900,9,true,unsat_proof,ok,1.7501396250445396,ok,,212,4,loaded,,,2160,1740,0,415,3681,0.106201,0.131836,0.101318,0.131836,,true
+MRB0-002,S,pigeon-hole,main,unsat,90,415,900,9,true,unsat_proof,ok,1.7501396250445396,ok,,212,8,loaded,,,2160,1740,0,415,3681,0.106201,0.131836,0.101318,0.131836,,true
+MRB0-002,S,pigeon-hole,main,unsat,90,415,900,9,true,unsat_proof,ok,1.7501396250445396,ok,,212,16,loaded,,,2880,1740,0,415,3681,0.106201,0.175781,0.101318,0.175781,,true
+MRB0-003,S,sgen,crafted,unsat,101,212,636,3,false,,solve_timeout,1000.017596083926,ok,,0,4,loaded,,,1696,848,0,212,3884,0.051758,0.103516,0.051758,0.103516,,true
+MRB0-003,S,sgen,crafted,unsat,101,212,636,3,false,,solve_timeout,1000.017596083926,ok,,0,8,loaded,,,1696,848,0,212,3884,0.051758,0.103516,0.051758,0.103516,,true
+MRB0-003,S,sgen,crafted,unsat,101,212,636,3,false,,solve_timeout,1000.017596083926,ok,,0,16,loaded,,,3232,848,0,212,3884,0.051758,0.197266,0.051758,0.197266,,true
+MRB0-004,S,sgen,crafted,sat,230,552,1380,5,false,,solve_timeout,1000.0130477079656,ok,,91,4,loaded,,,4600,2576,0,552,3544,0.157227,0.280762,0.134766,0.280762,,true
+MRB0-004,S,sgen,crafted,sat,230,552,1380,5,false,,solve_timeout,1000.0130477079656,ok,,91,8,loaded,,,3680,2576,0,552,3544,0.157227,0.224609,0.134766,0.224609,,true
+MRB0-004,S,sgen,crafted,sat,230,552,1380,5,false,,solve_timeout,1000.0130477079656,ok,,91,16,loaded,,,7360,2576,0,552,3544,0.157227,0.449219,0.134766,0.449219,,true
+MRB0-005,S,sgen,crafted,unsat,216,285,639,3,true,unsat_proof,ok,78.94598804204725,ok,,157,4,loaded,,,2556,1140,3,285,3811,0.069580,0.156006,0.069580,0.156006,,true
+MRB0-005,S,sgen,crafted,unsat,216,285,639,3,true,unsat_proof,ok,78.94598804204725,ok,,157,8,loaded,,,3408,1140,3,285,3811,0.069580,0.208008,0.069580,0.208008,,true
+MRB0-005,S,sgen,crafted,unsat,216,285,639,3,true,unsat_proof,ok,78.94598804204725,ok,,157,16,loaded,,,6816,1140,3,285,3811,0.069580,0.416016,0.069580,0.416016,,true
+MRB0-006,S,sgen,crafted,sat,240,576,1440,5,false,,solve_timeout,1000.0096615420189,ok,,332,4,loaded,,,4800,2688,0,576,3520,0.164062,0.292969,0.140625,0.292969,,true
+MRB0-006,S,sgen,crafted,sat,240,576,1440,5,false,,solve_timeout,1000.0096615420189,ok,,332,8,loaded,,,3840,2688,0,576,3520,0.164062,0.234375,0.140625,0.234375,,true
+MRB0-006,S,sgen,crafted,sat,240,576,1440,5,false,,solve_timeout,1000.0096615420189,ok,,332,16,loaded,,,7680,2688,0,576,3520,0.164062,0.468750,0.140625,0.468750,,true
+MRB0-007,S,sgen,main,unsat,121,252,756,3,false,,solve_timeout,1000.0273517500609,ok,,102,4,loaded,,,2016,1008,0,252,3844,0.061523,0.123047,0.061523,0.123047,,true
+MRB0-007,S,sgen,main,unsat,121,252,756,3,false,,solve_timeout,1000.0273517500609,ok,,102,8,loaded,,,2016,1008,0,252,3844,0.061523,0.123047,0.061523,0.123047,,true
+MRB0-007,S,sgen,main,unsat,121,252,756,3,false,,solve_timeout,1000.0273517500609,ok,,102,16,loaded,,,3872,1008,0,252,3844,0.061523,0.236328,0.061523,0.236328,,true
+MRB0-008,S,sgen,main,sat,260,624,1560,5,false,,solve_timeout,1000.0077075001318,ok,,369,4,loaded,,,5200,2912,0,624,3472,0.177734,0.317383,0.152344,0.317383,,true
+MRB0-008,S,sgen,main,sat,260,624,1560,5,false,,solve_timeout,1000.0077075001318,ok,,369,8,loaded,,,4160,2912,0,624,3472,0.177734,0.253906,0.152344,0.253906,,true
+MRB0-008,S,sgen,main,sat,260,624,1560,5,false,,solve_timeout,1000.0077075001318,ok,,369,16,loaded,,,8320,2912,0,624,3472,0.177734,0.507812,0.152344,0.507812,,true
+MRB0-009,S,sgen,main,sat,180,432,1080,5,false,,solver_unknown,1000.0134661670309,ok,,71,4,loaded,,,3600,2016,0,432,3664,0.123047,0.219727,0.105469,0.219727,,true
+MRB0-009,S,sgen,main,sat,180,432,1080,5,false,,solver_unknown,1000.0134661670309,ok,,71,8,loaded,,,2880,2016,0,432,3664,0.123047,0.175781,0.105469,0.175781,,true
+MRB0-009,S,sgen,main,sat,180,432,1080,5,false,,solver_unknown,1000.0134661670309,ok,,71,16,loaded,,,5760,2016,0,432,3664,0.123047,0.351562,0.105469,0.351562,,true
+MRB0-010,S,sgen,crafted,sat,270,648,1620,5,false,,solve_timeout,1000.0101529168896,ok,,107,4,loaded,,,5400,3024,0,648,3448,0.184570,0.329590,0.158203,0.329590,,true
+MRB0-010,S,sgen,crafted,sat,270,648,1620,5,false,,solve_timeout,1000.0101529168896,ok,,107,8,loaded,,,4320,3024,0,648,3448,0.184570,0.263672,0.158203,0.263672,,true
+MRB0-010,S,sgen,crafted,sat,270,648,1620,5,false,,solve_timeout,1000.0101529168896,ok,,107,16,loaded,,,8640,3024,0,648,3448,0.184570,0.527344,0.158203,0.527344,,true
+MRB0-011,S,sgen,crafted,sat,200,480,1200,5,true,sat_witness,ok,906.222069707932,ok,,272,4,loaded,,,4000,2240,0,480,3616,0.136719,0.244141,0.117188,0.244141,,true
+MRB0-011,S,sgen,crafted,sat,200,480,1200,5,true,sat_witness,ok,906.222069707932,ok,,272,8,loaded,,,3200,2240,0,480,3616,0.136719,0.195312,0.117188,0.195312,,true
+MRB0-011,S,sgen,crafted,sat,200,480,1200,5,true,sat_witness,ok,906.222069707932,ok,,272,16,loaded,,,6400,2240,0,480,3616,0.136719,0.390625,0.117188,0.390625,,true
+MRB0-012,S,sgen,crafted,sat,250,600,1500,5,false,,solver_unknown,1000.0114805409685,ok,,99,4,loaded,,,5000,2800,0,600,3496,0.170898,0.305176,0.146484,0.305176,,true
+MRB0-012,S,sgen,crafted,sat,250,600,1500,5,false,,solver_unknown,1000.0114805409685,ok,,99,8,loaded,,,4000,2800,0,600,3496,0.170898,0.244141,0.146484,0.244141,,true
+MRB0-012,S,sgen,crafted,sat,250,600,1500,5,false,,solver_unknown,1000.0114805409685,ok,,99,16,loaded,,,8000,2800,0,600,3496,0.170898,0.488281,0.146484,0.488281,,true
+MRB0-013,S,subset-cardinality,crafted,unsat,133,542,1636,4,true,unsat_proof,ok,504.67243041680194,ok,,449,4,loaded,,,4304,2208,0,542,3554,0.134766,0.262695,0.132324,0.262695,,true
+MRB0-013,S,subset-cardinality,crafted,unsat,133,542,1636,4,true,unsat_proof,ok,504.67243041680194,ok,,449,8,loaded,,,4256,2208,0,542,3554,0.134766,0.259766,0.132324,0.259766,,true
+MRB0-013,S,subset-cardinality,crafted,unsat,133,542,1636,4,true,unsat_proof,ok,504.67243041680194,ok,,449,16,loaded,,,4256,2208,0,542,3554,0.134766,0.259766,0.132324,0.259766,,true
+MRB0-014,S,subset-cardinality,crafted,unsat,169,685,2065,4,true,unsat_proof,ok,191.87393570900895,ok,,587,4,loaded,,,5448,2780,0,685,3411,0.169678,0.332520,0.167236,0.332520,,true
+MRB0-014,S,subset-cardinality,crafted,unsat,169,685,2065,4,true,unsat_proof,ok,191.87393570900895,ok,,587,8,loaded,,,5392,2780,0,685,3411,0.169678,0.329102,0.167236,0.329102,,true
+MRB0-014,S,subset-cardinality,crafted,unsat,169,685,2065,4,true,unsat_proof,ok,191.87393570900895,ok,,587,16,loaded,,,5408,2780,0,685,3411,0.169678,0.330078,0.167236,0.330078,,true
+MRB0-015,S,subset-cardinality,crafted,unsat,129,526,1588,4,true,unsat_proof,ok,805.665886165807,ok,,444,4,loaded,,,4176,2144,0,526,3570,0.130859,0.254883,0.128418,0.254883,,true
+MRB0-015,S,subset-cardinality,crafted,unsat,129,526,1588,4,true,unsat_proof,ok,805.665886165807,ok,,444,8,loaded,,,4128,2144,0,526,3570,0.130859,0.251953,0.128418,0.251953,,true
+MRB0-015,S,subset-cardinality,crafted,unsat,129,526,1588,4,true,unsat_proof,ok,805.665886165807,ok,,444,16,loaded,,,4128,2144,0,526,3570,0.130859,0.251953,0.128418,0.251953,,true
+MRB0-016,S,subset-cardinality,crafted,unsat,161,654,1972,4,true,unsat_proof,ok,342.3436196250841,ok,,585,4,loaded,,,5200,2656,0,654,3442,0.162109,0.317383,0.159668,0.317383,,true
+MRB0-016,S,subset-cardinality,crafted,unsat,161,654,1972,4,true,unsat_proof,ok,342.3436196250841,ok,,585,8,loaded,,,5152,2656,0,654,3442,0.162109,0.314453,0.159668,0.314453,,true
+MRB0-016,S,subset-cardinality,crafted,unsat,161,654,1972,4,true,unsat_proof,ok,342.3436196250841,ok,,585,16,loaded,,,5152,2656,0,654,3442,0.162109,0.314453,0.159668,0.314453,,true
+MRB0-017,S,tseitin-formulas,main,unsat,99,264,792,3,true,unsat_proof,ok,0.3530484999064356,ok,,219,4,loaded,,,2376,1056,0,264,3832,0.064453,0.145020,0.064453,0.145020,,true
+MRB0-017,S,tseitin-formulas,main,unsat,99,264,792,3,true,unsat_proof,ok,0.3530484999064356,ok,,219,8,loaded,,,1584,1056,0,264,3832,0.064453,0.096680,0.064453,0.096680,,true
+MRB0-017,S,tseitin-formulas,main,unsat,99,264,792,3,true,unsat_proof,ok,0.3530484999064356,ok,,219,16,loaded,,,3168,1056,0,264,3832,0.064453,0.193359,0.064453,0.193359,,true
+MRB0-018,S,tseitin-formulas,main,unsat,45,376,2152,7,true,unsat_proof,ok,0.5254860001150519,ok,,375,4,loaded,,,4664,3232,0,376,3720,0.197266,0.284668,0.091797,0.284668,,true
+MRB0-018,S,tseitin-formulas,main,unsat,45,376,2152,7,true,unsat_proof,ok,0.5254860001150519,ok,,375,8,loaded,,,3472,3232,0,376,3720,0.197266,0.211914,0.091797,0.211914,,true
+MRB0-018,S,tseitin-formulas,main,unsat,45,376,2152,7,true,unsat_proof,ok,0.5254860001150519,ok,,375,16,loaded,,,3104,3232,0,376,3720,0.197266,0.189453,0.091797,0.197266,,true
+MRB0-019,S,tseitin-formulas,main,unsat,237,632,1896,3,false,,solver_signal_25,976.0002875409555,ok,,0,4,loaded,,,5688,2528,0,632,3464,0.154297,0.347168,0.154297,0.347168,,true
+MRB0-019,S,tseitin-formulas,main,unsat,237,632,1896,3,false,,solver_signal_25,976.0002875409555,ok,,0,8,loaded,,,3792,2528,0,632,3464,0.154297,0.231445,0.154297,0.231445,,true
+MRB0-019,S,tseitin-formulas,main,unsat,237,632,1896,3,false,,solver_signal_25,976.0002875409555,ok,,0,16,loaded,,,7584,2528,0,632,3464,0.154297,0.462891,0.154297,0.462891,,true
+MRB0-020,S-tight,battleship,main,unsat,169,1183,4225,13,true,unsat_proof,ok,12.642822791822255,ok,,0,4,loaded,,,9464,7436,0,1183,2913,0.453857,0.577637,0.288818,0.577637,,true
+MRB0-020,S-tight,battleship,main,unsat,169,1183,4225,13,true,unsat_proof,ok,12.642822791822255,ok,,0,8,loaded,,,8112,7436,0,1183,2913,0.453857,0.495117,0.288818,0.495117,,true
+MRB0-020,S-tight,battleship,main,unsat,169,1183,4225,13,true,unsat_proof,ok,12.642822791822255,ok,,0,16,loaded,,,5408,7436,0,1183,2913,0.453857,0.330078,0.288818,0.453857,,true
+MRB0-021,S-tight,binary-tree-parity,main,sat,511,2039,6041,3,false,,solve_timeout,1000.0089207501151,ok,,1706,4,loaded,,,16028,8156,0,2039,2057,0.497803,0.978271,0.497803,0.978271,,true
+MRB0-021,S-tight,binary-tree-parity,main,sat,511,2039,6041,3,false,,solve_timeout,1000.0089207501151,ok,,1706,8,loaded,,,14080,8156,0,2039,2057,0.497803,0.859375,0.497803,0.859375,,true
+MRB0-021,S-tight,binary-tree-parity,main,sat,511,2039,6041,3,false,,solve_timeout,1000.0089207501151,ok,,1706,16,loaded,,,16352,8156,0,2039,2057,0.497803,0.998047,0.497803,0.998047,,true
+MRB0-022,S-tight,cardinality-constraints,main,unsat,400,1737,4846,3,true,unsat_proof,ok,27.844840707955882,ok,,868,4,loaded,,,11824,6948,0,1737,2359,0.424072,0.721680,0.424072,0.721680,,true
+MRB0-022,S-tight,cardinality-constraints,main,unsat,400,1737,4846,3,true,unsat_proof,ok,27.844840707955882,ok,,868,8,loaded,,,9992,6948,0,1737,2359,0.424072,0.609863,0.424072,0.609863,,true
+MRB0-022,S-tight,cardinality-constraints,main,unsat,400,1737,4846,3,true,unsat_proof,ok,27.844840707955882,ok,,868,16,loaded,,,14784,6948,0,1737,2359,0.424072,0.902344,0.424072,0.902344,,true
+MRB0-023,S-tight,clique-formulas,main,unsat,180,3160,6480,18,true,unsat_proof,ok,5.5120154588948935,ok,,0,4,loaded,,,13680,12840,0,3160,936,0.783691,0.834961,0.771484,0.834961,,true
+MRB0-023,S-tight,clique-formulas,main,unsat,180,3160,6480,18,true,unsat_proof,ok,5.5120154588948935,ok,,0,8,loaded,,,10080,12840,0,3160,936,0.783691,0.615234,0.771484,0.783691,,true
+MRB0-023,S-tight,clique-formulas,main,unsat,180,3160,6480,18,true,unsat_proof,ok,5.5120154588948935,ok,,0,16,loaded,,,11520,12840,0,3160,936,0.783691,0.703125,0.771484,0.783691,,true
+MRB0-024,S-tight,coloring,main,sat,240,1026,3846,4,true,sat_witness,ok,0.248874916927889,ok,,926,4,loaded,,,9600,7704,6,1026,3070,0.470215,0.585938,0.250488,0.585938,,true
+MRB0-024,S-tight,coloring,main,sat,240,1026,3846,4,true,sat_witness,ok,0.248874916927889,ok,,926,8,loaded,,,7680,7704,6,1026,3070,0.470215,0.468750,0.250488,0.470215,,true
+MRB0-024,S-tight,coloring,main,sat,240,1026,3846,4,true,sat_witness,ok,0.248874916927889,ok,,926,16,loaded,,,7680,7704,6,1026,3070,0.470215,0.468750,0.250488,0.470215,,true
+MRB0-025,S-tight,coloring,crafted,unsat,190,1375,4070,10,true,unsat_proof,ok,5.307959625031799,ok,,910,4,loaded,,,9400,5600,10,1375,2721,0.341797,0.573730,0.335693,0.573730,,true
+MRB0-025,S-tight,coloring,crafted,unsat,190,1375,4070,10,true,unsat_proof,ok,5.307959625031799,ok,,910,8,loaded,,,6960,5600,10,1375,2721,0.341797,0.424805,0.335693,0.424805,,true
+MRB0-025,S-tight,coloring,crafted,unsat,190,1375,4070,10,true,unsat_proof,ok,5.307959625031799,ok,,910,16,loaded,,,8000,5600,10,1375,2721,0.341797,0.488281,0.335693,0.488281,,true
+MRB0-026,S-tight,coloring,crafted,unsat,276,2838,8412,12,true,unsat_proof,ok,33.55023766611703,ok,,1830,4,unsupported,literal store needs 18144 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-026,S-tight,coloring,crafted,unsat,276,2838,8412,12,true,unsat_proof,ok,33.55023766611703,ok,,1830,8,loaded,,,13536,11472,12,2838,1258,0.700195,0.826172,0.692871,0.826172,,true
+MRB0-026,S-tight,coloring,crafted,unsat,276,2838,8412,12,true,unsat_proof,ok,33.55023766611703,ok,,1830,16,loaded,,,16128,11472,12,2838,1258,0.700195,0.984375,0.692871,0.984375,,true
+MRB0-027,S-tight,coloring,crafted,unsat,184,2200,6448,8,true,unsat_proof,ok,0.19479833380319178,ok,,1400,4,loaded,,,13952,8928,8,2200,1896,0.544922,0.851562,0.537109,0.851562,,true
+MRB0-027,S-tight,coloring,crafted,unsat,184,2200,6448,8,true,unsat_proof,ok,0.19479833380319178,ok,,1400,8,loaded,,,10560,8928,8,2200,1896,0.544922,0.644531,0.537109,0.644531,,true
+MRB0-027,S-tight,coloring,crafted,unsat,184,2200,6448,8,true,unsat_proof,ok,0.19479833380319178,ok,,1400,16,loaded,,,12416,8928,8,2200,1896,0.544922,0.757812,0.537109,0.757812,,true
+MRB0-028,S-tight,coloring,main,unsat,132,1527,4472,8,true,unsat_proof,ok,0.6611509590875357,ok,,1207,4,loaded,,,9696,6196,0,1527,2569,0.378174,0.591797,0.372803,0.591797,,true
+MRB0-028,S-tight,coloring,main,unsat,132,1527,4472,8,true,unsat_proof,ok,0.6611509590875357,ok,,1207,8,loaded,,,7872,6196,0,1527,2569,0.378174,0.480469,0.372803,0.480469,,true
+MRB0-028,S-tight,coloring,main,unsat,132,1527,4472,8,true,unsat_proof,ok,0.6611509590875357,ok,,1207,16,loaded,,,8256,6196,0,1527,2569,0.378174,0.503906,0.372803,0.503906,,true
+MRB0-029,S-tight,fpga-routing,main,unsat,220,1122,2420,10,true,unsat_proof,ok,41.09595820796676,ok,,589,4,loaded,,,6160,4752,0,1122,2974,0.290039,0.375977,0.273926,0.375977,,true
+MRB0-029,S-tight,fpga-routing,main,unsat,220,1122,2420,10,true,unsat_proof,ok,41.09595820796676,ok,,589,8,loaded,,,5280,4752,0,1122,2974,0.290039,0.322266,0.273926,0.322266,,true
+MRB0-029,S-tight,fpga-routing,main,unsat,220,1122,2420,10,true,unsat_proof,ok,41.09595820796676,ok,,589,16,loaded,,,7040,4752,0,1122,2974,0.290039,0.429688,0.273926,0.429688,,true
+MRB0-030,S-tight,fpga-routing,main,unsat,308,2030,4312,11,true,unsat_proof,ok,298.94772629207,ok,,1015,4,loaded,,,9856,8456,0,2030,2066,0.516113,0.601562,0.495605,0.601562,,true
+MRB0-030,S-tight,fpga-routing,main,unsat,308,2030,4312,11,true,unsat_proof,ok,298.94772629207,ok,,1015,8,loaded,,,9856,8456,0,2030,2066,0.516113,0.601562,0.495605,0.601562,,true
+MRB0-030,S-tight,fpga-routing,main,unsat,308,2030,4312,11,true,unsat_proof,ok,298.94772629207,ok,,1015,16,loaded,,,9856,8456,0,2030,2066,0.516113,0.601562,0.495605,0.601562,,true
+MRB0-031,S-tight,hamiltonian,main,sat,350,3147,7134,6,true,sat_witness,ok,0.08374200016260147,ok,,0,4,unsupported,literal store needs 16704 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-031,S-tight,hamiltonian,main,sat,350,3147,7134,6,true,sat_witness,ok,0.08374200016260147,ok,,0,8,loaded,,,11984,13708,0,3147,949,0.836670,0.731445,0.768311,0.836670,,true
+MRB0-031,S-tight,hamiltonian,main,sat,350,3147,7134,6,true,sat_witness,ok,0.08374200016260147,ok,,0,16,unsupported,literal store needs 16544 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-032,S-tight,hamiltonian,main,sat,300,2696,6112,6,true,sat_witness,ok,0.379196957917884,ok,,0,4,loaded,,,14324,11744,0,2696,1400,0.716797,0.874268,0.658203,0.874268,,true
+MRB0-032,S-tight,hamiltonian,main,sat,300,2696,6112,6,true,sat_witness,ok,0.379196957917884,ok,,0,8,loaded,,,10168,11744,0,2696,1400,0.716797,0.620605,0.658203,0.716797,,true
+MRB0-032,S-tight,hamiltonian,main,sat,300,2696,6112,6,true,sat_witness,ok,0.379196957917884,ok,,0,16,loaded,,,14208,11744,0,2696,1400,0.716797,0.867188,0.658203,0.867188,,true
+MRB0-033,S-tight,hamiltonian,main,sat,300,2698,6116,6,true,sat_witness,ok,0.08495516702532768,ok,,0,4,loaded,,,14372,11752,0,2698,1398,0.717285,0.877197,0.658691,0.877197,,true
+MRB0-033,S-tight,hamiltonian,main,sat,300,2698,6116,6,true,sat_witness,ok,0.08495516702532768,ok,,0,8,loaded,,,10296,11752,0,2698,1398,0.717285,0.628418,0.658691,0.717285,,true
+MRB0-033,S-tight,hamiltonian,main,sat,300,2698,6116,6,true,sat_witness,ok,0.08495516702532768,ok,,0,16,loaded,,,14240,11752,0,2698,1398,0.717285,0.869141,0.658691,0.869141,,true
+MRB0-034,S-tight,hgen,main,sat,320,1120,3360,3,true,sat_witness,ok,1.2909858329221606,ok,,935,4,loaded,,,8320,4480,0,1120,2976,0.273438,0.507812,0.273438,0.507812,,true
+MRB0-034,S-tight,hgen,main,sat,320,1120,3360,3,true,sat_witness,ok,1.2909858329221606,ok,,935,8,loaded,,,6400,4480,0,1120,2976,0.273438,0.390625,0.273438,0.390625,,true
+MRB0-034,S-tight,hgen,main,sat,320,1120,3360,3,true,sat_witness,ok,1.2909858329221606,ok,,935,16,loaded,,,10240,4480,0,1120,2976,0.273438,0.625000,0.273438,0.625000,,true
+MRB0-035,S-tight,hgen,main,sat,322,1127,3381,3,true,sat_witness,ok,1.4138982919976115,ok,,933,4,loaded,,,8372,4508,0,1127,2969,0.275146,0.510986,0.275146,0.510986,,true
+MRB0-035,S-tight,hgen,main,sat,322,1127,3381,3,true,sat_witness,ok,1.4138982919976115,ok,,933,8,loaded,,,6440,4508,0,1127,2969,0.275146,0.393066,0.275146,0.393066,,true
+MRB0-035,S-tight,hgen,main,sat,322,1127,3381,3,true,sat_witness,ok,1.4138982919976115,ok,,933,16,loaded,,,10304,4508,0,1127,2969,0.275146,0.628906,0.275146,0.628906,,true
+MRB0-036,S-tight,hgen,main,sat,320,1120,3360,3,true,sat_witness,ok,542.7677552918904,ok,,938,4,loaded,,,8320,4480,0,1120,2976,0.273438,0.507812,0.273438,0.507812,,true
+MRB0-036,S-tight,hgen,main,sat,320,1120,3360,3,true,sat_witness,ok,542.7677552918904,ok,,938,8,loaded,,,6400,4480,0,1120,2976,0.273438,0.390625,0.273438,0.390625,,true
+MRB0-036,S-tight,hgen,main,sat,320,1120,3360,3,true,sat_witness,ok,542.7677552918904,ok,,938,16,loaded,,,10240,4480,0,1120,2976,0.273438,0.625000,0.273438,0.625000,,true
+MRB0-037,S-tight,linvrinv,main,unsat,450,1426,3799,25,false,,checker_internal_timeout,932.4359598329756,ok,,1033,4,loaded,,,10400,5736,0,1426,2670,0.350098,0.634766,0.348145,0.634766,,true
+MRB0-037,S-tight,linvrinv,main,unsat,450,1426,3799,25,false,,checker_internal_timeout,932.4359598329756,ok,,1033,8,loaded,,,8160,5736,0,1426,2670,0.350098,0.498047,0.348145,0.498047,,true
+MRB0-037,S-tight,linvrinv,main,unsat,450,1426,3799,25,false,,checker_internal_timeout,932.4359598329756,ok,,1033,16,loaded,,,14400,5736,0,1426,2670,0.350098,0.878906,0.348145,0.878906,,true
+MRB0-038,S-tight,miter,main,unsat,162,774,2608,4,true,unsat_proof,ok,74.9761710409075,ok,,670,4,loaded,,,6120,4312,0,774,3322,0.263184,0.373535,0.188965,0.373535,,true
+MRB0-038,S-tight,miter,main,unsat,162,774,2608,4,true,unsat_proof,ok,74.9761710409075,ok,,670,8,loaded,,,4864,4312,0,774,3322,0.263184,0.296875,0.188965,0.296875,,true
+MRB0-038,S-tight,miter,main,unsat,162,774,2608,4,true,unsat_proof,ok,74.9761710409075,ok,,670,16,loaded,,,6080,4312,0,774,3322,0.263184,0.371094,0.188965,0.371094,,true
+MRB0-039,S-tight,mutilated-chessboard,main,unsat,544,1815,4132,4,false,,solve_timeout,1000.0135344581213,ok,,1050,4,loaded,,,12480,8160,4,1815,2281,0.498047,0.761719,0.443115,0.761719,,true
+MRB0-039,S-tight,mutilated-chessboard,main,unsat,544,1815,4132,4,false,,solve_timeout,1000.0135344581213,ok,,1050,8,loaded,,,12064,8160,4,1815,2281,0.498047,0.736328,0.443115,0.736328,,true
+MRB0-039,S-tight,mutilated-chessboard,main,unsat,544,1815,4132,4,false,,solve_timeout,1000.0135344581213,ok,,1050,16,unsupported,literal store needs 17408 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-040,S-tight,mutilated-chessboard,main,unsat,480,1596,3632,4,true,unsat_proof,ok,239.8034850829281,ok,,924,4,loaded,,,10976,7168,4,1596,2500,0.437500,0.669922,0.389648,0.669922,,true
+MRB0-040,S-tight,mutilated-chessboard,main,unsat,480,1596,3632,4,true,unsat_proof,ok,239.8034850829281,ok,,924,8,loaded,,,10592,7168,4,1596,2500,0.437500,0.646484,0.389648,0.646484,,true
+MRB0-040,S-tight,mutilated-chessboard,main,unsat,480,1596,3632,4,true,unsat_proof,ok,239.8034850829281,ok,,924,16,loaded,,,15360,7168,4,1596,2500,0.437500,0.937500,0.389648,0.937500,,true
+MRB0-041,S-tight,mutilated-chessboard,main,unsat,420,1391,3164,4,true,unsat_proof,ok,41.13847329211421,ok,,806,4,loaded,,,9568,6240,4,1391,2705,0.380859,0.583984,0.339600,0.583984,,true
+MRB0-041,S-tight,mutilated-chessboard,main,unsat,420,1391,3164,4,true,unsat_proof,ok,41.13847329211421,ok,,806,8,loaded,,,9216,6240,4,1391,2705,0.380859,0.562500,0.339600,0.562500,,true
+MRB0-041,S-tight,mutilated-chessboard,main,unsat,420,1391,3164,4,true,unsat_proof,ok,41.13847329211421,ok,,806,16,loaded,,,13440,6240,4,1391,2705,0.380859,0.820312,0.339600,0.820312,,true
+MRB0-042,S-tight,pigeon-hole,main,unsat,240,3496,7200,15,false,,solve_timeout,1000.0181424589828,ok,,1786,4,loaded,,,15360,14240,0,3496,600,0.869141,0.937500,0.853516,0.937500,,true
+MRB0-042,S-tight,pigeon-hole,main,unsat,240,3496,7200,15,false,,solve_timeout,1000.0181424589828,ok,,1786,8,loaded,,,11520,14240,0,3496,600,0.869141,0.703125,0.853516,0.869141,,true
+MRB0-042,S-tight,pigeon-hole,main,unsat,240,3496,7200,15,false,,solve_timeout,1000.0181424589828,ok,,1786,16,loaded,,,15360,14240,0,3496,600,0.869141,0.937500,0.853516,0.937500,,true
+MRB0-043,S-tight,random,random,sat,400,2199,6597,3,true,sat_witness,ok,0.3590632500126958,ok,,1827,4,loaded,,,15632,8796,0,2199,1897,0.536865,0.954102,0.536865,0.954102,,true
+MRB0-043,S-tight,random,random,sat,400,2199,6597,3,true,sat_witness,ok,0.3590632500126958,ok,,1827,8,loaded,,,12648,8796,0,2199,1897,0.536865,0.771973,0.536865,0.771973,,true
+MRB0-043,S-tight,random,random,sat,400,2199,6597,3,true,sat_witness,ok,0.3590632500126958,ok,,1827,16,loaded,,,13504,8796,0,2199,1897,0.536865,0.824219,0.536865,0.824219,,true
+MRB0-044,S-tight,random,random,sat,440,2289,6867,3,true,sat_witness,ok,2.5955160409212112,ok,,1926,4,loaded,,,16376,9156,0,2289,1807,0.558838,0.999512,0.558838,0.999512,,true
+MRB0-044,S-tight,random,random,sat,440,2289,6867,3,true,sat_witness,ok,2.5955160409212112,ok,,1926,8,loaded,,,13328,9156,0,2289,1807,0.558838,0.813477,0.558838,0.813477,,true
+MRB0-044,S-tight,random,random,sat,440,2289,6867,3,true,sat_witness,ok,2.5955160409212112,ok,,1926,16,loaded,,,14480,9156,0,2289,1807,0.558838,0.883789,0.558838,0.883789,,true
+MRB0-045,S-tight,random,random,sat,280,1203,3609,3,true,sat_witness,ok,0.08043866697698832,ok,,1012,4,loaded,,,8904,4812,0,1203,2893,0.293701,0.543457,0.293701,0.543457,,true
+MRB0-045,S-tight,random,random,sat,280,1203,3609,3,true,sat_witness,ok,0.08043866697698832,ok,,1012,8,loaded,,,7408,4812,0,1203,2893,0.293701,0.452148,0.293701,0.452148,,true
+MRB0-045,S-tight,random,random,sat,280,1203,3609,3,true,sat_witness,ok,0.08043866697698832,ok,,1012,16,loaded,,,9072,4812,0,1203,2893,0.293701,0.553711,0.293701,0.553711,,true
+MRB0-046,S-tight,random,random,sat,300,1649,4947,3,true,sat_witness,ok,0.3424416249617934,ok,,1392,4,loaded,,,11684,6596,0,1649,2447,0.402588,0.713135,0.402588,0.713135,,true
+MRB0-046,S-tight,random,random,sat,300,1649,4947,3,true,sat_witness,ok,0.3424416249617934,ok,,1392,8,loaded,,,9440,6596,0,1649,2447,0.402588,0.576172,0.402588,0.576172,,true
+MRB0-046,S-tight,random,random,sat,300,1649,4947,3,true,sat_witness,ok,0.3424416249617934,ok,,1392,16,loaded,,,10176,6596,0,1649,2447,0.402588,0.621094,0.402588,0.621094,,true
+MRB0-047,S-tight,random,random,sat,400,1720,5159,3,true,sat_witness,ok,0.1343971670139581,ok,,1439,4,loaded,,,12704,6880,0,1720,2376,0.419922,0.775391,0.419922,0.775391,,true
+MRB0-047,S-tight,random,random,sat,400,1720,5159,3,true,sat_witness,ok,0.1343971670139581,ok,,1439,8,loaded,,,10584,6880,0,1720,2376,0.419922,0.645996,0.419922,0.645996,,true
+MRB0-047,S-tight,random,random,sat,400,1720,5159,3,true,sat_witness,ok,0.1343971670139581,ok,,1439,16,loaded,,,12944,6880,0,1720,2376,0.419922,0.790039,0.419922,0.790039,,true
+MRB0-048,S-tight,random,random,sat,400,1720,5159,3,true,sat_witness,ok,0.13372883293777704,ok,,1424,4,loaded,,,12700,6880,0,1720,2376,0.419922,0.775146,0.419922,0.775146,,true
+MRB0-048,S-tight,random,random,sat,400,1720,5159,3,true,sat_witness,ok,0.13372883293777704,ok,,1424,8,loaded,,,10552,6880,0,1720,2376,0.419922,0.644043,0.419922,0.644043,,true
+MRB0-048,S-tight,random,random,sat,400,1720,5159,3,true,sat_witness,ok,0.13372883293777704,ok,,1424,16,loaded,,,12896,6880,0,1720,2376,0.419922,0.787109,0.419922,0.787109,,true
+MRB0-049,S-tight,random,random,sat,400,2081,6242,3,true,sat_witness,ok,11.992374874884263,ok,,1743,4,loaded,,,14912,8324,0,2081,2015,0.508057,0.910156,0.508057,0.910156,,true
+MRB0-049,S-tight,random,random,sat,400,2081,6242,3,true,sat_witness,ok,11.992374874884263,ok,,1743,8,loaded,,,12168,8324,0,2081,2015,0.508057,0.742676,0.508057,0.742676,,true
+MRB0-049,S-tight,random,random,sat,400,2081,6242,3,true,sat_witness,ok,11.992374874884263,ok,,1743,16,loaded,,,13248,8324,0,2081,2015,0.508057,0.808594,0.508057,0.808594,,true
+MRB0-050,S-tight,random,random,sat,300,1290,3869,3,true,sat_witness,ok,0.08588341600261629,ok,,1092,4,loaded,,,9500,5160,0,1290,2806,0.314941,0.579834,0.314941,0.579834,,true
+MRB0-050,S-tight,random,random,sat,300,1290,3869,3,true,sat_witness,ok,0.08588341600261629,ok,,1092,8,loaded,,,7936,5160,0,1290,2806,0.314941,0.484375,0.314941,0.484375,,true
+MRB0-050,S-tight,random,random,sat,300,1290,3869,3,true,sat_witness,ok,0.08588341600261629,ok,,1092,16,loaded,,,9712,5160,0,1290,2806,0.314941,0.592773,0.314941,0.592773,,true
+MRB0-051,S-tight,random,random,sat,340,1462,4385,3,true,sat_witness,ok,0.41141950013116,ok,,1188,4,loaded,,,10816,5848,0,1462,2634,0.356934,0.660156,0.356934,0.660156,,true
+MRB0-051,S-tight,random,random,sat,340,1462,4385,3,true,sat_witness,ok,0.41141950013116,ok,,1188,8,loaded,,,8976,5848,0,1462,2634,0.356934,0.547852,0.356934,0.547852,,true
+MRB0-051,S-tight,random,random,sat,340,1462,4385,3,true,sat_witness,ok,0.41141950013116,ok,,1188,16,loaded,,,11008,5848,0,1462,2634,0.356934,0.671875,0.356934,0.671875,,true
+MRB0-052,S-tight,random,random,sat,440,1891,5673,3,true,sat_witness,ok,0.08526250021532178,ok,,1573,4,loaded,,,14012,7564,0,1891,2205,0.461670,0.855225,0.461670,0.855225,,true
+MRB0-052,S-tight,random,random,sat,440,1891,5673,3,true,sat_witness,ok,0.08526250021532178,ok,,1573,8,loaded,,,11648,7564,0,1891,2205,0.461670,0.710938,0.461670,0.710938,,true
+MRB0-052,S-tight,random,random,sat,440,1891,5673,3,true,sat_witness,ok,0.08526250021532178,ok,,1573,16,loaded,,,14288,7564,0,1891,2205,0.461670,0.872070,0.461670,0.872070,,true
+MRB0-053,S-tight,random-graph-xorsat,crafted,sat,280,1120,3360,3,true,sat_witness,ok,281.7343474579975,ok,,907,4,loaded,,,8960,4480,0,1120,2976,0.273438,0.546875,0.273438,0.546875,,true
+MRB0-053,S-tight,random-graph-xorsat,crafted,sat,280,1120,3360,3,true,sat_witness,ok,281.7343474579975,ok,,907,8,loaded,,,8960,4480,0,1120,2976,0.273438,0.546875,0.273438,0.546875,,true
+MRB0-053,S-tight,random-graph-xorsat,crafted,sat,280,1120,3360,3,true,sat_witness,ok,281.7343474579975,ok,,907,16,loaded,,,8960,4480,0,1120,2976,0.273438,0.546875,0.273438,0.546875,,true
+MRB0-054,S-tight,random-graph-xorsat,main,sat,250,1000,3000,3,true,sat_witness,ok,147.68317987490445,ok,,830,4,loaded,,,8000,4000,0,1000,3096,0.244141,0.488281,0.244141,0.488281,,true
+MRB0-054,S-tight,random-graph-xorsat,main,sat,250,1000,3000,3,true,sat_witness,ok,147.68317987490445,ok,,830,8,loaded,,,8000,4000,0,1000,3096,0.244141,0.488281,0.244141,0.488281,,true
+MRB0-054,S-tight,random-graph-xorsat,main,sat,250,1000,3000,3,true,sat_witness,ok,147.68317987490445,ok,,830,16,loaded,,,8000,4000,0,1000,3096,0.244141,0.488281,0.244141,0.488281,,true
+MRB0-055,S-tight,random-graph-xorsat,crafted,sat,230,920,2760,3,true,sat_witness,ok,93.24024537485093,ok,,771,4,loaded,,,7360,3680,0,920,3176,0.224609,0.449219,0.224609,0.449219,,true
+MRB0-055,S-tight,random-graph-xorsat,crafted,sat,230,920,2760,3,true,sat_witness,ok,93.24024537485093,ok,,771,8,loaded,,,7360,3680,0,920,3176,0.224609,0.449219,0.224609,0.449219,,true
+MRB0-055,S-tight,random-graph-xorsat,crafted,sat,230,920,2760,3,true,sat_witness,ok,93.24024537485093,ok,,771,16,loaded,,,7360,3680,0,920,3176,0.224609,0.449219,0.224609,0.449219,,true
+MRB0-056,S-tight,random-graph-xorsat,crafted,sat,270,1080,3240,3,true,sat_witness,ok,475.5294857909903,ok,,907,4,loaded,,,8640,4320,0,1080,3016,0.263672,0.527344,0.263672,0.527344,,true
+MRB0-056,S-tight,random-graph-xorsat,crafted,sat,270,1080,3240,3,true,sat_witness,ok,475.5294857909903,ok,,907,8,loaded,,,8640,4320,0,1080,3016,0.263672,0.527344,0.263672,0.527344,,true
+MRB0-056,S-tight,random-graph-xorsat,crafted,sat,270,1080,3240,3,true,sat_witness,ok,475.5294857909903,ok,,907,16,loaded,,,8640,4320,0,1080,3016,0.263672,0.527344,0.263672,0.527344,,true
+MRB0-057,S-tight,random-planted-solution,random,sat,240,1249,3747,3,true,sat_witness,ok,0.08406120794825256,ok,,1052,4,loaded,,,8924,4996,0,1249,2847,0.304932,0.544678,0.304932,0.544678,,true
+MRB0-057,S-tight,random-planted-solution,random,sat,240,1249,3747,3,true,sat_witness,ok,0.08406120794825256,ok,,1052,8,loaded,,,7264,4996,0,1249,2847,0.304932,0.443359,0.304932,0.443359,,true
+MRB0-057,S-tight,random-planted-solution,random,sat,240,1249,3747,3,true,sat_witness,ok,0.08406120794825256,ok,,1052,16,loaded,,,7872,4996,0,1249,2847,0.304932,0.480469,0.304932,0.480469,,true
+MRB0-058,S-tight,random-planted-solution,random,sat,260,1118,3354,3,true,sat_witness,ok,0.34960379102267325,ok,,927,4,loaded,,,8296,4472,0,1118,2978,0.272949,0.506348,0.272949,0.506348,,true
+MRB0-058,S-tight,random-planted-solution,random,sat,260,1118,3354,3,true,sat_witness,ok,0.34960379102267325,ok,,927,8,loaded,,,6808,4472,0,1118,2978,0.272949,0.415527,0.272949,0.415527,,true
+MRB0-058,S-tight,random-planted-solution,random,sat,260,1118,3354,3,true,sat_witness,ok,0.34960379102267325,ok,,927,16,loaded,,,8400,4472,0,1118,2978,0.272949,0.512695,0.272949,0.512695,,true
+MRB0-059,S-tight,random-planted-solution,random,sat,350,1543,4629,3,true,sat_witness,ok,62.11542050004937,ok,,1290,4,loaded,,,11340,6172,0,1543,2553,0.376709,0.692139,0.376709,0.692139,,true
+MRB0-059,S-tight,random-planted-solution,random,sat,350,1543,4629,3,true,sat_witness,ok,62.11542050004937,ok,,1290,8,loaded,,,9432,6172,0,1543,2553,0.376709,0.575684,0.376709,0.575684,,true
+MRB0-059,S-tight,random-planted-solution,random,sat,350,1543,4629,3,true,sat_witness,ok,62.11542050004937,ok,,1290,16,loaded,,,11312,6172,0,1543,2553,0.376709,0.690430,0.376709,0.690430,,true
+MRB0-060,S-tight,random-planted-solution,random,sat,480,2064,6192,3,true,sat_witness,ok,1.2994075000751764,ok,,1716,4,loaded,,,15248,8256,0,2064,2032,0.503906,0.930664,0.503906,0.930664,,true
+MRB0-060,S-tight,random-planted-solution,random,sat,480,2064,6192,3,true,sat_witness,ok,1.2994075000751764,ok,,1716,8,loaded,,,12720,8256,0,2064,2032,0.503906,0.776367,0.503906,0.776367,,true
+MRB0-060,S-tight,random-planted-solution,random,sat,480,2064,6192,3,true,sat_witness,ok,1.2994075000751764,ok,,1716,16,loaded,,,15440,8256,0,2064,2032,0.503906,0.942383,0.503906,0.942383,,true
+MRB0-061,S-tight,random-planted-solution,random,sat,360,1874,5622,3,true,sat_witness,ok,0.6519297079648823,ok,,1548,4,loaded,,,13412,7496,0,1874,2222,0.457520,0.818604,0.457520,0.818604,,true
+MRB0-061,S-tight,random-planted-solution,random,sat,360,1874,5622,3,true,sat_witness,ok,0.6519297079648823,ok,,1548,8,loaded,,,10992,7496,0,1874,2222,0.457520,0.670898,0.457520,0.670898,,true
+MRB0-061,S-tight,random-planted-solution,random,sat,360,1874,5622,3,true,sat_witness,ok,0.6519297079648823,ok,,1548,16,loaded,,,11776,7496,0,1874,2222,0.457520,0.718750,0.457520,0.718750,,true
+MRB0-062,S-tight,random-planted-solution,random,sat,260,1353,4059,3,true,sat_witness,ok,0.12798604206182063,ok,,1113,4,loaded,,,9652,5412,0,1353,2743,0.330322,0.589111,0.330322,0.589111,,true
+MRB0-062,S-tight,random-planted-solution,random,sat,260,1353,4059,3,true,sat_witness,ok,0.12798604206182063,ok,,1113,8,loaded,,,7800,5412,0,1353,2743,0.330322,0.476074,0.330322,0.476074,,true
+MRB0-062,S-tight,random-planted-solution,random,sat,260,1353,4059,3,true,sat_witness,ok,0.12798604206182063,ok,,1113,16,loaded,,,8688,5412,0,1353,2743,0.330322,0.530273,0.330322,0.530273,,true
+MRB0-063,S-tight,random-planted-solution,random,sat,340,1770,5310,3,true,sat_witness,ok,5.541557916905731,ok,,1455,4,loaded,,,12636,7080,0,1770,2326,0.432129,0.771240,0.432129,0.771240,,true
+MRB0-063,S-tight,random-planted-solution,random,sat,340,1770,5310,3,true,sat_witness,ok,5.541557916905731,ok,,1455,8,loaded,,,10280,7080,0,1770,2326,0.432129,0.627441,0.432129,0.627441,,true
+MRB0-063,S-tight,random-planted-solution,random,sat,340,1770,5310,3,true,sat_witness,ok,5.541557916905731,ok,,1455,16,loaded,,,11168,7080,0,1770,2326,0.432129,0.681641,0.432129,0.681641,,true
+MRB0-064,S-tight,random-planted-solution,random,sat,450,1984,5952,3,true,sat_witness,ok,606.5301762919407,ok,,1622,4,loaded,,,14628,7936,0,1984,2112,0.484375,0.892822,0.484375,0.892822,,true
+MRB0-064,S-tight,random-planted-solution,random,sat,450,1984,5952,3,true,sat_witness,ok,606.5301762919407,ok,,1622,8,loaded,,,12224,7936,0,1984,2112,0.484375,0.746094,0.484375,0.746094,,true
+MRB0-064,S-tight,random-planted-solution,random,sat,450,1984,5952,3,true,sat_witness,ok,606.5301762919407,ok,,1622,16,loaded,,,14496,7936,0,1984,2112,0.484375,0.884766,0.484375,0.884766,,true
+MRB0-065,S-tight,random-planted-solution,random,sat,300,1290,3870,3,true,sat_witness,ok,0.2922245420049876,ok,,1087,4,loaded,,,9556,5160,0,1290,2806,0.314941,0.583252,0.314941,0.583252,,true
+MRB0-065,S-tight,random-planted-solution,random,sat,300,1290,3870,3,true,sat_witness,ok,0.2922245420049876,ok,,1087,8,loaded,,,7976,5160,0,1290,2806,0.314941,0.486816,0.314941,0.486816,,true
+MRB0-065,S-tight,random-planted-solution,random,sat,300,1290,3870,3,true,sat_witness,ok,0.2922245420049876,ok,,1087,16,loaded,,,9680,5160,0,1290,2806,0.314941,0.590820,0.314941,0.590820,,true
+MRB0-066,S-tight,random-planted-solution,random,sat,240,1032,3096,3,true,sat_witness,ok,0.1417186250910163,ok,,865,4,loaded,,,7636,4128,0,1032,3064,0.251953,0.466064,0.251953,0.466064,,true
+MRB0-066,S-tight,random-planted-solution,random,sat,240,1032,3096,3,true,sat_witness,ok,0.1417186250910163,ok,,865,8,loaded,,,6336,4128,0,1032,3064,0.251953,0.386719,0.251953,0.386719,,true
+MRB0-066,S-tight,random-planted-solution,random,sat,240,1032,3096,3,true,sat_witness,ok,0.1417186250910163,ok,,865,16,loaded,,,7744,4128,0,1032,3064,0.251953,0.472656,0.251953,0.472656,,true
+MRB0-067,S-tight,register-allocation,main,unsat,176,1149,2442,11,true,unsat_proof,ok,1.3295719169545919,ok,,22,4,loaded,,,5676,4788,0,1149,2947,0.292236,0.346436,0.280518,0.346436,,true
+MRB0-067,S-tight,register-allocation,main,unsat,176,1149,2442,11,true,unsat_proof,ok,1.3295719169545919,ok,,22,8,loaded,,,5368,4788,0,1149,2947,0.292236,0.327637,0.280518,0.327637,,true
+MRB0-067,S-tight,register-allocation,main,unsat,176,1149,2442,11,true,unsat_proof,ok,1.3295719169545919,ok,,22,16,loaded,,,6864,4788,0,1149,2947,0.292236,0.418945,0.280518,0.418945,,true
+MRB0-068,S-tight,register-allocation,main,unsat,228,2023,4236,12,true,unsat_proof,ok,12.136964167002589,ok,,48,4,loaded,,,9840,8320,0,2023,2073,0.507812,0.600586,0.493896,0.600586,,true
+MRB0-068,S-tight,register-allocation,main,unsat,228,2023,4236,12,true,unsat_proof,ok,12.136964167002589,ok,,48,8,loaded,,,8736,8320,0,2023,2073,0.507812,0.533203,0.493896,0.533203,,true
+MRB0-068,S-tight,register-allocation,main,unsat,228,2023,4236,12,true,unsat_proof,ok,12.136964167002589,ok,,48,16,loaded,,,10944,8320,0,2023,2073,0.507812,0.667969,0.493896,0.667969,,true
+MRB0-069,S-tight,register-allocation,main,unsat,247,2073,4355,13,true,unsat_proof,ok,165.88954116706736,ok,,52,4,loaded,,,9828,8596,0,2073,2023,0.524658,0.599854,0.506104,0.599854,,true
+MRB0-069,S-tight,register-allocation,main,unsat,247,2073,4355,13,true,unsat_proof,ok,165.88954116706736,ok,,52,8,loaded,,,8216,8596,0,2073,2023,0.524658,0.501465,0.506104,0.524658,,true
+MRB0-069,S-tight,register-allocation,main,unsat,247,2073,4355,13,true,unsat_proof,ok,165.88954116706736,ok,,52,16,loaded,,,11648,8596,0,2073,2023,0.524658,0.710938,0.506104,0.710938,,true
+MRB0-070,S-tight,register-allocation,main,unsat,187,1348,2849,11,true,unsat_proof,ok,0.3540446658153087,ok,,33,4,loaded,,,6556,5596,0,1348,2748,0.341553,0.400146,0.329102,0.400146,,true
+MRB0-070,S-tight,register-allocation,main,unsat,187,1348,2849,11,true,unsat_proof,ok,0.3540446658153087,ok,,33,8,loaded,,,5808,5596,0,1348,2748,0.341553,0.354492,0.329102,0.354492,,true
+MRB0-070,S-tight,register-allocation,main,unsat,187,1348,2849,11,true,unsat_proof,ok,0.3540446658153087,ok,,33,16,loaded,,,8800,5596,0,1348,2748,0.341553,0.537109,0.329102,0.537109,,true
+MRB0-071,S-tight,register-allocation,main,unsat,288,3240,6720,12,true,unsat_proof,ok,2.1533122919499874,ok,,72,4,loaded,,,14784,13248,0,3240,856,0.808594,0.902344,0.791016,0.902344,,true
+MRB0-071,S-tight,register-allocation,main,unsat,288,3240,6720,12,true,unsat_proof,ok,2.1533122919499874,ok,,72,8,loaded,,,11424,13248,0,3240,856,0.808594,0.697266,0.791016,0.808594,,true
+MRB0-071,S-tight,register-allocation,main,unsat,288,3240,6720,12,true,unsat_proof,ok,2.1533122919499874,ok,,72,16,loaded,,,13824,13248,0,3240,856,0.808594,0.843750,0.791016,0.843750,,true
+MRB0-072,S-tight,register-allocation,main,unsat,228,1915,4020,12,true,unsat_proof,ok,0.8620662500616163,ok,,48,4,loaded,,,9072,7888,0,1915,2181,0.481445,0.553711,0.467529,0.553711,,true
+MRB0-072,S-tight,register-allocation,main,unsat,228,1915,4020,12,true,unsat_proof,ok,0.8620662500616163,ok,,48,8,loaded,,,7584,7888,0,1915,2181,0.481445,0.462891,0.467529,0.481445,,true
+MRB0-072,S-tight,register-allocation,main,unsat,228,1915,4020,12,true,unsat_proof,ok,0.8620662500616163,ok,,48,16,loaded,,,10752,7888,0,1915,2181,0.481445,0.656250,0.467529,0.656250,,true
+MRB0-073,S-tight,register-allocation,main,unsat,231,1880,3949,11,true,unsat_proof,ok,4.380422374932095,ok,,627,4,loaded,,,9152,7772,0,1880,2216,0.474365,0.558594,0.458984,0.558594,,true
+MRB0-073,S-tight,register-allocation,main,unsat,231,1880,3949,11,true,unsat_proof,ok,4.380422374932095,ok,,627,8,loaded,,,8096,7772,0,1880,2216,0.474365,0.494141,0.458984,0.494141,,true
+MRB0-073,S-tight,register-allocation,main,unsat,231,1880,3949,11,true,unsat_proof,ok,4.380422374932095,ok,,627,16,loaded,,,10032,7772,0,1880,2216,0.474365,0.612305,0.458984,0.612305,,true
+MRB0-074,S-tight,register-allocation,main,unsat,252,2049,4308,12,true,unsat_proof,ok,59.924527917057276,ok,,684,4,loaded,,,9984,8448,0,2049,2047,0.515625,0.609375,0.500244,0.609375,,true
+MRB0-074,S-tight,register-allocation,main,unsat,252,2049,4308,12,true,unsat_proof,ok,59.924527917057276,ok,,684,8,loaded,,,8832,8448,0,2049,2047,0.515625,0.539062,0.500244,0.539062,,true
+MRB0-074,S-tight,register-allocation,main,unsat,252,2049,4308,12,true,unsat_proof,ok,59.924527917057276,ok,,684,16,loaded,,,10944,8448,0,2049,2047,0.515625,0.667969,0.500244,0.667969,,true
+MRB0-075,S-tight,register-allocation,main,unsat,192,1252,2664,12,true,unsat_proof,ok,4.348187458934262,ok,,24,4,loaded,,,6192,5200,0,1252,2844,0.317383,0.377930,0.305664,0.377930,,true
+MRB0-075,S-tight,register-allocation,main,unsat,192,1252,2664,12,true,unsat_proof,ok,4.348187458934262,ok,,24,8,loaded,,,5856,5200,0,1252,2844,0.317383,0.357422,0.305664,0.357422,,true
+MRB0-075,S-tight,register-allocation,main,unsat,192,1252,2664,12,true,unsat_proof,ok,4.348187458934262,ok,,24,16,loaded,,,7488,5200,0,1252,2844,0.317383,0.457031,0.305664,0.457031,,true
+MRB0-076,S-tight,register-allocation,main,unsat,299,3182,6617,13,true,unsat_proof,ok,6.60614287503995,ok,,585,4,loaded,,,14976,13096,0,3182,914,0.799316,0.914062,0.776855,0.914062,,true
+MRB0-076,S-tight,register-allocation,main,unsat,299,3182,6617,13,true,unsat_proof,ok,6.60614287503995,ok,,585,8,loaded,,,11752,13096,0,3182,914,0.799316,0.717285,0.776855,0.799316,,true
+MRB0-076,S-tight,register-allocation,main,unsat,299,3182,6617,13,true,unsat_proof,ok,6.60614287503995,ok,,585,16,loaded,,,14352,13096,0,3182,914,0.799316,0.875977,0.776855,0.875977,,true
+MRB0-077,S-tight,scheduling,main,sat,252,1163,2716,6,true,sat_witness,ok,0.02054991712793708,ok,,637,4,loaded,,,6644,4936,2,1163,2933,0.301270,0.405518,0.283936,0.405518,,true
+MRB0-077,S-tight,scheduling,main,sat,252,1163,2716,6,true,sat_witness,ok,0.02054991712793708,ok,,637,8,loaded,,,5184,4936,2,1163,2933,0.301270,0.316406,0.283936,0.316406,,true
+MRB0-077,S-tight,scheduling,main,sat,252,1163,2716,6,true,sat_witness,ok,0.02054991712793708,ok,,637,16,loaded,,,9184,4936,2,1163,2933,0.301270,0.560547,0.283936,0.560547,,true
+MRB0-078,S-tight,scheduling,main,unsat,221,1085,2515,6,true,unsat_proof,ok,0.021944333100691438,ok,,605,4,loaded,,,6104,4604,2,1085,3011,0.281006,0.372559,0.264893,0.372559,,true
+MRB0-078,S-tight,scheduling,main,unsat,221,1085,2515,6,true,unsat_proof,ok,0.021944333100691438,ok,,605,8,loaded,,,4672,4604,2,1085,3011,0.281006,0.285156,0.264893,0.285156,,true
+MRB0-078,S-tight,scheduling,main,unsat,221,1085,2515,6,true,unsat_proof,ok,0.021944333100691438,ok,,605,16,loaded,,,8192,4604,2,1085,3011,0.281006,0.500000,0.264893,0.500000,,true
+MRB0-079,S-tight,scheduling,main,sat,227,1106,2573,6,true,sat_witness,ok,0.022219541016966105,ok,,605,4,loaded,,,6256,4688,2,1106,2990,0.286133,0.381836,0.270020,0.381836,,true
+MRB0-079,S-tight,scheduling,main,sat,227,1106,2573,6,true,sat_witness,ok,0.022219541016966105,ok,,605,8,loaded,,,4768,4688,2,1106,2990,0.286133,0.291016,0.270020,0.291016,,true
+MRB0-079,S-tight,scheduling,main,sat,227,1106,2573,6,true,sat_witness,ok,0.022219541016966105,ok,,605,16,loaded,,,8384,4688,2,1106,2990,0.286133,0.511719,0.270020,0.511719,,true
+MRB0-080,S-tight,scheduling,main,unsat,210,1420,3018,19,false,,solve_timeout,1000.008730375208,ok,,0,4,loaded,,,7032,5924,0,1420,2676,0.361572,0.429199,0.346680,0.429199,,true
+MRB0-080,S-tight,scheduling,main,unsat,210,1420,3018,19,false,,solve_timeout,1000.008730375208,ok,,0,8,loaded,,,6640,5924,0,1420,2676,0.361572,0.405273,0.346680,0.405273,,true
+MRB0-080,S-tight,scheduling,main,unsat,210,1420,3018,19,false,,solve_timeout,1000.008730375208,ok,,0,16,loaded,,,8448,5924,0,1420,2676,0.361572,0.515625,0.346680,0.515625,,true
+MRB0-081,S-tight,sgen-balanced,main,unsat,201,707,2121,3,true,unsat_proof,ok,398.77600958407857,ok,,595,4,loaded,,,5268,2828,0,707,3389,0.172607,0.321533,0.172607,0.321533,,true
+MRB0-081,S-tight,sgen-balanced,main,unsat,201,707,2121,3,true,unsat_proof,ok,398.77600958407857,ok,,595,8,loaded,,,4104,2828,0,707,3389,0.172607,0.250488,0.172607,0.250488,,true
+MRB0-081,S-tight,sgen-balanced,main,unsat,201,707,2121,3,true,unsat_proof,ok,398.77600958407857,ok,,595,16,loaded,,,6432,2828,0,707,3389,0.172607,0.392578,0.172607,0.392578,,true
+MRB0-082,S-tight,sudoku-php,main,unsat,210,2850,5880,14,false,,solve_timeout,1000.021037959028,ok,,0,4,loaded,,,12600,11640,0,2850,1246,0.710449,0.769043,0.695801,0.769043,,true
+MRB0-082,S-tight,sudoku-php,main,unsat,210,2850,5880,14,false,,solve_timeout,1000.021037959028,ok,,0,8,loaded,,,10080,11640,0,2850,1246,0.710449,0.615234,0.695801,0.710449,,true
+MRB0-082,S-tight,sudoku-php,main,unsat,210,2850,5880,14,false,,solve_timeout,1000.021037959028,ok,,0,16,loaded,,,10080,11640,0,2850,1246,0.710449,0.615234,0.695801,0.710449,,true
+MRB0-083,S-tight,theorem-proving,main,unsat,398,741,2898,4,true,unsat_proof,ok,0.02581954188644886,ok,,697,4,loaded,,,8872,5684,0,741,3355,0.346924,0.541504,0.180908,0.541504,,true
+MRB0-083,S-tight,theorem-proving,main,unsat,398,741,2898,4,true,unsat_proof,ok,0.02581954188644886,ok,,697,8,loaded,,,6368,5684,0,741,3355,0.346924,0.388672,0.180908,0.388672,,true
+MRB0-083,S-tight,theorem-proving,main,unsat,398,741,2898,4,true,unsat_proof,ok,0.02581954188644886,ok,,697,16,loaded,,,12736,5684,0,741,3355,0.346924,0.777344,0.180908,0.777344,,true
+MRB0-084,S-tight,tseitin-formulas,main,unsat,409,1520,5848,4,false,,solve_timeout,1000.0136624998413,ok,,0,4,loaded,,,14936,11264,0,1520,2576,0.687500,0.911621,0.371094,0.911621,,true
+MRB0-084,S-tight,tseitin-formulas,main,unsat,409,1520,5848,4,false,,solve_timeout,1000.0136624998413,ok,,0,8,loaded,,,12160,11264,0,1520,2576,0.687500,0.742188,0.371094,0.742188,,true
+MRB0-084,S-tight,tseitin-formulas,main,unsat,409,1520,5848,4,false,,solve_timeout,1000.0136624998413,ok,,0,16,loaded,,,13088,11264,0,1520,2576,0.687500,0.798828,0.371094,0.798828,,true
+MRB0-085,S-tight,tseitin-formulas,main,unsat,264,968,3696,4,true,unsat_proof,ok,385.4600237919949,ok,,0,4,loaded,,,9472,7072,0,968,3128,0.431641,0.578125,0.236328,0.578125,,true
+MRB0-085,S-tight,tseitin-formulas,main,unsat,264,968,3696,4,true,unsat_proof,ok,385.4600237919949,ok,,0,8,loaded,,,7744,7072,0,968,3128,0.431641,0.472656,0.236328,0.472656,,true
+MRB0-085,S-tight,tseitin-formulas,main,unsat,264,968,3696,4,true,unsat_proof,ok,385.4600237919949,ok,,0,16,loaded,,,8448,7072,0,968,3128,0.431641,0.515625,0.236328,0.515625,,true
+MRB0-086,S-tight,tseitin-formulas,main,unsat,294,784,2351,3,false,,solver_signal_25,912.9429243330378,ok,,0,4,loaded,,,7052,3136,0,784,3312,0.191406,0.430420,0.191406,0.430420,,true
+MRB0-086,S-tight,tseitin-formulas,main,unsat,294,784,2351,3,false,,solver_signal_25,912.9429243330378,ok,,0,8,loaded,,,4704,3136,0,784,3312,0.191406,0.287109,0.191406,0.287109,,true
+MRB0-086,S-tight,tseitin-formulas,main,unsat,294,784,2351,3,false,,solver_signal_25,912.9429243330378,ok,,0,16,loaded,,,9408,3136,0,784,3312,0.191406,0.574219,0.191406,0.574219,,true
+MRB0-087,S-tight,tseitin-formulas,main,unsat,74,694,4272,7,true,unsat_proof,ok,205.77407137514092,ok,,682,4,loaded,,,9128,7192,0,694,3402,0.438965,0.557129,0.169434,0.557129,,true
+MRB0-087,S-tight,tseitin-formulas,main,unsat,74,694,4272,7,true,unsat_proof,ok,205.77407137514092,ok,,682,8,loaded,,,6368,7192,0,694,3402,0.438965,0.388672,0.169434,0.438965,,true
+MRB0-087,S-tight,tseitin-formulas,main,unsat,74,694,4272,7,true,unsat_proof,ok,205.77407137514092,ok,,682,16,loaded,,,5792,7192,0,694,3402,0.438965,0.353516,0.169434,0.438965,,true
+MRB0-088,S-tight,tseitin-formulas,main,unsat,243,648,1944,3,false,,solve_timeout,1000.0107820839621,ok,,0,4,loaded,,,5832,2592,0,648,3448,0.158203,0.355957,0.158203,0.355957,,true
+MRB0-088,S-tight,tseitin-formulas,main,unsat,243,648,1944,3,false,,solve_timeout,1000.0107820839621,ok,,0,8,loaded,,,3888,2592,0,648,3448,0.158203,0.237305,0.158203,0.237305,,true
+MRB0-088,S-tight,tseitin-formulas,main,unsat,243,648,1944,3,false,,solve_timeout,1000.0107820839621,ok,,0,16,loaded,,,7776,2592,0,648,3448,0.158203,0.474609,0.158203,0.474609,,true
+MRB0-089,S-tight,tseitin-formulas,main,unsat,288,768,2304,3,false,,solve_timeout,1000.02039379091,ok,,0,4,loaded,,,6912,3072,0,768,3328,0.187500,0.421875,0.187500,0.421875,,true
+MRB0-089,S-tight,tseitin-formulas,main,unsat,288,768,2304,3,false,,solve_timeout,1000.02039379091,ok,,0,8,loaded,,,4608,3072,0,768,3328,0.187500,0.281250,0.187500,0.281250,,true
+MRB0-089,S-tight,tseitin-formulas,main,unsat,288,768,2304,3,false,,solve_timeout,1000.02039379091,ok,,0,16,loaded,,,9216,3072,0,768,3328,0.187500,0.562500,0.187500,0.562500,,true
+MRB0-090,S-tight,tseitin-formulas,main,unsat,114,888,5064,7,false,,solve_timeout,1000.0175613339525,ok,,875,4,loaded,,,11040,7904,0,888,3208,0.482422,0.673828,0.216797,0.673828,,true
+MRB0-090,S-tight,tseitin-formulas,main,unsat,114,888,5064,7,false,,solve_timeout,1000.0175613339525,ok,,875,8,loaded,,,8096,7904,0,888,3208,0.482422,0.494141,0.216797,0.494141,,true
+MRB0-090,S-tight,tseitin-formulas,main,unsat,114,888,5064,7,false,,solve_timeout,1000.0175613339525,ok,,875,16,loaded,,,7456,7904,0,888,3208,0.482422,0.455078,0.216797,0.482422,,true
+MRB0-091,M-low,automata-synchronization,main,unsat,1287,2332,6820,3,true,unsat_proof,ok,1.1324423751793802,ok,,55,4,unsupported,literal store needs 22748 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-091,M-low,automata-synchronization,main,unsat,1287,2332,6820,3,true,unsat_proof,ok,1.1324423751793802,ok,,55,8,unsupported,literal store needs 22264 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-091,M-low,automata-synchronization,main,unsat,1287,2332,6820,3,true,unsat_proof,ok,1.1324423751793802,ok,,55,16,unsupported,literal store needs 41184 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-092,M-low,battleship,main,sat,364,2562,9828,26,true,sat_witness,ok,9.796369208022952,ok,,0,4,unsupported,clause store needs 16520 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-092,M-low,battleship,main,sat,364,2562,9828,26,true,sat_witness,ok,9.796369208022952,ok,,0,8,unsupported,clause store needs 16520 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-092,M-low,battleship,main,sat,364,2562,9828,26,true,sat_witness,ok,9.796369208022952,ok,,0,16,unsupported,clause store needs 16520 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-093,M-low,battleship,main,sat,496,3976,15376,31,true,sat_witness,ok,0.30663641612045467,ok,,0,4,unsupported,clause store needs 26144 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-093,M-low,battleship,main,sat,496,3976,15376,31,true,sat_witness,ok,0.30663641612045467,ok,,0,8,unsupported,clause store needs 26144 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-093,M-low,battleship,main,sat,496,3976,15376,31,true,sat_witness,ok,0.30663641612045467,ok,,0,16,unsupported,clause store needs 26144 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-094,M-low,binary-tree-parity,main,sat,1023,4088,12099,3,false,,solve_timeout,1000.0206910420675,ok,,3359,4,unsupported,literal store needs 32064 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-094,M-low,binary-tree-parity,main,sat,1023,4088,12099,3,false,,solve_timeout,1000.0206910420675,ok,,3359,8,unsupported,literal store needs 28032 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-094,M-low,binary-tree-parity,main,sat,1023,4088,12099,3,false,,solve_timeout,1000.0206910420675,ok,,3359,16,unsupported,literal store needs 32736 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-095,M-low,cardinality-constraints,main,sat,1672,5207,12836,4,true,sat_witness,ok,235.15945095894858,ok,,2239,4,unsupported,5207 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-095,M-low,cardinality-constraints,main,sat,1672,5207,12836,4,true,sat_witness,ok,235.15945095894858,ok,,2239,8,unsupported,5207 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-095,M-low,cardinality-constraints,main,sat,1672,5207,12836,4,true,sat_witness,ok,235.15945095894858,ok,,2239,16,unsupported,5207 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-096,M-low,cardinality-constraints,main,unsat,851,2731,6896,4,true,unsat_proof,ok,393.7767292079516,ok,,1273,4,unsupported,literal store needs 18968 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-096,M-low,cardinality-constraints,main,unsat,851,2731,6896,4,true,unsat_proof,ok,393.7767292079516,ok,,1273,8,loaded,,,15312,12192,0,2731,1365,0.744141,0.934570,0.666748,0.934570,,true
+MRB0-096,M-low,cardinality-constraints,main,unsat,851,2731,6896,4,true,unsat_proof,ok,393.7767292079516,ok,,1273,16,unsupported,literal store needs 28320 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-097,M-low,cardinality-constraints,main,sat,1672,5262,12946,4,true,sat_witness,ok,10.099201875040308,ok,,2294,4,unsupported,5262 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-097,M-low,cardinality-constraints,main,sat,1672,5262,12946,4,true,sat_witness,ok,10.099201875040308,ok,,2294,8,unsupported,5262 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-097,M-low,cardinality-constraints,main,sat,1672,5262,12946,4,true,sat_witness,ok,10.099201875040308,ok,,2294,16,unsupported,5262 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-098,M-low,cardinality-constraints,main,sat,647,3239,9369,4,true,sat_witness,ok,14.774607500061393,ok,,1628,4,unsupported,literal store needs 22116 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-098,M-low,cardinality-constraints,main,sat,647,3239,9369,4,true,sat_witness,ok,14.774607500061393,ok,,1628,8,unsupported,literal store needs 17992 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-098,M-low,cardinality-constraints,main,sat,647,3239,9369,4,true,sat_witness,ok,14.774607500061393,ok,,1628,16,unsupported,literal store needs 24848 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-099,M-low,coloring,main,unsat,351,6747,18999,18,false,,solve_timeout,1000.0097792921588,ok,,2295,4,unsupported,6747 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-099,M-low,coloring,main,unsat,351,6747,18999,18,false,,solve_timeout,1000.0097792921588,ok,,2295,8,unsupported,6747 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-099,M-low,coloring,main,unsat,351,6747,18999,18,false,,solve_timeout,1000.0097792921588,ok,,2295,16,unsupported,6747 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-100,M-low,coloring,crafted,sat,1381,5521,16561,3,true,sat_witness,ok,0.26880275015719235,ok,,4622,4,unsupported,5521 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-100,M-low,coloring,crafted,sat,1381,5521,16561,3,true,sat_witness,ok,0.26880275015719235,ok,,4622,8,unsupported,5521 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-100,M-low,coloring,crafted,sat,1381,5521,16561,3,true,sat_witness,ok,0.26880275015719235,ok,,4622,16,unsupported,5521 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-101,M-low,coloring,crafted,unsat,1621,6482,19444,3,false,,solve_timeout,1000.0137076671235,ok,,5370,4,unsupported,6482 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-101,M-low,coloring,crafted,unsat,1621,6482,19444,3,false,,solve_timeout,1000.0137076671235,ok,,5370,8,unsupported,6482 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-101,M-low,coloring,crafted,unsat,1621,6482,19444,3,false,,solve_timeout,1000.0137076671235,ok,,5370,16,unsupported,6482 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-102,M-low,coloring,crafted,sat,360,3109,9240,15,true,sat_witness,ok,0.0863628750666976,ok,,2040,4,unsupported,literal store needs 21000 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-102,M-low,coloring,crafted,sat,360,3109,9240,15,true,sat_witness,ok,0.0863628750666976,ok,,2040,8,loaded,,,15120,12560,15,3109,987,0.766602,0.922852,0.759033,0.922852,,true
+MRB0-102,M-low,coloring,crafted,sat,360,3109,9240,15,true,sat_witness,ok,0.0863628750666976,ok,,2040,16,unsupported,literal store needs 17760 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-103,M-low,coloring-clique,main,unsat,270,6663,18768,12,false,,solve_timeout,1000.018091125181,ok,,2376,4,unsupported,6663 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-103,M-low,coloring-clique,main,unsat,270,6663,18768,12,false,,solve_timeout,1000.018091125181,ok,,2376,8,unsupported,6663 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-103,M-low,coloring-clique,main,unsat,270,6663,18768,12,false,,solve_timeout,1000.018091125181,ok,,2376,16,unsupported,6663 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-104,M-low,coloring-clique,main,unsat,328,7199,20320,16,false,,solver_unknown,1000.0118523749989,ok,,2520,4,unsupported,7199 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-104,M-low,coloring-clique,main,unsat,328,7199,20320,16,false,,solver_unknown,1000.0118523749989,ok,,2520,8,unsupported,7199 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-104,M-low,coloring-clique,main,unsat,328,7199,20320,16,false,,solver_unknown,1000.0118523749989,ok,,2520,16,unsupported,7199 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-105,M-low,count,main,unsat,300,6925,14400,24,false,,solve_timeout,1000.0141014170367,ok,,0,4,unsupported,6925 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-105,M-low,count,main,unsat,300,6925,14400,24,false,,solve_timeout,1000.0141014170367,ok,,0,8,unsupported,6925 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-105,M-low,count,main,unsat,300,6925,14400,24,false,,solve_timeout,1000.0141014170367,ok,,0,16,unsupported,6925 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-106,M-low,count,main,unsat,210,4011,8400,20,false,,solve_timeout,1000.0248573748395,ok,,0,4,unsupported,clause store needs 16548 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-106,M-low,count,main,unsat,210,4011,8400,20,false,,solve_timeout,1000.0248573748395,ok,,0,8,unsupported,clause store needs 16548 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-106,M-low,count,main,unsat,210,4011,8400,20,false,,solve_timeout,1000.0248573748395,ok,,0,16,unsupported,clause store needs 16548 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-107,M-low,datapath-equivalence-checking,main,unsat,979,3169,8237,3,false,,solver_unknown,1000.0131007079035,ok,,3168,4,unsupported,literal store needs 21940 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-107,M-low,datapath-equivalence-checking,main,unsat,979,3169,8237,3,false,,solver_unknown,1000.0131007079035,ok,,3168,8,unsupported,literal store needs 17064 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-107,M-low,datapath-equivalence-checking,main,unsat,979,3169,8237,3,false,,solver_unknown,1000.0131007079035,ok,,3168,16,unsupported,literal store needs 32064 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-108,M-low,datapath-equivalence-checking,main,unsat,644,2619,7589,5,false,,solve_timeout,1000.0149038329255,ok,,1259,4,unsupported,literal store needs 19428 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-108,M-low,datapath-equivalence-checking,main,unsat,644,2619,7589,5,false,,solve_timeout,1000.0149038329255,ok,,1259,8,loaded,,,16216,10736,3,2619,1477,0.655273,0.989746,0.639404,0.989746,,true
+MRB0-108,M-low,datapath-equivalence-checking,main,unsat,644,2619,7589,5,false,,solve_timeout,1000.0149038329255,ok,,1259,16,unsupported,literal store needs 21568 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-109,M-low,fpga-routing,main,unsat,440,4220,8800,11,true,unsat_proof,ok,39.500670958077535,ok,,2100,4,unsupported,4220 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-109,M-low,fpga-routing,main,unsat,440,4220,8800,11,true,unsat_proof,ok,39.500670958077535,ok,,2100,8,unsupported,4220 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-109,M-low,fpga-routing,main,unsat,440,4220,8800,11,true,unsat_proof,ok,39.500670958077535,ok,,2100,16,unsupported,4220 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-110,M-low,generic-csp,main,sat,556,6427,19420,4,true,sat_witness,ok,0.19154374999925494,ok,,4800,4,unsupported,6427 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-110,M-low,generic-csp,main,sat,556,6427,19420,4,true,sat_witness,ok,0.19154374999925494,ok,,4800,8,unsupported,6427 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-110,M-low,generic-csp,main,sat,556,6427,19420,4,true,sat_witness,ok,0.19154374999925494,ok,,4800,16,unsupported,6427 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-111,M-low,grandtour-puzzle,main,unsat,1043,3649,8741,13,true,unsat_proof,ok,37.0451113327872,ok,,1983,4,unsupported,clause store needs 16712 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-111,M-low,grandtour-puzzle,main,unsat,1043,3649,8741,13,true,unsat_proof,ok,37.0451113327872,ok,,1983,8,unsupported,clause store needs 16712 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-111,M-low,grandtour-puzzle,main,unsat,1043,3649,8741,13,true,unsat_proof,ok,37.0451113327872,ok,,1983,16,unsupported,clause store needs 16712 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-112,M-low,greentao,crafted,sat,509,4478,17912,4,true,sat_witness,ok,120.09689354198053,ok,,0,4,unsupported,4478 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-112,M-low,greentao,crafted,sat,509,4478,17912,4,true,sat_witness,ok,120.09689354198053,ok,,0,8,unsupported,4478 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-112,M-low,greentao,crafted,sat,509,4478,17912,4,true,sat_witness,ok,120.09689354198053,ok,,0,16,unsupported,4478 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-113,M-low,hamiltonian,main,sat,500,4496,10192,6,true,sat_witness,ok,18.03014941699803,ok,,0,4,unsupported,4496 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-113,M-low,hamiltonian,main,sat,500,4496,10192,6,true,sat_witness,ok,18.03014941699803,ok,,0,8,unsupported,4496 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-113,M-low,hamiltonian,main,sat,500,4496,10192,6,true,sat_witness,ok,18.03014941699803,ok,,0,16,unsupported,4496 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-114,M-low,hamiltonian,main,sat,550,4941,11202,6,true,sat_witness,ok,269.4950022089761,ok,,0,4,unsupported,4941 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-114,M-low,hamiltonian,main,sat,550,4941,11202,6,true,sat_witness,ok,269.4950022089761,ok,,0,8,unsupported,4941 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-114,M-low,hamiltonian,main,sat,550,4941,11202,6,true,sat_witness,ok,269.4950022089761,ok,,0,16,unsupported,4941 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-115,M-low,hamiltonian,main,sat,500,4506,10212,6,true,sat_witness,ok,39.13695550011471,ok,,0,4,unsupported,4506 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-115,M-low,hamiltonian,main,sat,500,4506,10212,6,true,sat_witness,ok,39.13695550011471,ok,,0,8,unsupported,4506 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-115,M-low,hamiltonian,main,sat,500,4506,10212,6,true,sat_witness,ok,39.13695550011471,ok,,0,16,unsupported,4506 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-116,M-low,hamiltonian,main,sat,600,5395,12230,6,true,sat_witness,ok,455.1681018329691,ok,,0,4,unsupported,5395 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-116,M-low,hamiltonian,main,sat,600,5395,12230,6,true,sat_witness,ok,455.1681018329691,ok,,0,8,unsupported,5395 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-116,M-low,hamiltonian,main,sat,600,5395,12230,6,true,sat_witness,ok,455.1681018329691,ok,,0,16,unsupported,5395 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-117,M-low,hamiltonian,main,sat,600,5392,12224,6,true,sat_witness,ok,84.62792708282359,ok,,0,4,unsupported,5392 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-117,M-low,hamiltonian,main,sat,600,5392,12224,6,true,sat_witness,ok,84.62792708282359,ok,,0,8,unsupported,5392 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-117,M-low,hamiltonian,main,sat,600,5392,12224,6,true,sat_witness,ok,84.62792708282359,ok,,0,16,unsupported,5392 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-118,M-low,hamiltonian,main,unsat,500,4502,10204,6,true,unsat_proof,ok,69.42939429194666,ok,,0,4,unsupported,4502 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-118,M-low,hamiltonian,main,unsat,500,4502,10204,6,true,unsat_proof,ok,69.42939429194666,ok,,0,8,unsupported,4502 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-118,M-low,hamiltonian,main,unsat,500,4502,10204,6,true,unsat_proof,ok,69.42939429194666,ok,,0,16,unsupported,4502 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-119,M-low,hamiltonian,main,unsat,500,4511,10222,6,true,unsat_proof,ok,56.194806416053325,ok,,0,4,unsupported,4511 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-119,M-low,hamiltonian,main,unsat,500,4511,10222,6,true,unsat_proof,ok,56.194806416053325,ok,,0,8,unsupported,4511 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-119,M-low,hamiltonian,main,unsat,500,4511,10222,6,true,unsat_proof,ok,56.194806416053325,ok,,0,16,unsupported,4511 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-120,M-low,mechanical-master-key,main,unsat,3432,6248,15096,12,false,,solve_timeout,1000.0078274169937,ok,,4884,4,unsupported,3432 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-120,M-low,mechanical-master-key,main,unsat,3432,6248,15096,12,false,,solve_timeout,1000.0078274169937,ok,,4884,8,unsupported,3432 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-120,M-low,mechanical-master-key,main,unsat,3432,6248,15096,12,false,,solve_timeout,1000.0078274169937,ok,,4884,16,unsupported,3432 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-121,M-low,minimal-disagreement-parity,main,sat,1333,5326,15606,3,false,,solve_timeout,1000.0253290000837,ok,,4314,4,unsupported,5326 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-121,M-low,minimal-disagreement-parity,main,sat,1333,5326,15606,3,false,,solve_timeout,1000.0253290000837,ok,,4314,8,unsupported,5326 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-121,M-low,minimal-disagreement-parity,main,sat,1333,5326,15606,3,false,,solve_timeout,1000.0253290000837,ok,,4314,16,unsupported,5326 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-122,M-low,minimum-disagreement-parity,main,sat,792,4386,15478,4,true,sat_witness,ok,659.0937024999876,ok,,450,4,unsupported,4386 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-122,M-low,minimum-disagreement-parity,main,sat,792,4386,15478,4,true,sat_witness,ok,659.0937024999876,ok,,450,8,unsupported,4386 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-122,M-low,minimum-disagreement-parity,main,sat,792,4386,15478,4,true,sat_witness,ok,659.0937024999876,ok,,450,16,unsupported,4386 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-123,M-low,minimum-disagreement-parity,main,unsat,757,4270,15220,4,true,unsat_proof,ok,740.8805518329609,ok,,450,4,unsupported,4270 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-123,M-low,minimum-disagreement-parity,main,unsat,757,4270,15220,4,true,unsat_proof,ok,740.8805518329609,ok,,450,8,unsupported,4270 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-123,M-low,minimum-disagreement-parity,main,unsat,757,4270,15220,4,true,unsat_proof,ok,740.8805518329609,ok,,450,16,unsupported,4270 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-124,M-low,minimum-disagreement-parity,main,sat,1033,5806,20578,4,false,,solve_timeout,1000.0129420000594,ok,,514,4,unsupported,5806 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-124,M-low,minimum-disagreement-parity,main,sat,1033,5806,20578,4,false,,solve_timeout,1000.0129420000594,ok,,514,8,unsupported,5806 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-124,M-low,minimum-disagreement-parity,main,sat,1033,5806,20578,4,false,,solve_timeout,1000.0129420000594,ok,,514,16,unsupported,5806 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-125,M-low,minimum-disagreement-parity,main,unsat,985,5614,20050,4,false,,solve_timeout,1000.0148822909687,ok,,514,4,unsupported,5614 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-125,M-low,minimum-disagreement-parity,main,unsat,985,5614,20050,4,false,,solve_timeout,1000.0148822909687,ok,,514,8,unsupported,5614 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-125,M-low,minimum-disagreement-parity,main,unsat,985,5614,20050,4,false,,solve_timeout,1000.0148822909687,ok,,514,16,unsupported,5614 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-126,M-low,minimum-disagreement-parity,main,sat,799,4438,15682,4,true,sat_witness,ok,110.52050429210067,ok,,450,4,unsupported,4438 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-126,M-low,minimum-disagreement-parity,main,sat,799,4438,15682,4,true,sat_witness,ok,110.52050429210067,ok,,450,8,unsupported,4438 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-126,M-low,minimum-disagreement-parity,main,sat,799,4438,15682,4,true,sat_witness,ok,110.52050429210067,ok,,450,16,unsupported,4438 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-127,M-low,miter,main,unsat,2780,8297,19438,22,true,unsat_proof,ok,383.0084727080539,ok,,8296,4,unsupported,2780 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-127,M-low,miter,main,unsat,2780,8297,19438,22,true,unsat_proof,ok,383.0084727080539,ok,,8296,8,unsupported,2780 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-127,M-low,miter,main,unsat,2780,8297,19438,22,true,unsat_proof,ok,383.0084727080539,ok,,8296,16,unsupported,2780 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-128,M-low,miter,main,unsat,2958,8709,20319,3,true,unsat_proof,ok,55.34889437491074,ok,,8708,4,unsupported,2958 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-128,M-low,miter,main,unsat,2958,8709,20319,3,true,unsat_proof,ok,55.34889437491074,ok,,8708,8,unsupported,2958 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-128,M-low,miter,main,unsat,2958,8709,20319,3,true,unsat_proof,ok,55.34889437491074,ok,,8708,16,unsupported,2958 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-129,M-low,multiplier-circuit-miters,main,unsat,2365,7607,19371,3,false,,solve_timeout,1000.0109403750394,ok,,7606,4,unsupported,2365 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-129,M-low,multiplier-circuit-miters,main,unsat,2365,7607,19371,3,false,,solve_timeout,1000.0109403750394,ok,,7606,8,unsupported,2365 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-129,M-low,multiplier-circuit-miters,main,unsat,2365,7607,19371,3,false,,solve_timeout,1000.0109403750394,ok,,7606,16,unsupported,2365 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-130,M-low,multiplier-circuit-miters,main,unsat,1033,3309,8505,3,false,,solve_timeout,1000.0178455000278,ok,,3308,4,unsupported,literal store needs 23036 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-130,M-low,multiplier-circuit-miters,main,unsat,1033,3309,8505,3,false,,solve_timeout,1000.0178455000278,ok,,3308,8,unsupported,literal store needs 18536 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-130,M-low,multiplier-circuit-miters,main,unsat,1033,3309,8505,3,false,,solve_timeout,1000.0178455000278,ok,,3308,16,unsupported,literal store needs 33744 words > LE_MAX 16384,literal_store,,,,,,,,,,,false
+MRB0-131,M-low,mutilated-chessboard,main,unsat,16278,988,2196,4,true,unsat_proof,ok,32.89747312502004,ok,,0,4,unsupported,16278 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-131,M-low,mutilated-chessboard,main,unsat,16278,988,2196,4,true,unsat_proof,ok,32.89747312502004,ok,,0,8,unsupported,16278 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-131,M-low,mutilated-chessboard,main,unsat,16278,988,2196,4,true,unsat_proof,ok,32.89747312502004,ok,,0,16,unsupported,16278 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-132,M-low,mutilated-chessboard,main,unsat,16278,965,2150,4,true,unsat_proof,ok,89.50612533302046,ok,,0,4,unsupported,16278 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-132,M-low,mutilated-chessboard,main,unsat,16278,965,2150,4,true,unsat_proof,ok,89.50612533302046,ok,,0,8,unsupported,16278 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-132,M-low,mutilated-chessboard,main,unsat,16278,965,2150,4,true,unsat_proof,ok,89.50612533302046,ok,,0,16,unsupported,16278 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-133,M-low,philips,main,unsat,3641,4456,11309,3,true,unsat_proof,ok,83.53836566698737,ok,,0,4,unsupported,3641 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-133,M-low,philips,main,unsat,3641,4456,11309,3,true,unsat_proof,ok,83.53836566698737,ok,,0,8,unsupported,3641 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-133,M-low,philips,main,unsat,3641,4456,11309,3,true,unsat_proof,ok,83.53836566698737,ok,,0,16,unsupported,3641 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-134,M-low,pigeon-hole,main,unsat,460,8655,17580,17,true,unsat_proof,ok,153.53604654199444,ok,,75,4,unsupported,8655 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-134,M-low,pigeon-hole,main,unsat,460,8655,17580,17,true,unsat_proof,ok,153.53604654199444,ok,,75,8,unsupported,8655 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-134,M-low,pigeon-hole,main,unsat,460,8655,17580,17,true,unsat_proof,ok,153.53604654199444,ok,,75,16,unsupported,8655 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-135,M-low,pigeon-hole,main,unsat,136,5457,16456,8,true,unsat_proof,ok,390.0499444999732,ok,,0,4,unsupported,5457 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-135,M-low,pigeon-hole,main,unsat,136,5457,16456,8,true,unsat_proof,ok,390.0499444999732,ok,,0,8,unsupported,5457 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-135,M-low,pigeon-hole,main,unsat,136,5457,16456,8,true,unsat_proof,ok,390.0499444999732,ok,,0,16,unsupported,5457 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-136,M-low,planning,main,sat,439,5423,11108,24,true,sat_witness,ok,0.0498649999499321,ok,,3434,4,unsupported,5423 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-136,M-low,planning,main,sat,439,5423,11108,24,true,sat_witness,ok,0.0498649999499321,ok,,3434,8,unsupported,5423 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-136,M-low,planning,main,sat,439,5423,11108,24,true,sat_witness,ok,0.0498649999499321,ok,,3434,16,unsupported,5423 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-137,M-low,planning,crafted,sat,1178,6182,16194,5,true,sat_witness,ok,0.046534250024706125,ok,,4960,4,unsupported,6182 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-137,M-low,planning,crafted,sat,1178,6182,16194,5,true,sat_witness,ok,0.046534250024706125,ok,,4960,8,unsupported,6182 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-137,M-low,planning,crafted,sat,1178,6182,16194,5,true,sat_witness,ok,0.046534250024706125,ok,,4960,16,unsupported,6182 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-138,M-low,random-graph-xorsat,crafted,sat,339,2416,10720,6,true,sat_witness,ok,61.45838941587135,ok,,2360,4,unsupported,clause store needs 19328 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-138,M-low,random-graph-xorsat,crafted,sat,339,2416,10720,6,true,sat_witness,ok,61.45838941587135,ok,,2360,8,unsupported,clause store needs 19328 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-138,M-low,random-graph-xorsat,crafted,sat,339,2416,10720,6,true,sat_witness,ok,61.45838941587135,ok,,2360,16,unsupported,clause store needs 19328 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-139,M-low,random-graph-xorsat,main,sat,354,2596,11752,6,true,sat_witness,ok,36.09780887514353,ok,,2513,4,unsupported,clause store needs 20768 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-139,M-low,random-graph-xorsat,main,sat,354,2596,11752,6,true,sat_witness,ok,36.09780887514353,ok,,2513,8,unsupported,clause store needs 20768 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-139,M-low,random-graph-xorsat,main,sat,354,2596,11752,6,true,sat_witness,ok,36.09780887514353,ok,,2513,16,unsupported,clause store needs 20768 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-140,M-low,random-graph-xorsat,crafted,sat,349,2416,10560,6,true,sat_witness,ok,19.356172583065927,ok,,2348,4,unsupported,clause store needs 19328 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-140,M-low,random-graph-xorsat,crafted,sat,349,2416,10560,6,true,sat_witness,ok,19.356172583065927,ok,,2348,8,unsupported,clause store needs 19328 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-140,M-low,random-graph-xorsat,crafted,sat,349,2416,10560,6,true,sat_witness,ok,19.356172583065927,ok,,2348,16,unsupported,clause store needs 19328 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-141,M-low,random-graph-xorsat,main,sat,352,2492,11032,6,true,sat_witness,ok,111.34919295809232,ok,,2431,4,unsupported,clause store needs 19936 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-141,M-low,random-graph-xorsat,main,sat,352,2492,11032,6,true,sat_witness,ok,111.34919295809232,ok,,2431,8,unsupported,clause store needs 19936 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-141,M-low,random-graph-xorsat,main,sat,352,2492,11032,6,true,sat_witness,ok,111.34919295809232,ok,,2431,16,unsupported,clause store needs 19936 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-142,M-low,random-graph-xorsat,main,sat,338,2376,10480,6,true,sat_witness,ok,184.34706475003622,ok,,2314,4,unsupported,clause store needs 19008 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-142,M-low,random-graph-xorsat,main,sat,338,2376,10480,6,true,sat_witness,ok,184.34706475003622,ok,,2314,8,unsupported,clause store needs 19008 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-142,M-low,random-graph-xorsat,main,sat,338,2376,10480,6,true,sat_witness,ok,184.34706475003622,ok,,2314,16,unsupported,clause store needs 19008 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-143,M-low,relativized-pigeon-hole,crafted,unsat,400,3765,14080,40,true,unsat_proof,ok,527.9402793750633,ok,,3323,4,unsupported,clause store needs 27960 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-143,M-low,relativized-pigeon-hole,crafted,unsat,400,3765,14080,40,true,unsat_proof,ok,527.9402793750633,ok,,3323,8,unsupported,clause store needs 27960 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-143,M-low,relativized-pigeon-hole,crafted,unsat,400,3765,14080,40,true,unsat_proof,ok,527.9402793750633,ok,,3323,16,unsupported,clause store needs 27960 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-144,M-low,relativized-pigeon-hole,crafted,unsat,450,4685,17640,45,false,,solve_timeout,1000.0121123329736,ok,,4215,4,unsupported,4685 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-144,M-low,relativized-pigeon-hole,crafted,unsat,450,4685,17640,45,false,,solve_timeout,1000.0121123329736,ok,,4215,8,unsupported,4685 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-144,M-low,relativized-pigeon-hole,crafted,unsat,450,4685,17640,45,false,,solve_timeout,1000.0121123329736,ok,,4215,16,unsupported,4685 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-145,M-low,scheduling,main,unsat,1101,5037,11695,10,true,unsat_proof,ok,0.5078612910583615,ok,,2122,4,unsupported,5037 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-145,M-low,scheduling,main,unsat,1101,5037,11695,10,true,unsat_proof,ok,0.5078612910583615,ok,,2122,8,unsupported,5037 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-145,M-low,scheduling,main,unsat,1101,5037,11695,10,true,unsat_proof,ok,0.5078612910583615,ok,,2122,16,unsupported,5037 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-146,M-low,scheduling,main,unsat,1516,6802,18937,11,true,unsat_proof,ok,18.583347292151302,ok,,3119,4,unsupported,6802 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-146,M-low,scheduling,main,unsat,1516,6802,18937,11,true,unsat_proof,ok,18.583347292151302,ok,,3119,8,unsupported,6802 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-146,M-low,scheduling,main,unsat,1516,6802,18937,11,true,unsat_proof,ok,18.583347292151302,ok,,3119,16,unsupported,6802 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-147,M-low,scheduling,main,unsat,733,9175,19023,38,false,,solve_timeout,1000.0341865830123,ok,,0,4,unsupported,9175 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-147,M-low,scheduling,main,unsat,733,9175,19023,38,false,,solve_timeout,1000.0341865830123,ok,,0,8,unsupported,9175 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-147,M-low,scheduling,main,unsat,733,9175,19023,38,false,,solve_timeout,1000.0341865830123,ok,,0,16,unsupported,9175 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-148,M-low,st-connectivity-principle,main,unsat,936,6488,17840,4,true,unsat_proof,ok,217.7989944999572,ok,,6482,4,unsupported,6488 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-148,M-low,st-connectivity-principle,main,unsat,936,6488,17840,4,true,unsat_proof,ok,217.7989944999572,ok,,6482,8,unsupported,6488 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-148,M-low,st-connectivity-principle,main,unsat,936,6488,17840,4,true,unsat_proof,ok,217.7989944999572,ok,,6482,16,unsupported,6488 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-149,M-low,stable-semantics,main,sat,540,7044,20052,20,false,,solve_timeout,1000.0228436670732,ok,,3826,4,unsupported,7044 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-149,M-low,stable-semantics,main,sat,540,7044,20052,20,false,,solve_timeout,1000.0228436670732,ok,,3826,8,unsupported,7044 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-149,M-low,stable-semantics,main,sat,540,7044,20052,20,false,,solve_timeout,1000.0228436670732,ok,,3826,16,unsupported,7044 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-150,M-low,sudoku-php,main,unsat,380,7050,14440,19,false,,solve_timeout,1000.023852833081,ok,,0,4,unsupported,7050 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-150,M-low,sudoku-php,main,unsat,380,7050,14440,19,false,,solve_timeout,1000.023852833081,ok,,0,8,unsupported,7050 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-150,M-low,sudoku-php,main,unsat,380,7050,14440,19,false,,solve_timeout,1000.023852833081,ok,,0,16,unsupported,7050 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-151,M-low,unknown-cases,main,sat,600,5405,12251,6,true,sat_witness,ok,426.5547276670113,ok,,1,4,unsupported,5405 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-151,M-low,unknown-cases,main,sat,600,5405,12251,6,true,sat_witness,ok,426.5547276670113,ok,,1,8,unsupported,5405 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-151,M-low,unknown-cases,main,sat,600,5405,12251,6,true,sat_witness,ok,426.5547276670113,ok,,1,16,unsupported,5405 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-152,M-low,unknown-cases,main,sat,550,4949,11219,6,true,sat_witness,ok,21.51608808292076,ok,,1,4,unsupported,4949 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-152,M-low,unknown-cases,main,sat,550,4949,11219,6,true,sat_witness,ok,21.51608808292076,ok,,1,8,unsupported,4949 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-152,M-low,unknown-cases,main,sat,550,4949,11219,6,true,sat_witness,ok,21.51608808292076,ok,,1,16,unsupported,4949 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-153,M-low,unknown-cases,main,sat,600,5404,12249,6,true,sat_witness,ok,193.07661170791835,ok,,1,4,unsupported,5404 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-153,M-low,unknown-cases,main,sat,600,5404,12249,6,true,sat_witness,ok,193.07661170791835,ok,,1,8,unsupported,5404 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-153,M-low,unknown-cases,main,sat,600,5404,12249,6,true,sat_witness,ok,193.07661170791835,ok,,1,16,unsupported,5404 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-154,M-low,unknown-cases,main,sat,500,4502,10205,6,true,sat_witness,ok,73.54296533297747,ok,,1,4,unsupported,4502 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-154,M-low,unknown-cases,main,sat,500,4502,10205,6,true,sat_witness,ok,73.54296533297747,ok,,1,8,unsupported,4502 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-154,M-low,unknown-cases,main,sat,500,4502,10205,6,true,sat_witness,ok,73.54296533297747,ok,,1,16,unsupported,4502 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-155,M-low,van-der-waerden,main,unsat,218,3080,14692,7,true,unsat_proof,ok,174.50871187495068,ok,,0,4,unsupported,clause store needs 27512 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-155,M-low,van-der-waerden,main,unsat,218,3080,14692,7,true,unsat_proof,ok,174.50871187495068,ok,,0,8,unsupported,clause store needs 27512 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-155,M-low,van-der-waerden,main,unsat,218,3080,14692,7,true,unsat_proof,ok,174.50871187495068,ok,,0,16,unsupported,clause store needs 27512 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-156,M-low,van-der-waerden,main,unsat,220,3136,14966,7,true,unsat_proof,ok,193.93015558295883,ok,,0,4,unsupported,clause store needs 28024 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-156,M-low,van-der-waerden,main,unsat,220,3136,14966,7,true,unsat_proof,ok,193.93015558295883,ok,,0,8,unsupported,clause store needs 28024 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-156,M-low,van-der-waerden,main,unsat,220,3136,14966,7,true,unsat_proof,ok,193.93015558295883,ok,,0,16,unsupported,clause store needs 28024 words > CE_MAX 16384,clause_store,,,,,,,,,,,false
+MRB0-157,M-low,xor-shifting,main,sat,1773,6618,19034,3,false,,solve_timeout,1000.0137311669532,ok,,2668,4,unsupported,6618 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-157,M-low,xor-shifting,main,sat,1773,6618,19034,3,false,,solve_timeout,1000.0137311669532,ok,,2668,8,unsupported,6618 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-157,M-low,xor-shifting,main,sat,1773,6618,19034,3,false,,solve_timeout,1000.0137311669532,ok,,2668,16,unsupported,6618 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-158,M-low,xor-shifting,main,sat,1866,6990,20150,3,false,,solve_timeout,1000.011170374928,ok,,2832,4,unsupported,6990 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-158,M-low,xor-shifting,main,sat,1866,6990,20150,3,false,,solve_timeout,1000.011170374928,ok,,2832,8,unsupported,6990 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-158,M-low,xor-shifting,main,sat,1866,6990,20150,3,false,,solve_timeout,1000.011170374928,ok,,2832,16,unsupported,6990 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-159,M-high,binary-pigeon-hole,main,unsat,115,5796,56810,10,false,,solve_timeout,1000.0131427079905,ok,,0,4,unsupported,5796 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-159,M-high,binary-pigeon-hole,main,unsat,115,5796,56810,10,false,,solve_timeout,1000.0131427079905,ok,,0,8,unsupported,5796 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-159,M-high,binary-pigeon-hole,main,unsat,115,5796,56810,10,false,,solve_timeout,1000.0131427079905,ok,,0,16,unsupported,5796 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-160,M-high,clustered-random,main,unsat,1100,7545,30180,4,true,unsat_proof,ok,127.31839233310893,ok,,7220,4,unsupported,7545 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-160,M-high,clustered-random,main,unsat,1100,7545,30180,4,true,unsat_proof,ok,127.31839233310893,ok,,7220,8,unsupported,7545 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-160,M-high,clustered-random,main,unsat,1100,7545,30180,4,true,unsat_proof,ok,127.31839233310893,ok,,7220,16,unsupported,7545 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-161,M-high,coloring,main,unsat,299,7796,22009,13,false,,solve_timeout,1000.024638874922,ok,,0,4,unsupported,7796 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-161,M-high,coloring,main,unsat,299,7796,22009,13,false,,solve_timeout,1000.024638874922,ok,,0,8,unsupported,7796 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-161,M-high,coloring,main,unsat,299,7796,22009,13,false,,solve_timeout,1000.024638874922,ok,,0,16,unsupported,7796 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-162,M-high,coloring-clique,main,unsat,329,9018,25508,14,false,,solve_timeout,1000.0145812919363,ok,,3276,4,unsupported,9018 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-162,M-high,coloring-clique,main,unsat,329,9018,25508,14,false,,solve_timeout,1000.0145812919363,ok,,3276,8,unsupported,9018 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-162,M-high,coloring-clique,main,unsat,329,9018,25508,14,false,,solve_timeout,1000.0145812919363,ok,,3276,16,unsupported,9018 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-163,M-high,coloring-clique,main,unsat,387,9088,25704,18,false,,solve_timeout,1000.0178285420407,ok,,3213,4,unsupported,9088 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-163,M-high,coloring-clique,main,unsat,387,9088,25704,18,false,,solve_timeout,1000.0178285420407,ok,,3213,8,unsupported,9088 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-163,M-high,coloring-clique,main,unsat,387,9088,25704,18,false,,solve_timeout,1000.0178285420407,ok,,3213,16,unsupported,9088 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-164,M-high,cryptography,main,sat,528,5016,27764,8,true,sat_witness,ok,864.1710712919012,ok,,4528,4,unsupported,5016 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-164,M-high,cryptography,main,sat,528,5016,27764,8,true,sat_witness,ok,864.1710712919012,ok,,4528,8,unsupported,5016 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-164,M-high,cryptography,main,sat,528,5016,27764,8,true,sat_witness,ok,864.1710712919012,ok,,4528,16,unsupported,5016 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-165,M-high,cryptography,main,unsat,970,5432,22268,5,true,unsat_proof,ok,220.1600249579642,ok,,3459,4,unsupported,5432 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-165,M-high,cryptography,main,unsat,970,5432,22268,5,true,unsat_proof,ok,220.1600249579642,ok,,3459,8,unsupported,5432 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-165,M-high,cryptography,main,unsat,970,5432,22268,5,true,unsat_proof,ok,220.1600249579642,ok,,3459,16,unsupported,5432 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-166,M-high,cryptography,main,unsat,974,5505,22689,6,true,unsat_proof,ok,437.6582125001587,ok,,3585,4,unsupported,5505 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-166,M-high,cryptography,main,unsat,974,5505,22689,6,true,unsat_proof,ok,437.6582125001587,ok,,3585,8,unsupported,5505 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-166,M-high,cryptography,main,unsat,974,5505,22689,6,true,unsat_proof,ok,437.6582125001587,ok,,3585,16,unsupported,5505 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-167,M-high,datapath-equivalence-checking,main,unsat,1757,7469,21728,5,false,,solve_timeout,1000.0079121249728,ok,,3986,4,unsupported,7469 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-167,M-high,datapath-equivalence-checking,main,unsat,1757,7469,21728,5,false,,solve_timeout,1000.0079121249728,ok,,3986,8,unsupported,7469 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-167,M-high,datapath-equivalence-checking,main,unsat,1757,7469,21728,5,false,,solve_timeout,1000.0079121249728,ok,,3986,16,unsupported,7469 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-168,M-high,datapath-equivalence-checking,main,unsat,1757,7468,21725,5,false,,solve_timeout,1000.026088292012,ok,,3997,4,unsupported,7468 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-168,M-high,datapath-equivalence-checking,main,unsat,1757,7468,21725,5,false,,solve_timeout,1000.026088292012,ok,,3997,8,unsupported,7468 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-168,M-high,datapath-equivalence-checking,main,unsat,1757,7468,21725,5,false,,solve_timeout,1000.026088292012,ok,,3997,16,unsupported,7468 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-169,M-high,exam-scheduling,main,unsat,336,10430,21168,24,false,,solve_timeout,1000.0094768339768,ok,,0,4,unsupported,10430 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-169,M-high,exam-scheduling,main,unsat,336,10430,21168,24,false,,solve_timeout,1000.0094768339768,ok,,0,8,unsupported,10430 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-169,M-high,exam-scheduling,main,unsat,336,10430,21168,24,false,,solve_timeout,1000.0094768339768,ok,,0,16,unsupported,10430 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-170,M-high,generic-csp,main,unsat,568,7150,21592,4,true,unsat_proof,ok,17.577052917098626,ok,,5808,4,unsupported,7150 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-170,M-high,generic-csp,main,unsat,568,7150,21592,4,true,unsat_proof,ok,17.577052917098626,ok,,5808,8,unsupported,7150 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-170,M-high,generic-csp,main,unsat,568,7150,21592,4,true,unsat_proof,ok,17.577052917098626,ok,,5808,16,unsupported,7150 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-171,M-high,graph-coloring,main,unsat,2520,8297,21523,20,true,unsat_proof,ok,16.972099292092025,ok,,1995,4,unsupported,2520 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-171,M-high,graph-coloring,main,unsat,2520,8297,21523,20,true,unsat_proof,ok,16.972099292092025,ok,,1995,8,unsupported,2520 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-171,M-high,graph-coloring,main,unsat,2520,8297,21523,20,true,unsat_proof,ok,16.972099292092025,ok,,1995,16,unsupported,2520 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-172,M-high,heule-nol,main,sat,1419,7823,23465,3,true,sat_witness,ok,107.4812365830876,ok,,0,4,unsupported,7823 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-172,M-high,heule-nol,main,sat,1419,7823,23465,3,true,sat_witness,ok,107.4812365830876,ok,,0,8,unsupported,7823 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-172,M-high,heule-nol,main,sat,1419,7823,23465,3,true,sat_witness,ok,107.4812365830876,ok,,0,16,unsupported,7823 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-173,M-high,heule-nol,main,sat,1419,7821,23463,3,true,sat_witness,ok,229.77896520798095,ok,,0,4,unsupported,7821 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-173,M-high,heule-nol,main,sat,1419,7821,23463,3,true,sat_witness,ok,229.77896520798095,ok,,0,8,unsupported,7821 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-173,M-high,heule-nol,main,sat,1419,7821,23463,3,true,sat_witness,ok,229.77896520798095,ok,,0,16,unsupported,7821 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-174,M-high,heule-nol,main,sat,1419,7829,23471,3,true,sat_witness,ok,344.2500879999716,ok,,0,4,unsupported,7829 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-174,M-high,heule-nol,main,sat,1419,7829,23471,3,true,sat_witness,ok,344.2500879999716,ok,,0,8,unsupported,7829 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-174,M-high,heule-nol,main,sat,1419,7829,23471,3,true,sat_witness,ok,344.2500879999716,ok,,0,16,unsupported,7829 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-175,M-high,heule-nol,main,sat,1419,7835,23477,3,true,sat_witness,ok,23.740456875180826,ok,,0,4,unsupported,7835 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-175,M-high,heule-nol,main,sat,1419,7835,23477,3,true,sat_witness,ok,23.740456875180826,ok,,0,8,unsupported,7835 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-175,M-high,heule-nol,main,sat,1419,7835,23477,3,true,sat_witness,ok,23.740456875180826,ok,,0,16,unsupported,7835 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-176,M-high,heule-nol,main,sat,1419,7831,23473,3,true,sat_witness,ok,152.68823995790444,ok,,0,4,unsupported,7831 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-176,M-high,heule-nol,main,sat,1419,7831,23473,3,true,sat_witness,ok,152.68823995790444,ok,,0,8,unsupported,7831 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-176,M-high,heule-nol,main,sat,1419,7831,23473,3,true,sat_witness,ok,152.68823995790444,ok,,0,16,unsupported,7831 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-177,M-high,heule-nol,main,sat,1419,7825,23467,3,true,sat_witness,ok,578.3045999580063,ok,,0,4,unsupported,7825 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-177,M-high,heule-nol,main,sat,1419,7825,23467,3,true,sat_witness,ok,578.3045999580063,ok,,0,8,unsupported,7825 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-177,M-high,heule-nol,main,sat,1419,7825,23467,3,true,sat_witness,ok,578.3045999580063,ok,,0,16,unsupported,7825 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-178,M-high,heule-nol,main,sat,1419,7837,23479,3,true,sat_witness,ok,25.680767624871805,ok,,0,4,unsupported,7837 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-178,M-high,heule-nol,main,sat,1419,7837,23479,3,true,sat_witness,ok,25.680767624871805,ok,,0,8,unsupported,7837 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-178,M-high,heule-nol,main,sat,1419,7837,23479,3,true,sat_witness,ok,25.680767624871805,ok,,0,16,unsupported,7837 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-179,M-high,hidoku,crafted,unsat,1908,6232,26564,36,true,unsat_proof,ok,43.63105749990791,ok,,2520,4,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-179,M-high,hidoku,crafted,unsat,1908,6232,26564,36,true,unsat_proof,ok,43.63105749990791,ok,,2520,8,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-179,M-high,hidoku,crafted,unsat,1908,6232,26564,36,true,unsat_proof,ok,43.63105749990791,ok,,2520,16,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-180,M-high,hidoku,main,unsat,1908,6232,26564,36,true,unsat_proof,ok,37.28619912499562,ok,,2520,4,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-180,M-high,hidoku,main,unsat,1908,6232,26564,36,true,unsat_proof,ok,37.28619912499562,ok,,2520,8,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-180,M-high,hidoku,main,unsat,1908,6232,26564,36,true,unsat_proof,ok,37.28619912499562,ok,,2520,16,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-181,M-high,hidoku,crafted,unsat,1908,6232,26564,36,true,unsat_proof,ok,65.9054555001203,ok,,2520,4,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-181,M-high,hidoku,crafted,unsat,1908,6232,26564,36,true,unsat_proof,ok,65.9054555001203,ok,,2520,8,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-181,M-high,hidoku,crafted,unsat,1908,6232,26564,36,true,unsat_proof,ok,65.9054555001203,ok,,2520,16,unsupported,6232 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-182,M-high,lights-out,main,unsat,2475,8172,23364,3,false,,solver_unknown,1000.0227628329303,ok,,0,4,unsupported,2475 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-182,M-high,lights-out,main,unsat,2475,8172,23364,3,false,,solver_unknown,1000.0227628329303,ok,,0,8,unsupported,2475 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-182,M-high,lights-out,main,unsat,2475,8172,23364,3,false,,solver_unknown,1000.0227628329303,ok,,0,16,unsupported,2475 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-183,M-high,lights-out,main,sat,484,7056,34608,5,true,sat_witness,ok,83.50711091607809,ok,,0,4,unsupported,7056 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-183,M-high,lights-out,main,sat,484,7056,34608,5,true,sat_witness,ok,83.50711091607809,ok,,0,8,unsupported,7056 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-183,M-high,lights-out,main,sat,484,7056,34608,5,true,sat_witness,ok,83.50711091607809,ok,,0,16,unsupported,7056 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-184,M-high,lights-out,main,unsat,2279,7529,21529,3,true,unsat_proof,ok,192.8130758330226,ok,,0,4,unsupported,2279 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-184,M-high,lights-out,main,unsat,2279,7529,21529,3,true,unsat_proof,ok,192.8130758330226,ok,,0,8,unsupported,2279 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-184,M-high,lights-out,main,unsat,2279,7529,21529,3,true,unsat_proof,ok,192.8130758330226,ok,,0,16,unsupported,2279 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-185,M-high,minimum-disagreement-parity,main,sat,1302,7382,26220,4,false,,solve_timeout,1000.019214333035,ok,,578,4,unsupported,7382 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-185,M-high,minimum-disagreement-parity,main,sat,1302,7382,26220,4,false,,solve_timeout,1000.019214333035,ok,,578,8,unsupported,7382 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-185,M-high,minimum-disagreement-parity,main,sat,1302,7382,26220,4,false,,solve_timeout,1000.019214333035,ok,,578,16,unsupported,7382 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-186,M-high,minimum-disagreement-parity,main,sat,1042,5874,20846,4,true,sat_witness,ok,70.03144208295271,ok,,514,4,unsupported,5874 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-186,M-high,minimum-disagreement-parity,main,sat,1042,5874,20846,4,true,sat_witness,ok,70.03144208295271,ok,,514,8,unsupported,5874 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-186,M-high,minimum-disagreement-parity,main,sat,1042,5874,20846,4,true,sat_witness,ok,70.03144208295271,ok,,514,16,unsupported,5874 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-187,M-high,minimum-disagreement-parity,main,sat,1304,7406,26324,4,false,,solve_timeout,1000.0156173750293,ok,,578,4,unsupported,7406 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-187,M-high,minimum-disagreement-parity,main,sat,1304,7406,26324,4,false,,solve_timeout,1000.0156173750293,ok,,578,8,unsupported,7406 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-187,M-high,minimum-disagreement-parity,main,sat,1304,7406,26324,4,false,,solve_timeout,1000.0156173750293,ok,,578,16,unsupported,7406 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-188,M-high,minimum-disagreement-parity,main,sat,1294,7346,26104,4,false,,solve_timeout,1000.0151366661303,ok,,578,4,unsupported,7346 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-188,M-high,minimum-disagreement-parity,main,sat,1294,7346,26104,4,false,,solve_timeout,1000.0151366661303,ok,,578,8,unsupported,7346 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-188,M-high,minimum-disagreement-parity,main,sat,1294,7346,26104,4,false,,solve_timeout,1000.0151366661303,ok,,578,16,unsupported,7346 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-189,M-high,minimum-disagreement-parity,main,sat,1300,7390,26276,4,false,,solve_timeout,1000.0141617911868,ok,,578,4,unsupported,7390 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-189,M-high,minimum-disagreement-parity,main,sat,1300,7390,26276,4,false,,solve_timeout,1000.0141617911868,ok,,578,8,unsupported,7390 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-189,M-high,minimum-disagreement-parity,main,sat,1300,7390,26276,4,false,,solve_timeout,1000.0141617911868,ok,,578,16,unsupported,7390 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-190,M-high,multiplier-circuit-miters,main,unsat,2565,8255,21011,3,false,,solve_timeout,1000.0125830830075,ok,,8254,4,unsupported,2565 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-190,M-high,multiplier-circuit-miters,main,unsat,2565,8255,21011,3,false,,solve_timeout,1000.0125830830075,ok,,8254,8,unsupported,2565 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-190,M-high,multiplier-circuit-miters,main,unsat,2565,8255,21011,3,false,,solve_timeout,1000.0125830830075,ok,,8254,16,unsupported,2565 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-191,M-high,multiplier-equivalence-checking,main,unsat,2540,8495,22411,3,false,,solve_timeout,1000.0133814169094,ok,,8494,4,unsupported,2540 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-191,M-high,multiplier-equivalence-checking,main,unsat,2540,8495,22411,3,false,,solve_timeout,1000.0133814169094,ok,,8494,8,unsupported,2540 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-191,M-high,multiplier-equivalence-checking,main,unsat,2540,8495,22411,3,false,,solve_timeout,1000.0133814169094,ok,,8494,16,unsupported,2540 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-192,M-high,multiplier-equivalence-checking,main,unsat,2575,8611,22711,3,true,unsat_proof,ok,366.3864213330671,ok,,8610,4,unsupported,2575 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-192,M-high,multiplier-equivalence-checking,main,unsat,2575,8611,22711,3,true,unsat_proof,ok,366.3864213330671,ok,,8610,8,unsupported,2575 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-192,M-high,multiplier-equivalence-checking,main,unsat,2575,8611,22711,3,true,unsat_proof,ok,366.3864213330671,ok,,8610,16,unsupported,2575 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-193,M-high,or_randxor,main,unsat,1040,6991,28080,6,true,unsat_proof,ok,0.9758317919913679,ok,,0,4,unsupported,6991 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-193,M-high,or_randxor,main,unsat,1040,6991,28080,6,true,unsat_proof,ok,0.9758317919913679,ok,,0,8,unsupported,6991 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-193,M-high,or_randxor,main,unsat,1040,6991,28080,6,true,unsat_proof,ok,0.9758317919913679,ok,,0,16,unsupported,6991 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-194,M-high,or_randxor,main,unsat,1080,7287,29160,6,true,unsat_proof,ok,11.101711832918227,ok,,0,4,unsupported,7287 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-194,M-high,or_randxor,main,unsat,1080,7287,29160,6,true,unsat_proof,ok,11.101711832918227,ok,,0,8,unsupported,7287 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-194,M-high,or_randxor,main,unsat,1080,7287,29160,6,true,unsat_proof,ok,11.101711832918227,ok,,0,16,unsupported,7287 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-195,M-high,prime-factoring,main,sat,1201,6563,21881,20,true,sat_witness,ok,6.145055917091668,ok,,5500,4,unsupported,6563 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-195,M-high,prime-factoring,main,sat,1201,6563,21881,20,true,sat_witness,ok,6.145055917091668,ok,,5500,8,unsupported,6563 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-195,M-high,prime-factoring,main,sat,1201,6563,21881,20,true,sat_witness,ok,6.145055917091668,ok,,5500,16,unsupported,6563 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-196,M-high,product-configuration,main,unsat,1805,7334,29481,183,true,unsat_proof,ok,0.0067481668666005135,ok,,5887,4,unsupported,7334 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-196,M-high,product-configuration,main,unsat,1805,7334,29481,183,true,unsat_proof,ok,0.0067481668666005135,ok,,5887,8,unsupported,7334 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-196,M-high,product-configuration,main,unsat,1805,7334,29481,183,true,unsat_proof,ok,0.0067481668666005135,ok,,5887,16,unsupported,7334 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-197,M-high,relativized-pigeon-hole,main,unsat,800,7850,23640,20,false,,solve_timeout,1000.0221527500544,ok,,3630,4,unsupported,7850 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-197,M-high,relativized-pigeon-hole,main,unsat,800,7850,23640,20,false,,solve_timeout,1000.0221527500544,ok,,3630,8,unsupported,7850 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-197,M-high,relativized-pigeon-hole,main,unsat,800,7850,23640,20,false,,solve_timeout,1000.0221527500544,ok,,3630,16,unsupported,7850 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-198,M-high,relativized-pigeon-hole,crafted,unsat,560,8019,30940,70,true,unsat_proof,ok,102.25032741599716,ok,,7422,4,unsupported,8019 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-198,M-high,relativized-pigeon-hole,crafted,unsat,560,8019,30940,70,true,unsat_proof,ok,102.25032741599716,ok,,7422,8,unsupported,8019 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-198,M-high,relativized-pigeon-hole,crafted,unsat,560,8019,30940,70,true,unsat_proof,ok,102.25032741599716,ok,,7422,16,unsupported,8019 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-199,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,50.77139999996871,ok,,5235,4,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-199,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,50.77139999996871,ok,,5235,8,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-199,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,50.77139999996871,ok,,5235,16,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-200,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,899.6269280000124,ok,,5234,4,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-200,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,899.6269280000124,ok,,5234,8,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-200,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,899.6269280000124,ok,,5234,16,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-201,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,49.7366307079792,ok,,5240,4,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-201,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,49.7366307079792,ok,,5240,8,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-201,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,49.7366307079792,ok,,5240,16,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-202,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,877.503070875071,ok,,5245,4,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-202,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,877.503070875071,ok,,5245,8,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-202,M-high,uniform-random,random,sat,250,5279,26395,5,true,sat_witness,ok,877.503070875071,ok,,5245,16,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-203,M-high,uniform-random,random,sat,250,5279,26395,5,false,,solve_timeout,1000.0196527501103,ok,,5250,4,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-203,M-high,uniform-random,random,sat,250,5279,26395,5,false,,solve_timeout,1000.0196527501103,ok,,5250,8,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-203,M-high,uniform-random,random,sat,250,5279,26395,5,false,,solve_timeout,1000.0196527501103,ok,,5250,16,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-204,M-high,uniform-random,random,sat,250,5279,26395,5,false,,solve_timeout,1000.0203284169547,ok,,5235,4,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-204,M-high,uniform-random,random,sat,250,5279,26395,5,false,,solve_timeout,1000.0203284169547,ok,,5235,8,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-204,M-high,uniform-random,random,sat,250,5279,26395,5,false,,solve_timeout,1000.0203284169547,ok,,5235,16,unsupported,5279 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-205,M-high,uniform-random,random,sat,360,7602,38010,5,true,sat_witness,ok,130.27278070803732,ok,,7526,4,unsupported,7602 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-205,M-high,uniform-random,random,sat,360,7602,38010,5,true,sat_witness,ok,130.27278070803732,ok,,7526,8,unsupported,7602 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-205,M-high,uniform-random,random,sat,360,7602,38010,5,true,sat_witness,ok,130.27278070803732,ok,,7526,16,unsupported,7602 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-206,M-high,van-der-waerden,main,sat,290,5152,25748,8,false,,solve_timeout,1000.0181501251645,ok,,0,4,unsupported,5152 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-206,M-high,van-der-waerden,main,sat,290,5152,25748,8,false,,solve_timeout,1000.0181501251645,ok,,0,8,unsupported,5152 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-206,M-high,van-der-waerden,main,sat,290,5152,25748,8,false,,solve_timeout,1000.0181501251645,ok,,0,16,unsupported,5152 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-207,M-high,van-der-waerden,main,unsat,320,7628,32444,13,true,unsat_proof,ok,531.5614287501667,ok,,0,4,unsupported,7628 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-207,M-high,van-der-waerden,main,unsat,320,7628,32444,13,true,unsat_proof,ok,531.5614287501667,ok,,0,8,unsupported,7628 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-207,M-high,van-der-waerden,main,unsat,320,7628,32444,13,true,unsat_proof,ok,531.5614287501667,ok,,0,16,unsupported,7628 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-208,M-high,van-der-waerden,main,unsat,322,7723,32857,13,true,unsat_proof,ok,555.4960950829554,ok,,0,4,unsupported,7723 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-208,M-high,van-der-waerden,main,unsat,322,7723,32857,13,true,unsat_proof,ok,555.4960950829554,ok,,0,8,unsupported,7723 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-208,M-high,van-der-waerden,main,unsat,322,7723,32857,13,true,unsat_proof,ok,555.4960950829554,ok,,0,16,unsupported,7723 clauses > C_MAX 4096,clauses,,,,,,,,,,,false
+MRB0-209,M-high,xor-shifting,main,sat,2273,8366,23774,3,false,,solve_timeout,1000.0178270831238,ok,,3244,4,unsupported,2273 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-209,M-high,xor-shifting,main,sat,2273,8366,23774,3,false,,solve_timeout,1000.0178270831238,ok,,3244,8,unsupported,2273 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-209,M-high,xor-shifting,main,sat,2273,8366,23774,3,false,,solve_timeout,1000.0178270831238,ok,,3244,16,unsupported,2273 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-210,M-high,xor-shifting,main,sat,2087,7622,21542,3,false,,solve_timeout,1000.0200565829873,ok,,2916,4,unsupported,2087 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-210,M-high,xor-shifting,main,sat,2087,7622,21542,3,false,,solve_timeout,1000.0200565829873,ok,,2916,8,unsupported,2087 variables > N_MAX 2048,variables,,,,,,,,,,,false
+MRB0-210,M-high,xor-shifting,main,sat,2087,7622,21542,3,false,,solve_timeout,1000.0200565829873,ok,,2916,16,unsupported,2087 variables > N_MAX 2048,variables,,,,,,,,,,,false

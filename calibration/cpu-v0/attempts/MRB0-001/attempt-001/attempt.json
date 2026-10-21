@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-001/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-001/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-001/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-001",
+ "identity": {
+  "cnf_sha256": "110ac5e350a065bdc2d97986e091c7ed9cc8d10e5dd3f5608401618066087c87",
+  "compressed_sha256": "c2908ce7855925d372a751e4b58eeea3a11fa659849c73f5e6fef11fdb48c33a",
+  "input_bytes": 8711
+ },
+ "manifest": {
+  "alias": "pmg-12-UNSAT.sat05-3940.reshuffled-07.cnf.xz",
+  "category": "main",
+  "clauses": "632",
+  "cnf_sha256": "110ac5e350a065bdc2d97986e091c7ed9cc8d10e5dd3f5608401618066087c87",
+  "family": "long-learned-clauses",
+  "id": "MRB0-001",
+  "literals": "1894",
+  "max_width": "3",
+  "mean_width": "2.997",
+  "result_gbd": "unsat",
+  "tier": "S",
+  "variables": "190"
+ },
+ "proof": {
+  "gz_bytes": 821429864,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "07f5767efec88d7251e1fbfa1e2c7c20dbd2b906e32440095c6d219df896a6bc",
+  "raw_bytes": 2077229056,
+  "raw_sha256": "f9a46d2623b95755dcc828a9e1f2ee63000096c8036326346b937d37343b6226",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 427500240896,
+  "kissat_process_time_seconds": 985.27,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 182790,
+  "stdout_sha256": "0279acb620d3e443247722e4da8246ba2c7b1358fe42970f0aa5dc30ffadc0f9",
+  "timeout": true,
+  "wall_seconds": 1000.0087344171479
+ },
+ "terminal": true,
+ "witness": null
+}

@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-124/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-124/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-124/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-124",
+ "identity": {
+  "cnf_sha256": "90d04bc907e5972180a6d8f9b5e4e941e058cbfa3a668d22ca64966ae6ba3b31",
+  "compressed_sha256": "deb612cf3cbc6ad5a94b9729588a416aba5a148346542c7ee40fc317876f68f9",
+  "input_bytes": 92802
+ },
+ "manifest": {
+  "alias": "mdp-32-12-sat.cnf.xz",
+  "category": "main",
+  "clauses": "5806",
+  "cnf_sha256": "90d04bc907e5972180a6d8f9b5e4e941e058cbfa3a668d22ca64966ae6ba3b31",
+  "family": "minimum-disagreement-parity",
+  "id": "MRB0-124",
+  "literals": "20578",
+  "max_width": "4",
+  "mean_width": "3.544",
+  "result_gbd": "sat",
+  "tier": "M-low",
+  "variables": "1033"
+ },
+ "proof": {
+  "gz_bytes": 945003314,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "9094c0c88a00c0e60e3582721bfbcc3d2ab506c3d60c1808d86c4d87c6e18136",
+  "raw_bytes": 1840250880,
+  "raw_sha256": "4c142a4afb44dc87a51aabdeb3632ff5f172201b45ba7c09d58bce6a7a93f16f",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 445149872128,
+  "kissat_process_time_seconds": 995.9,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 172013,
+  "stdout_sha256": "d6b2dda81b3d6e74806866d7fcfa937edf9a22751dd91ac47e976830a814c131",
+  "timeout": true,
+  "wall_seconds": 1000.0129420000594
+ },
+ "terminal": true,
+ "witness": null
+}

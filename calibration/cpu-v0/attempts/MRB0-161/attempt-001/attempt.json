@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-161/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-161/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-161/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-161",
+ "identity": {
+  "cnf_sha256": "0e2a24465d1f39d7f9a92f46128b0bf6827359bc8523123c47c703f5e303f7c6",
+  "compressed_sha256": "49949ed37eb6beedea65b86c007f47bf93c383b9af64ab45a2b3299785ee60a4",
+  "input_bytes": 110398
+ },
+ "manifest": {
+  "alias": "cliquecolouring_n13_k9_c8.sanitized.cnf.xz",
+  "category": "main",
+  "clauses": "7796",
+  "cnf_sha256": "0e2a24465d1f39d7f9a92f46128b0bf6827359bc8523123c47c703f5e303f7c6",
+  "family": "coloring",
+  "id": "MRB0-161",
+  "literals": "22009",
+  "max_width": "13",
+  "mean_width": "2.823",
+  "result_gbd": "unsat",
+  "tier": "M-high",
+  "variables": "299"
+ },
+ "proof": {
+  "gz_bytes": 1721134093,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "d4f7592a007768d3736fa245757641dbe07f4a054454bbb75ade6f47526d5ff4",
+  "raw_bytes": 4746903552,
+  "raw_sha256": "e98174a88faa6d641bfd4b87b522c8aeab7a44d74ff270e5e20111c9379d1638",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 598913056768,
+  "kissat_process_time_seconds": 987.89,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 256569,
+  "stdout_sha256": "36feb06b9afe16f539de243bfd9f8e011eb9fa98509927adbd3959149fce4ec9",
+  "timeout": true,
+  "wall_seconds": 1000.024638874922
+ },
+ "terminal": true,
+ "witness": null
+}

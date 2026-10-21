@@ -1,0 +1,182 @@
+[
+ {
+  "scenario": "today",
+  "caps": {
+   "N_MAX": 2048,
+   "C_MAX": 4096,
+   "LE_MAX": 16384,
+   "CE_MAX": 16384
+  },
+  "solver_ram_bits_vs_today": 1.0,
+  "P16": {
+   "accepted": 88,
+   "certified": 68,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 69,
+    "M-low": 0,
+    "M-high": 0
+   }
+  },
+  "P8": {
+   "accepted": 93,
+   "certified": 71,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 3,
+    "M-high": 0
+   }
+  }
+ },
+ {
+  "scenario": "literal + clause-body stores x2",
+  "caps": {
+   "N_MAX": 2048,
+   "C_MAX": 4096,
+   "LE_MAX": 32768,
+   "CE_MAX": 32768
+  },
+  "solver_ram_bits_vs_today": 1.56,
+  "P16": {
+   "accepted": 107,
+   "certified": 82,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 17,
+    "M-high": 0
+   }
+  },
+  "P8": {
+   "accepted": 110,
+   "certified": 84,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 20,
+    "M-high": 0
+   }
+  }
+ },
+ {
+  "scenario": "clauses x2, both stores x2",
+  "caps": {
+   "N_MAX": 2048,
+   "C_MAX": 8192,
+   "LE_MAX": 32768,
+   "CE_MAX": 32768
+  },
+  "solver_ram_bits_vs_today": 1.69,
+  "P16": {
+   "accepted": 130,
+   "certified": 99,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 39,
+    "M-high": 1
+   }
+  },
+  "P8": {
+   "accepted": 136,
+   "certified": 104,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 46,
+    "M-high": 0
+   }
+  }
+ },
+ {
+  "scenario": "everything x2",
+  "caps": {
+   "N_MAX": 4096,
+   "C_MAX": 8192,
+   "LE_MAX": 32768,
+   "CE_MAX": 32768
+  },
+  "solver_ram_bits_vs_today": 1.97,
+  "P16": {
+   "accepted": 130,
+   "certified": 99,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 39,
+    "M-high": 1
+   }
+  },
+  "P8": {
+   "accepted": 137,
+   "certified": 105,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 47,
+    "M-high": 0
+   }
+  }
+ },
+ {
+  "scenario": "vars x2, clauses x3, both stores x3",
+  "caps": {
+   "N_MAX": 4096,
+   "C_MAX": 12288,
+   "LE_MAX": 49152,
+   "CE_MAX": 49152
+  },
+  "solver_ram_bits_vs_today": 2.66,
+  "P16": {
+   "accepted": 167,
+   "certified": 122,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 56,
+    "M-high": 21
+   }
+  },
+  "P8": {
+   "accepted": 194,
+   "certified": 138,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 62,
+    "M-high": 42
+   }
+  }
+ },
+ {
+  "scenario": "everything x4",
+  "caps": {
+   "N_MAX": 8192,
+   "C_MAX": 16384,
+   "LE_MAX": 65536,
+   "CE_MAX": 65536
+  },
+  "solver_ram_bits_vs_today": 3.91,
+  "P16": {
+   "accepted": 191,
+   "certified": 137,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 62,
+    "M-high": 39
+   }
+  },
+  "P8": {
+   "accepted": 207,
+   "certified": 146,
+   "by_tier": {
+    "S": 19,
+    "S-tight": 71,
+    "M-low": 66,
+    "M-high": 51
+   }
+  }
+ }
+]

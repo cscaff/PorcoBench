@@ -1,0 +1,35 @@
+Manhattan Reasoning FPGA-SAT benchmark v0 — build summary
+inputs: gbd_tiers.csv sha256=a9fbd0a43a1cb78dae730adfb9bd87af86f7cef508f1562d990d80a418179024
+inputs: gbd-meta sha256=5b8bbc767bc5300cca6a12717fb2d7c8d52ccee24aced4447d71846352744ff3
+inputs: zenodo sc02to24 mapping sha256=411b684c0201d14eab65e270a2a7ddc293a4c3ad601f5a26f562212a3279a0a1
+seed=manhattan-sat-benchmark-v0 family_cap=10 targets={'S': 22, 'S-tight': 72, 'M-low': 64, 'M-high': 52} reassign_order=['S-tight', 'M-low', 'M-high']
+reference SAT share (labeled main 2022-2026): 835/1754 = 0.4761
+eligible (tier S/S-tight/M, labeled, in sources): 688; after isohash dedup: 650
+M split at the 0.6667 quantile of M literal counts (M-low <= split < M-high): 20718
+planned (sat, unsat) per tier: {'S': (10, 12), 'S-tight': (34, 38), 'M-low': (30, 34), 'M-high': (25, 27)}
+reassigned after shortfalls: {'M-low/sat': 3, 'M-low/unsat': 1, 'S-tight/sat': 0, 'S-tight/unsat': 0}
+unmet after reassignment: {'sat': 0, 'unsat': 0}
+selected: 210  sat=99 unsat=111  sat share=0.4714
+tier    | n   | share | sat | unsat
+S       |  19 | 0.090 |   7 |  12
+S-tight |  71 | 0.338 |  34 |  37
+M-low   |  68 | 0.324 |  33 |  35
+M-high  |  52 | 0.248 |  25 |  27
+categories: {'main': 154, 'crafted': 29, 'random': 27}
+families: 56  max per family: 10
+family counts: coloring=10, hamiltonian=10, minimum-disagreement-parity=10, random=10, random-planted-solution=10, register-allocation=10, sgen=10, tseitin-formulas=10, random-graph-xorsat=9, heule-nol=7, scheduling=7, uniform-random=7, cardinality-constraints=5, mutilated-chessboard=5, van-der-waerden=5, coloring-clique=4, datapath-equivalence-checking=4, pigeon-hole=4, relativized-pigeon-hole=4, subset-cardinality=4, unknown-cases=4, xor-shifting=4, battleship=3, cryptography=3, fpga-routing=3, hgen=3, hidoku=3, lights-out=3, miter=3, multiplier-circuit-miters=3, binary-tree-parity=2, count=2, generic-csp=2, multiplier-equivalence-checking=2, or_randxor=2, planning=2, sudoku-php=2, automata-synchronization=1, binary-pigeon-hole=1, clique-formulas=1, clustered-random=1, exam-scheduling=1, grandtour-puzzle=1, graph-coloring=1, greentao=1, linvrinv=1, long-learned-clauses=1, mechanical-master-key=1, minimal-disagreement-parity=1, philips=1, prime-factoring=1, product-configuration=1, sgen-balanced=1, st-connectivity-principle=1, stable-semantics=1, theorem-proving=1
+license status: {'CC-BY-4.0': 134, 'unverified': 76}
+rejected candidates: 0
+PASS size-in-range 210
+PASS sat-share 0.471 vs reference 0.476
+PASS family-cap max 10
+PASS tier-targets S=19/22 S-tight=71/72 M-low=68/64 M-high=52/52
+PASS no-variant-duplicates 0 (global variant groups)
+PASS eligible-only 
+PASS all-verified 210 verified
+PASS files-present 
+PASS no-stray-files 0 stray
+PASS pinned-hashes 0 mismatched
+PASS pinned-manifest-identical 
+PASS pinned-selection 0 differ from pinned manifest
+self-checks: 12/12 passed

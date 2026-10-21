@@ -1,0 +1,23 @@
+# Pinned environment for the FPGA organizer, RTL qualification and tests
+# (Python 3.12). Recorded from Benchmark/.venv-fpga; the organizer refuses an
+# SDK at any other commit (PINNED_SDK_COMMIT in run_pigweed_fpga.py).
+#   uv venv --python 3.12 .venv-fpga
+#   uv pip install --python .venv-fpga/bin/python -r requirements-fpga.txt
+manhattan-reasoning-gym @ git+https://github.com/ManhattanReasoning/manhattan-reasoning-gym.git@d77d68d19f0cddf5730aa8d5f17b64df4a333632
+amaranth==0.5.8
+pyvcd==0.4.2
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+jschon==0.11.1
+rfc3986==2.0.0
+requests==2.34.2
+urllib3==2.8.0
+certifi==2026.7.22
+charset-normalizer==3.5.2
+idna==3.20
+websockets==17.2
+pytest==9.1.1
+pluggy==1.6.0
+iniconfig==2.3.1
+packaging==26.3
+Pygments==2.21.0

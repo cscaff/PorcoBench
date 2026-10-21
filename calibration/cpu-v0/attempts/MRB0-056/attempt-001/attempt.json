@@ -1,0 +1,76 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-056/attempt-001",
+ "certified": true,
+ "certified_kind": "sat_witness",
+ "check": null,
+ "claimed": "sat",
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-056/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-056/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": "agree",
+ "id": "MRB0-056",
+ "identity": {
+  "cnf_sha256": "ea8bb519808db6b047f8e10ed4fac67b5fe17e44f14289f96820347d309ab0c5",
+  "compressed_sha256": "dd2336e8de4d0ca65a18f05c68bfac0cdc998a53c727ebd3bfa7a320ff4e727c",
+  "input_bytes": 15459
+ },
+ "manifest": {
+  "alias": "mod2-rand3bip-sat-270-1.sat05-2248.reshuffled-07.cnf.xz",
+  "category": "crafted",
+  "clauses": "1080",
+  "cnf_sha256": "ea8bb519808db6b047f8e10ed4fac67b5fe17e44f14289f96820347d309ab0c5",
+  "family": "random-graph-xorsat",
+  "id": "MRB0-056",
+  "literals": "3240",
+  "max_width": "3",
+  "mean_width": "3.0",
+  "result_gbd": "sat",
+  "tier": "S-tight",
+  "variables": "270"
+ },
+ "proof": {
+  "gz_bytes": 393128844,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "7b1f8dfbb3368baf2c7a6a8fbe5733631720d7033a4a69797d50dae77fbe795f",
+  "raw_bytes": 1153813461,
+  "raw_sha256": "679cdc00a6bcc01f1f1158b959bced029dea2401e1b9459252d33d9c2e0c5445",
+  "roundtrip_verified": true
+ },
+ "reason": "ok",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": 10,
+  "kissat_max_rss_bytes": 53200551936,
+  "kissat_process_time_seconds": 472.07,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 117315,
+  "stdout_sha256": "d76dcdbd925dfb7a7f248083aa70986f596f7f68d1ecc516f4e1bf49152f2b52",
+  "timeout": false,
+  "wall_seconds": 475.5294857909903
+ },
+ "terminal": true,
+ "witness": {
+  "assignment_size": 270,
+  "check_seconds": 0.0005223329644650221,
+  "error": null,
+  "independent_check": true,
+  "parse_ok": true,
+  "present": true,
+  "witness_sha256": "b47dfd664dda32a77dabd33b77be0f181840296bdc84f2afdb6eb680728213d7"
+ }
+}

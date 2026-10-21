@@ -1,0 +1,1566 @@
+[2026-10-16T03:01:56Z] reconcile: 383 journal entries
+[2026-10-16T03:02:04Z] reconcile: clean
+[2026-10-16T03:02:04Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T03:02:05Z] session: build job 407e8e34-ef0f-4d1e-a5e3-524fe19f1684 submitted; polling to terminal
+[2026-10-16T03:02:05Z] session: build running fpga=None
+[2026-10-16T03:16:31Z] session: build complete fpga=3
+[2026-10-16T03:16:32Z] session #25: board 3 session 022852a9… expires 2026-10-16T04:16:31.023205Z
+[2026-10-16T03:16:39Z] supervise: TERM child (None)
+[2026-10-16T03:16:39Z] attempt MRB0-073 rep2 #1: lease 3562s
+[2026-10-16T03:33:24Z] supervise: TERM child (None)
+[2026-10-16T03:33:24Z] attempt MRB0-073 rep2 #1: status=timeout
+[2026-10-16T03:33:24Z] attempt MRB0-074 rep2 #1: lease 2557s
+[2026-10-16T03:50:08Z] attempt MRB0-074 rep2 #1: status=timeout
+[2026-10-16T03:50:08Z] run: lease 1552s < 1800s; rotating session
+[2026-10-16T03:50:11Z] release: board 3 reset complete (job 10f9388a-e870-419d-8747-636768e285e6)
+[2026-10-16T03:50:12Z] session: build job 7ba68d8e-4460-4684-987c-61f1d0cdfc9a submitted; polling to terminal
+[2026-10-16T03:50:12Z] session: build running fpga=None
+[2026-10-16T04:04:18Z] session: build complete fpga=6
+[2026-10-16T04:04:19Z] session #26: board 6 session 652cef12… expires 2026-10-16T05:04:18.127011Z
+[2026-10-16T04:04:27Z] attempt MRB0-075 rep2 #1: lease 3560s
+[2026-10-16T04:04:45Z] attempt MRB0-075 rep2 #1: status=transport_error
+[2026-10-16T04:04:47Z] release: board 6 reset complete (job ec1dfae2-fa9e-43dc-aa08-0ab1c1505e9b)
+[2026-10-16T04:04:47Z] BLOCKED: transport failure at MRB0-075 rep 2; no replay/retry; campaign halted (board released)
+[supervisor2 10-16T04:04:47] rc=3 phase=run_blocked iter=1 crashes=0
+SUPERVISOR_BLOCKER
+[2026-10-16T17:27:26Z] reconcile: 408 journal entries
+[2026-10-16T17:28:00Z] reconcile: clean
+[2026-10-16T17:28:00Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T17:28:03Z] session: build job 479cd0ec-b0d8-43b7-ab77-c59e0c154d70 submitted; polling to terminal
+[2026-10-16T17:28:03Z] session: build running fpga=None
+[2026-10-16T17:42:24Z] session: build complete fpga=1
+[2026-10-16T17:42:25Z] session #27: board 1 session 5a957566… expires 2026-10-16T18:42:21.473435Z
+[2026-10-16T17:43:17Z] attempt MRB0-076 rep2 #1: lease 3514s
+[2026-10-16T18:00:22Z] attempt MRB0-076 rep2 #1: status=timeout
+[2026-10-16T18:00:23Z] attempt MRB0-077 rep2 #1: lease 2488s
+[2026-10-16T18:00:31Z] attempt MRB0-077 rep2 #1: status=sat
+[2026-10-16T18:00:31Z] attempt MRB0-078 rep2 #1: lease 2480s
+[2026-10-16T18:00:45Z] supervise: TERM child (None)
+[2026-10-16T18:00:45Z] attempt MRB0-078 rep2 #1: status=unsat
+[2026-10-16T18:00:45Z] attempt MRB0-079 rep2 #1: lease 2466s
+[2026-10-16T18:00:54Z] attempt MRB0-079 rep2 #1: status=sat
+[2026-10-16T18:00:55Z] attempt MRB0-081 rep2 #1: lease 2456s
+[2026-10-16T18:02:56Z] attempt MRB0-081 rep2 #1: status=resource_error
+[2026-10-16T18:02:56Z] attempt MRB0-083 rep2 #1: lease 2335s
+[2026-10-16T18:03:04Z] attempt MRB0-083 rep2 #1: status=unsat
+[2026-10-16T18:03:05Z] attempt MRB0-085 rep2 #1: lease 2326s
+[2026-10-16T18:20:03Z] supervise: TERM child (None)
+[2026-10-16T18:20:03Z] attempt MRB0-085 rep2 #1: status=timeout
+[2026-10-16T18:20:03Z] run: lease 1308s < 1800s; rotating session
+[2026-10-16T18:20:08Z] release: board 1 reset complete (job 8b6e0602-092d-4834-a691-2d278c89ccc2)
+[2026-10-16T18:20:11Z] session: build job 7884db4b-5fed-4ab0-a5a3-a85e913c9981 submitted; polling to terminal
+[2026-10-16T18:20:11Z] session: build running fpga=None
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:993: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 472, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1293, in cmd_run
+    session = acquire_and_qualify(run_dir, journal, cloud)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1827, in acquire_and_qualify
+    s = acquire_session(run_dir, journal, cloud)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1704, in acquire_session
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+[supervisor2 10-16T18:25:53] rc=1 phase=running iter=1 crashes=0
+[2026-10-16T18:26:10Z] reconcile: 429 journal entries
+[2026-10-16T18:36:25Z] reconcile: releasing live session from job 7884db4b-5fed-4ab0-a5a3-a85e913c9981
+[2026-10-16T18:36:28Z] release: board 3 reset complete (job 8e1b7fae-adf0-4e5c-9d30-acb78bad10c7)
+[2026-10-16T18:36:28Z] reconcile: clean
+[2026-10-16T18:36:28Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T18:36:31Z] session: build job 06c409b1-b3db-481b-ab0f-e4dc8a1088f6 submitted; polling to terminal
+[2026-10-16T18:36:31Z] session: build running fpga=None
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1293, in cmd_run
+    session = acquire_and_qualify(run_dir, journal, cloud)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1827, in acquire_and_qualify
+    s = acquire_session(run_dir, journal, cloud)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1704, in acquire_session
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[supervisor2 10-16T18:45:18] rc=1 phase=running iter=2 crashes=1
+[2026-10-16T18:45:30Z] reconcile: 438 journal entries
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:993: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 472, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1274, in cmd_run
+    reconcile(run_dir, journal, cloud)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1520, in reconcile
+    job = wait_release_terminal(cloud, e["job_id"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1657, in wait_release_terminal
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+[supervisor2 10-16T18:46:00] rc=1 phase=running iter=3 crashes=2
+[2026-10-16T18:46:13Z] reconcile: 438 journal entries
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:993: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 472, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1274, in cmd_run
+    reconcile(run_dir, journal, cloud)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1520, in reconcile
+    job = wait_release_terminal(cloud, e["job_id"])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1657, in wait_release_terminal
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+[supervisor2 10-16T18:46:48] rc=1 phase=running iter=4 crashes=3
+[2026-10-16T18:47:38Z] reconcile: 438 journal entries
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1274, in cmd_run
+    reconcile(run_dir, journal, cloud)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1525, in reconcile
+    board = cloud.get_fpga(fid)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 401, in get_fpga
+    return self._get(f"/fpga/{fpga_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[supervisor2 10-16T18:48:56] rc=1 phase=running iter=5 crashes=4
+[2026-10-16T18:49:07Z] reconcile: 438 journal entries
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/http/client.py", line 1450, in getresponse
+    response.begin()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/http/client.py", line 1450, in getresponse
+    response.begin()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1274, in cmd_run
+    reconcile(run_dir, journal, cloud)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1525, in reconcile
+    board = cloud.get_fpga(fid)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 401, in get_fpga
+    return self._get(f"/fpga/{fpga_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[supervisor2 10-16T18:49:49] rc=1 phase=running iter=6 crashes=5
+[2026-10-16T18:50:00Z] reconcile: 438 journal entries
+[2026-10-16T18:51:12Z] reconcile: releasing live session from job 06c409b1-b3db-481b-ab0f-e4dc8a1088f6
+[2026-10-16T18:51:14Z] release: board 3 reset complete (job 8179d5db-1e0c-468f-b999-91f3aa1949ba)
+[2026-10-16T18:51:14Z] reconcile: clean
+[2026-10-16T18:51:14Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T18:51:17Z] session: build job 74a4bff8-b7be-411e-9591-13e7ccbe2e9d submitted; polling to terminal
+[2026-10-16T18:51:19Z] session: build running fpga=None
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:993: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 472, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1293, in cmd_run
+    session = acquire_and_qualify(run_dir, journal, cloud)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1827, in acquire_and_qualify
+    s = acquire_session(run_dir, journal, cloud)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1704, in acquire_session
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+[supervisor2 10-16T18:52:59] rc=1 phase=running iter=7 crashes=6
+[2026-10-16T18:53:12Z] reconcile: 445 journal entries
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1274, in cmd_run
+    reconcile(run_dir, journal, cloud)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1475, in reconcile
+    job = wait_build_terminal(cloud, journal, jid,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1637, in wait_build_terminal
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[supervisor2 10-16T18:55:49] rc=1 phase=running iter=8 crashes=7
+[2026-10-16T18:56:02Z] reconcile: 446 journal entries
+[2026-10-16T19:05:00Z] reconcile: releasing live session from job 74a4bff8-b7be-411e-9591-13e7ccbe2e9d
+[2026-10-16T19:05:04Z] release: board 5 reset complete (job 04eff116-c8a1-4eca-bdc9-384fa6c8352a)
+[2026-10-16T19:05:04Z] reconcile: clean
+[2026-10-16T19:05:04Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T19:05:07Z] session: build job 68d54edc-e9de-4468-aa49-9b58b22ed73b submitted; polling to terminal
+[2026-10-16T19:05:07Z] session: build running fpga=None
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1293, in cmd_run
+    session = acquire_and_qualify(run_dir, journal, cloud)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1827, in acquire_and_qualify
+    s = acquire_session(run_dir, journal, cloud)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1704, in acquire_session
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 389, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+[supervisor2 10-16T19:07:23] rc=1 phase=running iter=9 crashes=8
+[2026-10-16T19:08:13Z] reconcile: 454 journal entries
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1053, in _create
+    self.do_handshake()
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1331, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: _ssl.c:993: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 472, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2361, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2350, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1274, in cmd_run
+    reconcile(run_dir, journal, cloud)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1424, in reconcile
+    jobs = {j["job_id"]: j for j in cloud.list_jobs()}
+                                    ^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 386, in list_jobs
+    return self._get("/jobs").json()
+           ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 356, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=10)
+[supervisor2 10-16T19:08:24] rc=1 phase=running iter=10 crashes=9
+[2026-10-16T19:08:40Z] reconcile: 454 journal entries
+[2026-10-16T19:09:19Z] BLOCKED: cannot inspect board 2: HTTPSConnectionPool(host='api.manhattanreasoning.com', port=443): Read timed out. (read timeout=30)
+[supervisor2 10-16T19:09:19] rc=3 phase=running iter=11 crashes=10
+SUPERVISOR_BLOCKER
+[supervisor3 10-16T19:21:10] network stable for 10 probes
+[2026-10-16T19:21:11Z] reconcile: 454 journal entries
+[2026-10-16T19:21:53Z] reconcile: clean
+[2026-10-16T19:21:53Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T19:21:56Z] session: build job 48511b5b-e954-4450-a908-a1a38f3c476f submitted; polling to terminal
+[2026-10-16T19:21:57Z] session: build running fpga=None
+[2026-10-16T19:35:41Z] session: build complete fpga=6
+[2026-10-16T19:35:42Z] session #28: board 6 session 69f4c6b3… expires 2026-10-16T20:35:40.787661Z
+[2026-10-16T19:36:27Z] release: board 6 reset complete (job 9e7793dd-bfb8-403c-9195-4bc94d10a713)
+[2026-10-16T19:36:27Z] BLOCKED: session failed on-board qualification: {"status": null, "result_code": null, "cycles": null, "late": null, "stage": null, "recovery_failed": null, "transport_error": null, "ok": false}
+[supervisor3 10-16T19:36:27] rc=3 phase=running iter=1 crashes=0
+SUPERVISOR_BLOCKER
+[supervisor3 10-16T21:14:56] network stable for 10 probes
+[2026-10-16T21:14:57Z] reconcile: 463 journal entries
+[2026-10-16T21:15:07Z] reconcile: clean
+[2026-10-16T21:15:07Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-16T21:15:09Z] session: build job 0fe92751-578f-4fb0-8a1d-e89128b7440c submitted; polling to terminal
+[2026-10-16T21:15:09Z] session: build running fpga=None
+[2026-10-16T21:28:46Z] session: build complete fpga=6
+[2026-10-16T21:28:47Z] session #29: board 6 session 00a388c4… expires 2026-10-16T22:28:45.284632Z
+[2026-10-16T21:28:57Z] attempt MRB0-087 rep2 #1: lease 3558s
+[2026-10-16T21:29:18Z] attempt MRB0-087 rep2 #1: status=transport_error
+[2026-10-16T21:29:21Z] release: board 6 reset complete (job 92092c12-31cf-4dd9-ab22-20821c130088)
+[2026-10-16T21:29:21Z] BLOCKED: transport failure at MRB0-087 rep 2; no replay/retry; campaign halted (board released)
+[supervisor3 10-16T21:29:21] rc=3 phase=run_blocked iter=1 crashes=0
+SUPERVISOR_BLOCKER
+[supervisor3 10-18T04:51:51] network stable for 10 probes
+[2026-10-18T04:51:51Z] reconcile: 474 journal entries
+[2026-10-18T04:52:01Z] reconcile: clean
+[2026-10-18T04:52:01Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T04:52:03Z] session: build job d21d1312-c95d-4e84-beb9-2155e2576421 submitted; polling to terminal
+[2026-10-18T04:52:03Z] session: build running fpga=None
+[2026-10-18T05:06:45Z] session: build failed fpga=0
+[2026-10-18T05:06:45Z] BLOCKED: build job d21d1312-c95d-4e84-beb9-2155e2576421 failed; no retry loop
+[supervisor3 10-18T05:06:46] rc=3 phase=running iter=1 crashes=0
+SUPERVISOR_BLOCKER
+[supervisor3 10-18T05:12:49] network stable for 10 probes
+[2026-10-18T05:12:50Z] reconcile: 479 journal entries
+[2026-10-18T05:13:01Z] reconcile: clean
+[2026-10-18T05:13:01Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T05:13:03Z] session: build job e703b85d-68bf-4ccd-b5eb-de962ccf4c5c submitted; polling to terminal
+[2026-10-18T05:13:03Z] session: build running fpga=None
+[2026-10-18T05:28:22Z] session: build complete fpga=5
+[2026-10-18T05:28:22Z] session #30: board 5 session fa89ebf1… expires 2026-10-18T06:28:20.593786Z
+[2026-10-18T05:28:32Z] attempt MRB0-002 rep3 #1: lease 3558s
+[2026-10-18T05:37:12Z] attempt MRB0-002 rep3 #1: status=resource_error
+[2026-10-18T05:37:12Z] attempt MRB0-005 rep3 #1: lease 3038s
+[2026-10-18T05:39:59Z] supervise: TERM child (None)
+[2026-10-18T05:39:59Z] attempt MRB0-005 rep3 #1: status=resource_error
+[2026-10-18T05:39:59Z] attempt MRB0-011 rep3 #1: lease 2871s
+[2026-10-18T05:56:44Z] attempt MRB0-011 rep3 #1: status=timeout
+[2026-10-18T05:56:44Z] attempt MRB0-013 rep3 #1: lease 1866s
+[2026-10-18T05:58:38Z] attempt MRB0-013 rep3 #1: status=resource_error
+[2026-10-18T05:58:38Z] run: lease 1752s < 1800s; rotating session
+[2026-10-18T05:58:40Z] release: board 5 reset complete (job fbfb55fa-bf2d-44a7-bf34-1c0db83b0b5c)
+[2026-10-18T05:58:42Z] session: build job 6c6fa134-0e5c-4b45-9ce2-febe14becf38 submitted; polling to terminal
+[2026-10-18T05:58:42Z] session: build running fpga=None
+[2026-10-18T06:14:27Z] session: build complete fpga=2
+[2026-10-18T06:14:28Z] session #31: board 2 session 6e1b2501… expires 2026-10-18T07:14:25.512445Z
+[2026-10-18T06:14:37Z] supervise: TERM child (None)
+[2026-10-18T06:14:37Z] attempt MRB0-014 rep3 #1: lease 3558s
+[2026-10-18T06:16:17Z] attempt MRB0-014 rep3 #1: status=resource_error
+[2026-10-18T06:16:17Z] attempt MRB0-015 rep3 #1: lease 3458s
+[2026-10-18T06:18:11Z] attempt MRB0-015 rep3 #1: status=resource_error
+[2026-10-18T06:18:11Z] attempt MRB0-016 rep3 #1: lease 3344s
+[2026-10-18T06:19:57Z] attempt MRB0-016 rep3 #1: status=resource_error
+[2026-10-18T06:19:57Z] attempt MRB0-017 rep3 #1: lease 3238s
+[2026-10-18T06:36:41Z] attempt MRB0-017 rep3 #1: status=timeout
+[2026-10-18T06:36:41Z] attempt MRB0-018 rep3 #1: lease 2234s
+[2026-10-18T06:53:25Z] attempt MRB0-018 rep3 #1: status=timeout
+[2026-10-18T06:53:25Z] run: lease 1230s < 1800s; rotating session
+[2026-10-18T06:53:28Z] release: board 2 reset complete (job 47304694-fd2e-4158-9399-4536a333221a)
+[2026-10-18T06:53:29Z] session: build job 180b972e-0544-419f-ba54-2c3219177b25 submitted; polling to terminal
+[2026-10-18T06:53:29Z] session: build running fpga=None
+[2026-10-18T07:08:27Z] session: build complete fpga=1
+[2026-10-18T07:08:27Z] session #32: board 1 session 73fe5d00… expires 2026-10-18T08:08:26.300225Z
+[2026-10-18T07:08:36Z] supervise: TERM child (None)
+[2026-10-18T07:08:36Z] attempt MRB0-020 rep3 #1: lease 3560s
+[2026-10-18T07:25:21Z] attempt MRB0-020 rep3 #1: status=timeout
+[2026-10-18T07:25:21Z] attempt MRB0-022 rep3 #1: lease 2555s
+[2026-10-18T07:25:34Z] attempt MRB0-022 rep3 #1: status=resource_error
+[2026-10-18T07:25:35Z] attempt MRB0-023 rep3 #1: lease 2541s
+[2026-10-18T07:42:20Z] attempt MRB0-023 rep3 #1: status=timeout
+[2026-10-18T07:42:20Z] run: lease 1535s < 1800s; rotating session
+[2026-10-18T07:42:23Z] release: board 1 reset complete (job af691428-99d5-4d92-ab14-0e027f01f07e)
+[2026-10-18T07:42:25Z] session: build job 27aaa356-4cd2-4ebc-976b-7a79cf71ac83 submitted; polling to terminal
+[2026-10-18T07:42:25Z] session: build running fpga=None
+[2026-10-18T07:58:52Z] session: build complete fpga=1
+[2026-10-18T07:58:52Z] session #33: board 1 session 20bdcf8a… expires 2026-10-18T08:58:51.222693Z
+[2026-10-18T07:59:02Z] attempt MRB0-024 rep3 #1: lease 3559s
+[2026-10-18T07:59:14Z] attempt MRB0-024 rep3 #1: status=resource_error
+[2026-10-18T07:59:15Z] attempt MRB0-025 rep3 #1: lease 3546s
+[2026-10-18T08:16:00Z] attempt MRB0-025 rep3 #1: status=timeout
+[2026-10-18T08:16:00Z] attempt MRB0-026 rep3 #1: lease 2541s
+[2026-10-18T08:32:46Z] attempt MRB0-026 rep3 #1: status=timeout
+[2026-10-18T08:32:46Z] run: lease 1534s < 1800s; rotating session
+[2026-10-18T08:32:49Z] release: board 1 reset complete (job 06050f5e-0a0d-48ae-ad31-2ff6989c115b)
+[2026-10-18T08:32:50Z] session: build job cf808efa-cad6-4329-a906-6d42a3fe63b0 submitted; polling to terminal
+[2026-10-18T08:32:51Z] session: build running fpga=None
+[2026-10-18T08:46:03Z] session: build complete fpga=3
+[2026-10-18T08:46:03Z] session #34: board 3 session 4bcfea17… expires 2026-10-18T09:46:02.417582Z
+[2026-10-18T08:46:13Z] attempt MRB0-027 rep3 #1: lease 3559s
+[2026-10-18T08:46:38Z] attempt MRB0-027 rep3 #1: status=resource_error
+[2026-10-18T08:46:39Z] attempt MRB0-028 rep3 #1: lease 3533s
+[2026-10-18T08:53:49Z] attempt MRB0-028 rep3 #1: status=resource_error
+[2026-10-18T08:53:49Z] attempt MRB0-029 rep3 #1: lease 3102s
+[2026-10-18T09:10:36Z] attempt MRB0-029 rep3 #1: status=timeout
+[2026-10-18T09:10:36Z] attempt MRB0-030 rep3 #1: lease 2096s
+[2026-10-18T09:27:21Z] attempt MRB0-030 rep3 #1: status=timeout
+[2026-10-18T09:27:21Z] run: lease 1091s < 1800s; rotating session
+[2026-10-18T09:27:24Z] release: board 3 reset complete (job e45a25dd-7dbc-4c15-a0a3-55329e09c80b)
+[2026-10-18T09:27:25Z] session: build job deabdccf-df1f-4bf5-b0b5-40993d3e008d submitted; polling to terminal
+[2026-10-18T09:27:25Z] session: build running fpga=None
+[2026-10-18T09:43:08Z] session: build failed fpga=0
+[2026-10-18T09:43:08Z] BLOCKED: build job deabdccf-df1f-4bf5-b0b5-40993d3e008d failed; no retry loop
+[supervisor3 10-18T09:43:08] rc=3 phase=running iter=1 crashes=0
+SUPERVISOR_BLOCKER
+[supervisor4 10-18T15:18:57] network stable for 10 probes
+[2026-10-18T15:18:58Z] reconcile: 547 journal entries
+[2026-10-18T15:19:16Z] reconcile: clean
+[2026-10-18T15:19:16Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T15:19:19Z] session: build job f4b6530b-981f-4301-b81b-1b07f4c61a79 submitted; polling to terminal
+[2026-10-18T15:19:19Z] session: build running fpga=None
+[2026-10-18T15:33:28Z] session: build complete fpga=5
+[2026-10-18T15:33:28Z] session #35: board 5 session 58aed35d… expires 2026-10-18T16:33:27.715933Z
+[2026-10-18T15:33:37Z] attempt MRB0-032 rep3 #1: lease 3560s
+[2026-10-18T15:33:48Z] attempt MRB0-032 rep3 #1: status=sat
+[2026-10-18T15:33:48Z] attempt MRB0-033 rep3 #1: lease 3549s
+[2026-10-18T15:33:57Z] attempt MRB0-033 rep3 #1: status=sat
+[2026-10-18T15:33:58Z] attempt MRB0-034 rep3 #1: lease 3540s
+[2026-10-18T15:37:22Z] attempt MRB0-034 rep3 #1: status=resource_error
+[2026-10-18T15:37:23Z] attempt MRB0-035 rep3 #1: lease 3335s
+[2026-10-18T15:40:49Z] attempt MRB0-035 rep3 #1: status=resource_error
+[2026-10-18T15:40:49Z] attempt MRB0-036 rep3 #1: lease 3128s
+[2026-10-18T15:44:39Z] attempt MRB0-036 rep3 #1: status=resource_error
+[2026-10-18T15:44:39Z] attempt MRB0-038 rep3 #1: lease 2898s
+[2026-10-18T15:47:48Z] supervise: TERM child (None)
+[2026-10-18T15:47:48Z] attempt MRB0-038 rep3 #1: status=resource_error
+[2026-10-18T15:47:48Z] attempt MRB0-040 rep3 #1: lease 2709s
+[2026-10-18T15:49:19Z] attempt MRB0-040 rep3 #1: status=resource_error
+[2026-10-18T15:49:19Z] attempt MRB0-041 rep3 #1: lease 2618s
+[2026-10-18T15:51:11Z] supervise: TERM child (None)
+[2026-10-18T15:51:11Z] attempt MRB0-041 rep3 #1: status=resource_error
+[2026-10-18T15:51:11Z] attempt MRB0-043 rep3 #1: lease 2506s
+[2026-10-18T15:51:17Z] attempt MRB0-043 rep3 #1: status=sat
+[2026-10-18T15:51:18Z] attempt MRB0-044 rep3 #1: lease 2500s
+[2026-10-18T15:51:28Z] attempt MRB0-044 rep3 #1: status=sat
+[2026-10-18T15:51:28Z] attempt MRB0-045 rep3 #1: lease 2489s
+[2026-10-18T15:52:09Z] attempt MRB0-045 rep3 #1: status=sat
+[2026-10-18T15:52:09Z] attempt MRB0-046 rep3 #1: lease 2448s
+[2026-10-18T15:52:20Z] supervise: TERM child (None)
+[2026-10-18T15:52:21Z] attempt MRB0-046 rep3 #1: status=sat
+[2026-10-18T15:52:21Z] attempt MRB0-047 rep3 #1: lease 2436s
+[2026-10-18T15:53:26Z] attempt MRB0-047 rep3 #1: status=resource_error
+[2026-10-18T15:53:26Z] attempt MRB0-048 rep3 #1: lease 2371s
+[2026-10-18T15:54:26Z] supervise: TERM child (None)
+[2026-10-18T15:54:26Z] attempt MRB0-048 rep3 #1: status=resource_error
+[2026-10-18T15:54:27Z] attempt MRB0-049 rep3 #1: lease 2311s
+[2026-10-18T15:54:53Z] attempt MRB0-049 rep3 #1: status=sat
+[2026-10-18T15:54:53Z] attempt MRB0-050 rep3 #1: lease 2284s
+[2026-10-18T15:55:03Z] attempt MRB0-050 rep3 #1: status=sat
+[2026-10-18T15:55:03Z] attempt MRB0-051 rep3 #1: lease 2274s
+[2026-10-18T15:56:13Z] attempt MRB0-051 rep3 #1: status=resource_error
+[2026-10-18T15:56:13Z] attempt MRB0-052 rep3 #1: lease 2204s
+[2026-10-18T15:57:16Z] attempt MRB0-052 rep3 #1: status=resource_error
+[2026-10-18T15:57:16Z] attempt MRB0-053 rep3 #1: lease 2141s
+[2026-10-18T16:14:05Z] attempt MRB0-053 rep3 #1: status=timeout
+[2026-10-18T16:14:05Z] run: lease 1132s < 1800s; rotating session
+[2026-10-18T16:14:08Z] release: board 5 reset complete (job 0d19e671-f16d-449f-8040-bee540f30141)
+[2026-10-18T16:14:10Z] session: build job 64a43456-5f76-4c86-a636-40ceaae065e8 submitted; polling to terminal
+[2026-10-18T16:14:10Z] session: build running fpga=None
+[2026-10-18T16:28:01Z] session: build complete fpga=1
+[2026-10-18T16:28:01Z] session #36: board 1 session ee926fd1… expires 2026-10-18T17:28:00.259400Z
+[2026-10-18T16:28:11Z] attempt MRB0-054 rep3 #1: lease 3558s
+[2026-10-18T16:41:52Z] supervise: TERM child (None)
+[2026-10-18T16:41:52Z] attempt MRB0-054 rep3 #1: status=resource_error
+[2026-10-18T16:41:52Z] attempt MRB0-055 rep3 #1: lease 2737s
+[2026-10-18T16:55:52Z] signal 15 received; stopping after current bookkeeping
+[2026-10-18T16:55:52Z] supervise: TERM child (stop requested)
+[2026-10-18T16:55:52Z] supervise: killed: stop requested; stderr at /Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/attempts/MRB0-055/repetition-003/attempt-001/worker-stderr.log
+[2026-10-18T16:55:52Z] attempt MRB0-055 rep3 #1: status=interrupted
+[2026-10-18T16:55:55Z] release: board 1 reset complete (job 60c0e6c0-610c-4c29-bf20-252164607e5f)
+[2026-10-18T16:55:55Z] BLOCKED: attempt interrupted mid-flight at MRB0-055 rep 3 (worker killed or died: stop requested); session state uncertain; campaign halted (board released); resume with --resume
+[supervisor4 10-18T16:55:55] rc=3 phase=run_blocked iter=1 crashes=0 flash_relaunches=0
+SUPERVISOR_BLOCKER
+[supervisor4 10-18T17:02:32] network stable for 10 probes
+[2026-10-18T17:02:32Z] reconcile: 591 journal entries
+[2026-10-18T17:02:45Z] reconcile: clean
+[2026-10-18T17:02:45Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T17:02:47Z] session: build job 37790052-e236-4c64-9a25-7d7456b01a7b submitted; polling to terminal
+[2026-10-18T17:02:47Z] session: build running fpga=None
+[2026-10-18T17:17:48Z] session: build complete fpga=5
+[2026-10-18T17:17:48Z] session #37: board 5 session 86004d23… expires 2026-10-18T18:17:50.192726Z
+[2026-10-18T17:17:58Z] supervise: TERM child (None)
+[2026-10-18T17:17:58Z] attempt MRB0-055 rep3 #2: lease 3560s
+[2026-10-18T17:34:43Z] attempt MRB0-055 rep3 #2: status=timeout
+[2026-10-18T17:34:43Z] attempt MRB0-056 rep3 #1: lease 2555s
+[2026-10-18T17:41:28Z] attempt MRB0-056 rep3 #1: status=resource_error
+[2026-10-18T17:41:28Z] attempt MRB0-057 rep3 #1: lease 2150s
+[2026-10-18T17:41:32Z] attempt MRB0-057 rep3 #1: status=sat
+[2026-10-18T17:41:33Z] attempt MRB0-058 rep3 #1: lease 2145s
+[2026-10-18T17:42:00Z] attempt MRB0-058 rep3 #1: status=sat
+[2026-10-18T17:42:00Z] attempt MRB0-059 rep3 #1: lease 2118s
+[2026-10-18T17:42:59Z] attempt MRB0-059 rep3 #1: status=resource_error
+[2026-10-18T17:43:00Z] attempt MRB0-060 rep3 #1: lease 2058s
+[2026-10-18T17:43:32Z] attempt MRB0-060 rep3 #1: status=resource_error
+[2026-10-18T17:43:32Z] attempt MRB0-061 rep3 #1: lease 2026s
+[2026-10-18T17:43:36Z] supervise: TERM child (None)
+[2026-10-18T17:43:36Z] attempt MRB0-061 rep3 #1: status=sat
+[2026-10-18T17:43:37Z] attempt MRB0-062 rep3 #1: lease 2021s
+[2026-10-18T17:43:42Z] attempt MRB0-062 rep3 #1: status=sat
+[2026-10-18T17:43:42Z] attempt MRB0-063 rep3 #1: lease 2016s
+[2026-10-18T17:43:54Z] attempt MRB0-063 rep3 #1: status=sat
+[2026-10-18T17:43:54Z] attempt MRB0-064 rep3 #1: lease 2004s
+[2026-10-18T17:44:28Z] attempt MRB0-064 rep3 #1: status=resource_error
+[2026-10-18T17:44:28Z] attempt MRB0-065 rep3 #1: lease 1970s
+[2026-10-18T17:44:40Z] attempt MRB0-065 rep3 #1: status=sat
+[2026-10-18T17:44:40Z] attempt MRB0-066 rep3 #1: lease 1958s
+[2026-10-18T17:44:45Z] attempt MRB0-066 rep3 #1: status=sat
+[2026-10-18T17:44:45Z] attempt MRB0-067 rep3 #1: lease 1953s
+[2026-10-18T18:01:32Z] attempt MRB0-067 rep3 #1: status=timeout
+[2026-10-18T18:01:32Z] run: lease 946s < 1800s; rotating session
+[2026-10-18T18:01:34Z] release: board 5 reset complete (job fb3644bd-7876-41c1-8bb2-33283315d155)
+[2026-10-18T18:01:36Z] session: build job 7e334d6c-ce14-4d06-8a39-841de856c5b6 submitted; polling to terminal
+[2026-10-18T18:01:36Z] session: build running fpga=None
+[2026-10-18T18:18:19Z] session: build failed fpga=0
+[2026-10-18T18:18:19Z] BLOCKED: build job 7e334d6c-ce14-4d06-8a39-841de856c5b6 failed; no retry loop
+[supervisor4 10-18T18:18:19] rc=3 phase=running iter=1 crashes=0 flash_relaunches=0
+last build 7e334d6c-ce14-4d06-8a39-841de856c5b6: flash failure=True
+[supervisor4 10-18T18:18:19] platform flash failure; relaunch 1/3
+[supervisor4 10-18T18:22:52] network stable for 10 probes
+[2026-10-18T18:22:52Z] reconcile: 619 journal entries
+[2026-10-18T18:23:06Z] reconcile: clean
+[2026-10-18T18:23:06Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T18:23:08Z] session: build job 7f715fff-30db-4a51-9f89-a0c34444f53a submitted; polling to terminal
+[2026-10-18T18:23:08Z] session: build running fpga=None
+[2026-10-18T18:37:01Z] session: build failed fpga=0
+[2026-10-18T18:37:01Z] BLOCKED: build job 7f715fff-30db-4a51-9f89-a0c34444f53a failed; no retry loop
+[supervisor4 10-18T18:37:01] rc=3 phase=running iter=2 crashes=0 flash_relaunches=1
+last build 7f715fff-30db-4a51-9f89-a0c34444f53a: flash failure=True
+[supervisor4 10-18T18:37:01] platform flash failure; relaunch 2/3
+[supervisor4 10-18T18:41:34] network stable for 10 probes
+[2026-10-18T18:41:35Z] reconcile: 624 journal entries
+[2026-10-18T18:41:48Z] reconcile: clean
+[2026-10-18T18:41:48Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T18:41:50Z] session: build job 64aa2ab2-b0d0-4649-bf72-577821e2ba32 submitted; polling to terminal
+[2026-10-18T18:41:50Z] session: build running fpga=None
+[2026-10-18T18:56:01Z] session: build failed fpga=0
+[2026-10-18T18:56:02Z] BLOCKED: build job 64aa2ab2-b0d0-4649-bf72-577821e2ba32 failed; no retry loop
+[supervisor4 10-18T18:56:02] rc=3 phase=running iter=3 crashes=0 flash_relaunches=2
+last build 64aa2ab2-b0d0-4649-bf72-577821e2ba32: flash failure=True
+[supervisor4 10-18T18:56:02] platform flash failure; relaunch 3/3
+[supervisor4 10-18T19:00:34] network stable for 10 probes
+[2026-10-18T19:00:35Z] reconcile: 628 journal entries
+[2026-10-18T19:00:48Z] reconcile: clean
+[2026-10-18T19:00:48Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T19:00:50Z] session: build job fd402e92-af4a-467d-985e-a7b72e614ce7 submitted; polling to terminal
+[2026-10-18T19:00:50Z] session: build running fpga=None
+[2026-10-18T19:15:18Z] session: build complete fpga=6
+[2026-10-18T19:15:19Z] session: build fd402e92-af4a-467d-985e-a7b72e614ce7 landed on excluded board 6; releasing before any board I/O
+[2026-10-18T19:15:21Z] release: board 6 reset complete (job 2dda010b-d9cd-4072-b942-a6ef03c35e73)
+[2026-10-18T19:15:21Z] session: excluded-board skip 1/3; rebuilding
+[2026-10-18T19:15:23Z] session: build job 79e02f2d-46f0-4853-9ec7-805e7c72a47f submitted; polling to terminal
+[2026-10-18T19:15:23Z] session: build running fpga=None
+[2026-10-18T19:30:50Z] session: build failed fpga=0
+[2026-10-18T19:30:50Z] BLOCKED: build job 79e02f2d-46f0-4853-9ec7-805e7c72a47f failed; no retry loop
+[supervisor4 10-18T19:30:50] rc=3 phase=running iter=4 crashes=0 flash_relaunches=3
+last build 79e02f2d-46f0-4853-9ec7-805e7c72a47f: flash failure=True
+SUPERVISOR_BLOCKER
+[supervisor4 10-18T20:10:26] network stable for 10 probes
+[2026-10-18T20:10:26Z] reconcile: 641 journal entries
+[2026-10-18T20:10:40Z] reconcile: clean
+[2026-10-18T20:10:40Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T20:10:42Z] session: build job 3abfe873-1822-4f6c-8faa-83dfdb6b7363 submitted; polling to terminal
+[2026-10-18T20:10:42Z] session: build running fpga=None
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1004, in _create
+    self.getpeername()
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 878, in connect
+    wrapped_socket, is_verified = _ssl_wrap_socket_and_match_hostname(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/connection.py", line 1080, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 437, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/urllib3/util/ssl_.py", line 481, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 457, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/lib/python3.12/ssl.py", line 1004, in _create
+    self.getpeername()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(22, 'Invalid argument'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2401, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 2390, in main
+    return cmd_run(args.out, args.resume)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1310, in cmd_run
+    session = acquire_and_qualify(run_dir, journal, cloud)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1858, in acquire_and_qualify
+    s = acquire_session(run_dir, journal, cloud)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 1721, in acquire_session
+    job = cloud.get_job(job_id)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 406, in get_job
+    return self._get(f"/jobs/{job_id}").json()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/run_pigweed_fpga.py", line 373, in _get
+    return self._resp(requests.get(self.url + path, headers=h,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/lib/python3.12/site-packages/requests/adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(22, 'Invalid argument'))
+[supervisor4 10-18T20:18:27] rc=1 phase=running iter=1 crashes=0 flash_relaunches=0
+[supervisor4 10-18T20:22:59] network stable for 10 probes
+[2026-10-18T20:22:59Z] reconcile: 645 journal entries
+[2026-10-18T20:25:24Z] reconcile: releasing live session from job 3abfe873-1822-4f6c-8faa-83dfdb6b7363
+[2026-10-18T20:25:27Z] release: board 6 reset complete (job aee37104-c26d-42e0-9461-f74bb3240f33)
+[2026-10-18T20:25:27Z] reconcile: clean
+[2026-10-18T20:25:27Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-18T20:25:29Z] session: build job f6a95ec2-3800-47bf-ad4b-f7f708e4d83e submitted; polling to terminal
+[2026-10-18T20:25:29Z] session: build running fpga=None
+[2026-10-18T20:41:23Z] session: build complete fpga=3
+[2026-10-18T20:41:23Z] session #38: board 3 session 06a46c50… expires 2026-10-18T21:41:22.028531Z
+[2026-10-18T20:41:31Z] attempt MRB0-068 rep3 #1: lease 3560s
+[2026-10-18T20:58:16Z] supervise: TERM child (None)
+[2026-10-18T20:58:16Z] attempt MRB0-068 rep3 #1: status=timeout
+[2026-10-18T20:58:17Z] attempt MRB0-069 rep3 #1: lease 2555s
+[2026-10-18T21:15:02Z] supervise: TERM child (None)
+[2026-10-18T21:15:02Z] attempt MRB0-069 rep3 #1: status=timeout
+[2026-10-18T21:15:02Z] run: lease 1550s < 1800s; rotating session
+[2026-10-18T21:15:04Z] release: board 3 reset complete (job 967a2822-478d-497b-9a2f-f71bb3e43102)
+[2026-10-18T21:15:07Z] session: build job 4e7a9374-a434-4985-9112-2292b8710d13 submitted; polling to terminal
+[2026-10-18T21:15:07Z] session: build running fpga=None
+[2026-10-18T21:31:43Z] session: build complete fpga=6
+[2026-10-18T21:31:43Z] session: build 4e7a9374-a434-4985-9112-2292b8710d13 landed on excluded board 6; releasing before any board I/O
+[2026-10-18T21:31:46Z] release: board 6 reset complete (job e8524f31-ec81-42ff-878e-a7d7830ef0ae)
+[2026-10-18T21:31:46Z] session: excluded-board skip 1/3; rebuilding
+[2026-10-18T21:31:48Z] session: build job dfb12460-52ed-44c1-879c-8b8e828823ef submitted; polling to terminal
+[2026-10-18T21:31:48Z] session: build running fpga=None
+[2026-10-18T21:46:20Z] session: build complete fpga=6
+[2026-10-18T21:46:21Z] session: build dfb12460-52ed-44c1-879c-8b8e828823ef landed on excluded board 6; releasing before any board I/O
+[2026-10-18T21:46:23Z] release: board 6 reset complete (job 83695962-97f1-4a7c-920a-31f369f0c874)
+[2026-10-18T21:46:23Z] session: excluded-board skip 2/3; rebuilding
+[2026-10-18T21:46:25Z] session: build job 6d691b6e-45f1-4027-ba27-6739d4ef666f submitted; polling to terminal
+[2026-10-18T21:46:25Z] session: build running fpga=None
+[2026-10-18T22:01:06Z] session: build complete fpga=5
+[2026-10-18T22:01:07Z] session #39: board 5 session c8cc13aa… expires 2026-10-18T23:01:05.375788Z
+[2026-10-18T22:01:16Z] attempt MRB0-070 rep3 #1: lease 3559s
+[2026-10-18T22:18:01Z] supervise: TERM child (None)
+[2026-10-18T22:18:01Z] attempt MRB0-070 rep3 #1: status=timeout
+[2026-10-18T22:18:01Z] attempt MRB0-071 rep3 #1: lease 2553s
+[2026-10-18T22:34:48Z] supervise: TERM child (None)
+[2026-10-18T22:34:48Z] attempt MRB0-071 rep3 #1: status=timeout
+[2026-10-18T22:34:48Z] run: lease 1547s < 1800s; rotating session
+[2026-10-18T22:34:51Z] release: board 5 reset complete (job b9687896-d972-49c1-ae67-250bf8a322cc)
+[2026-10-18T22:34:52Z] session: build job 5013a503-aee6-4d15-9bfb-0e477506e58d submitted; polling to terminal
+[2026-10-18T22:34:53Z] session: build running fpga=None
+[2026-10-18T22:49:27Z] session: build complete fpga=3
+[2026-10-18T22:49:27Z] session #40: board 3 session 16a83c64… expires 2026-10-18T23:49:26.101969Z
+[2026-10-18T22:49:38Z] attempt MRB0-072 rep3 #1: lease 3557s
+[2026-10-18T23:06:24Z] attempt MRB0-072 rep3 #1: status=timeout
+[2026-10-18T23:06:24Z] attempt MRB0-073 rep3 #1: lease 2552s
+[2026-10-18T23:23:09Z] supervise: TERM child (None)
+[2026-10-18T23:23:09Z] attempt MRB0-073 rep3 #1: status=timeout
+[2026-10-18T23:23:09Z] run: lease 1547s < 1800s; rotating session
+[2026-10-18T23:23:12Z] release: board 3 reset complete (job 4357959c-7a72-4c91-83e0-f801719489d2)
+[2026-10-18T23:23:14Z] session: build job 251a5e92-8f1a-4961-b4e8-26bb8a5de535 submitted; polling to terminal
+[2026-10-18T23:23:14Z] session: build running fpga=None
+[2026-10-18T23:37:58Z] session: build complete fpga=5
+[2026-10-18T23:37:58Z] session #41: board 5 session e3e40599… expires 2026-10-19T00:37:57.848671Z
+[2026-10-18T23:38:09Z] attempt MRB0-074 rep3 #1: lease 3559s
+[2026-10-18T23:54:54Z] attempt MRB0-074 rep3 #1: status=timeout
+[2026-10-18T23:54:55Z] attempt MRB0-075 rep3 #1: lease 2553s
+[2026-10-19T00:11:40Z] attempt MRB0-075 rep3 #1: status=timeout
+[2026-10-19T00:11:40Z] run: lease 1548s < 1800s; rotating session
+[2026-10-19T00:11:42Z] release: board 5 reset complete (job 09957e31-20c4-4774-9481-e62bba6ae166)
+[2026-10-19T00:11:44Z] session: build job 18cbef71-adb9-49dc-97c8-5fbe5d86c6fe submitted; polling to terminal
+[2026-10-19T00:11:45Z] session: build running fpga=None
+[2026-10-19T00:27:18Z] session: build failed fpga=0
+[2026-10-19T00:27:18Z] BLOCKED: build job 18cbef71-adb9-49dc-97c8-5fbe5d86c6fe failed; no retry loop
+[supervisor4 10-19T00:27:18] rc=3 phase=running iter=2 crashes=1 flash_relaunches=0
+last build 18cbef71-adb9-49dc-97c8-5fbe5d86c6fe: flash failure=True
+[supervisor4 10-19T00:27:18] platform flash failure; relaunch 1/3
+[supervisor4 10-19T00:31:51] network stable for 10 probes
+[2026-10-19T00:31:51Z] reconcile: 716 journal entries
+[2026-10-19T00:32:08Z] reconcile: clean
+[2026-10-19T00:32:08Z] run: plan 204 attempts (68 eligible ids x 3 reps, pilots first)
+[2026-10-19T00:32:10Z] session: build job 8f29c946-54fa-469b-a7b3-386a01659bde submitted; polling to terminal
+[2026-10-19T00:32:10Z] session: build running fpga=None
+[2026-10-19T00:46:17Z] session: build complete fpga=1
+[2026-10-19T00:46:17Z] session #42: board 1 session 8fc0cd5c… expires 2026-10-19T01:46:17.068831Z
+[2026-10-19T00:46:26Z] attempt MRB0-076 rep3 #1: lease 3560s
+[2026-10-19T01:03:13Z] attempt MRB0-076 rep3 #1: status=timeout
+[2026-10-19T01:03:13Z] attempt MRB0-077 rep3 #1: lease 2554s
+[2026-10-19T01:03:17Z] attempt MRB0-077 rep3 #1: status=sat
+[2026-10-19T01:03:17Z] attempt MRB0-078 rep3 #1: lease 2549s
+[2026-10-19T01:03:21Z] attempt MRB0-078 rep3 #1: status=unsat
+[2026-10-19T01:03:21Z] attempt MRB0-079 rep3 #1: lease 2545s
+[2026-10-19T01:03:25Z] supervise: TERM child (None)
+[2026-10-19T01:03:25Z] attempt MRB0-079 rep3 #1: status=sat
+[2026-10-19T01:03:25Z] attempt MRB0-081 rep3 #1: lease 2541s
+[2026-10-19T01:05:09Z] attempt MRB0-081 rep3 #1: status=resource_error
+[2026-10-19T01:05:10Z] attempt MRB0-083 rep3 #1: lease 2437s
+[2026-10-19T01:05:14Z] attempt MRB0-083 rep3 #1: status=unsat
+[2026-10-19T01:05:15Z] attempt MRB0-085 rep3 #1: lease 2432s
+[2026-10-19T01:21:59Z] supervise: TERM child (None)
+[2026-10-19T01:21:59Z] attempt MRB0-085 rep3 #1: status=timeout
+[2026-10-19T01:21:59Z] run: lease 1427s < 1800s; rotating session
+[2026-10-19T01:22:02Z] release: board 1 reset complete (job fa3353ae-efeb-49cf-a670-94d793d94bc2)
+[2026-10-19T01:22:04Z] session: build job 3fa9d711-3c50-4e0c-a0b4-115a2f5965a6 submitted; polling to terminal
+[2026-10-19T01:22:04Z] session: build running fpga=None
+[2026-10-19T01:36:07Z] session: build complete fpga=5
+[2026-10-19T01:36:08Z] session #43: board 5 session 59012316… expires 2026-10-19T02:36:06.771042Z
+[2026-10-19T01:36:17Z] attempt MRB0-087 rep3 #1: lease 3559s
+[2026-10-19T01:53:02Z] attempt MRB0-087 rep3 #1: status=timeout
+[2026-10-19T01:53:05Z] release: board 5 reset complete (job ca29b900-1113-46f4-9183-39b93cfcfbf2)
+[2026-10-19T01:53:05Z] run: campaign complete
+[supervisor4 10-19T01:53:05] rc=0 phase=run_done iter=3 crashes=1 flash_relaunches=0
+SUPERVISOR_DONE

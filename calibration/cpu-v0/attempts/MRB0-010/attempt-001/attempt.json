@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-010/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-010/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-010/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-010",
+ "identity": {
+  "cnf_sha256": "28854111abb43890b39ac11c3ad0f4e4d7d94d77da0fda2bee5ab8b0295f0490",
+  "compressed_sha256": "f15dfd0f67ed37db6d5727ee24da441394a6e10f2917f75019e95bcea65816f1",
+  "input_bytes": 8222
+ },
+ "manifest": {
+  "alias": "sgen1-sat-270-100.cnf.xz",
+  "category": "crafted",
+  "clauses": "648",
+  "cnf_sha256": "28854111abb43890b39ac11c3ad0f4e4d7d94d77da0fda2bee5ab8b0295f0490",
+  "family": "sgen",
+  "id": "MRB0-010",
+  "literals": "1620",
+  "max_width": "5",
+  "mean_width": "2.5",
+  "result_gbd": "sat",
+  "tier": "S",
+  "variables": "270"
+ },
+ "proof": {
+  "gz_bytes": 1173891925,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "da63ec6f0ef5a082b7851a12650879087d40e0bc9ad8527a0fda93829c7e25cc",
+  "raw_bytes": 2662334464,
+  "raw_sha256": "e40edd269c3706371f9b453b14e79cffdd42f6dc932e258f77532e70a9d71ac5",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 358629769216,
+  "kissat_process_time_seconds": 996.02,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 163393,
+  "stdout_sha256": "4379e98ac7123ed005ca696e88e351f0abc575d7d5f59c5d517a03855149114b",
+  "timeout": true,
+  "wall_seconds": 1000.0101529168896
+ },
+ "terminal": true,
+ "witness": null
+}

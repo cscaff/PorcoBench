@@ -1,0 +1,68 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-185/attempt-001",
+ "certified": false,
+ "certified_kind": null,
+ "check": null,
+ "claimed": null,
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-185/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-185/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": null,
+ "id": "MRB0-185",
+ "identity": {
+  "cnf_sha256": "c07fda4da885217d3a0947e87ce91e87730e3dd65735a40b654e30194a6b8744",
+  "compressed_sha256": "f923cef6eb7ebd1c5650c3fd5ae3c3ebfc82bb885a260c4e8f14311cce7779c6",
+  "input_bytes": 120838
+ },
+ "manifest": {
+  "alias": "mdp-36-11-sat.cnf.xz",
+  "category": "main",
+  "clauses": "7382",
+  "cnf_sha256": "c07fda4da885217d3a0947e87ce91e87730e3dd65735a40b654e30194a6b8744",
+  "family": "minimum-disagreement-parity",
+  "id": "MRB0-185",
+  "literals": "26220",
+  "max_width": "4",
+  "mean_width": "3.552",
+  "result_gbd": "sat",
+  "tier": "M-high",
+  "variables": "1302"
+ },
+ "proof": {
+  "gz_bytes": 1146446319,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "3aceb89a8912954107f5d0526a976b122cb3471862016b87369827c9748a43a8",
+  "raw_bytes": 2172649472,
+  "raw_sha256": "3b5aefa87cb24c7f951b5edb2515e61593edfcef3bc1f3c86e80d426020bdf7c",
+  "roundtrip_verified": true
+ },
+ "reason": "solve_timeout",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": -15,
+  "kissat_max_rss_bytes": 346097188864,
+  "kissat_process_time_seconds": 996.92,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 167861,
+  "stdout_sha256": "95481984bed399cd173d0005acc7dd8013ff174ad318f67eb080c8449e3f2fdf",
+  "timeout": true,
+  "wall_seconds": 1000.019214333035
+ },
+ "terminal": true,
+ "witness": null
+}

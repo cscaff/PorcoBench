@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# PorcoBench .gitignore
+#
+# Rule: code, docs, manifests and run *records* (hashes, timings, verdicts)
+# are versioned. Benchmark instances and anything that reproduces their
+# content or their solutions stay local: CNFs, proofs, witnesses/models and
+# solver stdout. Not every instance is cleared for redistribution (see
+# manifest.csv license_status), and the proofs alone are >100 GB. Recreate
+# them with scripts/fetch_corpus.py, scripts/build_tools.sh and the harnesses.
+# ---------------------------------------------------------------------------
+
+# --- Python / OS / editors ---------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv*/
+venv/
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# --- Local toolchain builds and download caches ------------------------------
+# Kissat and drat-trim are rebuilt at pinned commits by scripts/build_tools.sh
+.tools/
+# GBD metadata and fetch logs written by build_benchmark.py
+.cache/
+
+# --- Benchmark instances (fetched + hash-verified by scripts/fetch_corpus.py) -
+cnf/
+*.cnf
+*.cnf.xz
+*.dimacs
+
+# --- Instance-derived evidence: proofs, witnesses, models, solver output -----
+*.drat
+*.drat.gz
+proof.*
+witness.txt
+witness.json
+solve.stdout
+# FPGA per-attempt records embed the solver model (raw_stack / model); the
+# per-attempt outcome, cycles and timings are published in results.csv
+calibration/pigweed-fpga-*/attempts/
+# private decompressed inputs and the frozen third-party candidate copy
+# (PigWeedSAT, Apache-2.0; pinned by commit in run.json)
+calibration/*/inputs/
+calibration/*/candidate/
+
+# --- Superseded or archival local-only runs ----------------------------------
+# aborted cpu-v0 attempts (pre-fix harness; zero terminal records)
+calibration/cpu-v0-aborted-attempt*
+# rejected first-attach run, kept locally as incident evidence
+calibration/stale/
+
+# --- Never commit credentials ------------------------------------------------
+credentials.json
+*.key
+.env

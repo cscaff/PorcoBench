@@ -1,0 +1,76 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-049/attempt-001",
+ "certified": true,
+ "certified_kind": "sat_witness",
+ "check": null,
+ "claimed": "sat",
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-049/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-049/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": "agree",
+ "id": "MRB0-049",
+ "identity": {
+  "cnf_sha256": "c804baa21d659fafcc764f662d0e4a55b4712915120e7d416cf78aa21d095752",
+  "compressed_sha256": "f94c5723997bf1cab442674861b55991c617dd3384d9ac53c98aae123ab29f01",
+  "input_bytes": 30531
+ },
+ "manifest": {
+  "alias": "fla-komb-400-5.cnf.xz",
+  "category": "random",
+  "clauses": "2081",
+  "cnf_sha256": "c804baa21d659fafcc764f662d0e4a55b4712915120e7d416cf78aa21d095752",
+  "family": "random",
+  "id": "MRB0-049",
+  "literals": "6242",
+  "max_width": "3",
+  "mean_width": "3.0",
+  "result_gbd": "sat",
+  "tier": "S-tight",
+  "variables": "400"
+ },
+ "proof": {
+  "gz_bytes": 13365670,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "ff29b1a3de39e59f5ae3fc9eed90bf323d969440d2ff06535aec045c4682b2ed",
+  "raw_bytes": 25347584,
+  "raw_sha256": "303f4d4657fe8936ddcc7f1c4425979da45b729eba5f59ae90dd113f79a47a2d",
+  "roundtrip_verified": true
+ },
+ "reason": "ok",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": 10,
+  "kissat_max_rss_bytes": 18605932544,
+  "kissat_process_time_seconds": 11.85,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 23118,
+  "stdout_sha256": "c4e9a2d2bbe4abee20b264f22585d4f6fb22a9a19c660616eb1b17acddfbb650",
+  "timeout": false,
+  "wall_seconds": 11.992374874884263
+ },
+ "terminal": true,
+ "witness": {
+  "assignment_size": 400,
+  "check_seconds": 0.0010680828709155321,
+  "error": null,
+  "independent_check": true,
+  "parse_ok": true,
+  "present": true,
+  "witness_sha256": "518b6973e40223ade2897587d56fcb4218726835f0c8f6fa8681acdb93b77a3f"
+ }
+}

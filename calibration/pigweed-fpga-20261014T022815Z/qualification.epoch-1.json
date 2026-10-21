@@ -1,0 +1,270 @@
+{
+ "created_utc": "2026-10-14T02:36:50Z",
+ "gates": {
+  "pnr": true,
+  "rtl_abort": true,
+  "rtl_pilots": true,
+  "rtl_semantic": true
+ },
+ "pnr": {
+  "checks": {
+   "fits": true,
+   "ok": true,
+   "scope_soc": true,
+   "sys_clk_50": true,
+   "target_50": true,
+   "timing_met": true
+  },
+  "clock": "$glbnet$crg_clkout1",
+  "command": "/Users/steinou/Documents/ManhattanReason/Benchmark/.venv-fpga/bin/mrg pnr /Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-20261014T022815Z/candidate/design.py --sys-clk-mhz 50 --timing-target-mhz 50",
+  "design_hash_reported": "sha256:30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+  "design_source_sha256": "30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+  "fmax_mhz": 73.90982818603516,
+  "image_digest": "sha256:a5c74a81bff5d3874c6a10993d99236f9aa52b2d7d01368cc7d2156f20e19034",
+  "ok": true,
+  "report": {
+   "clock": "$glbnet$crg_clkout1",
+   "design_hash": "sha256:30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+   "fits": true,
+   "fmax_mhz": 73.90982818603516,
+   "log_tail": "                 Sink ethphy_reset0_LUT4_Z.D\nInfo:                          Defined in:\nInfo:                               /tmp/mrg_build_7blo9ius/soc/gateware/cloud_fpga_soc.v:1026.15-1026.34\nInfo:      logic  0.14  3.58 Source ethphy_reset0_LUT4_Z.F\nInfo:    routing  0.21  3.79 Net ethphy_reset0 (48,49) -> (48,49)\nInfo:                          Sink FD1S3BX_7.LSR\nInfo:                          Defined in:\nInfo:                               /tmp/mrg_build_7blo9ius/soc/gateware/cloud_fpga_soc.v:1157.15-1157.28\nInfo:      setup  0.22  4.02 Source FD1S3BX_7.LSR\nInfo: 1.10 ns logic, 2.92 ns routing\n\nInfo: Critical path report for cross-domain path 'posedge $glbnet$crg_clkout1' -> 'posedge $glbnet$crg_clkout0':\nInfo:       type curr  total name\nInfo:   clk-to-q  0.31  0.31 Source dat_r_TRELLIS_FF_Q_31.Q\nInfo:    routing  0.66  0.97 Net dat_r[0] (21,44) -> (21,43)\nInfo:                          Sink bus_dat_r_TRELLIS_FF_Q_31.M\nInfo:                          Defined in:\nInfo:                               /tmp/mrg_build_7blo9ius/soc/gateware/cloud_fpga_soc.v:1010.15-1010.20\nInfo:      setup  0.00  0.97 Source bus_dat_r_TRELLIS_FF_Q_31.M\nInfo: 0.31 ns logic, 0.66 ns routing\n\nInfo: Critical path report for cross-domain path 'posedge $glbnet$eth_clocks_ref_clk$TRELLIS_IO_IN' -> 'posedge $glbnet$crg_clkout0':\nInfo:       type curr  total name\nInfo:   clk-to-q  0.31  0.31 Source core_rx_cdc_cdc_graycounter0_q_TRELLIS_FF_Q_1.Q\nInfo:    routing  0.51  0.82 Net core_rx_cdc_cdc_graycounter0_q[0] (48,60) -> (49,61)\nInfo:                          Sink multiregimpl50_TRELLIS_FF_Q_1.M\nInfo:                          Defined in:\nInfo:                               /tmp/mrg_build_7blo9ius/soc/gateware/cloud_fpga_soc.v:471.15-471.45\nInfo:      setup  0.00  0.82 Source multiregimpl50_TRELLIS_FF_Q_1.M\nInfo: 0.31 ns logic, 0.51 ns routing\n\nInfo: Max frequency for clock '$glbnet$eth_clocks_ref_clk$TRELLIS_IO_IN': 122.47 MHz (PASS at 50.00 MHz)\nInfo: Max frequency for clock                      '$glbnet$crg_clkout1': 73.91 MHz (PASS at 50.00 MHz)\nInfo: Max frequency for clock                      '$glbnet$crg_clkout0': 117.12 MHz (PASS at 50.00 MHz)\n\nInfo: Max delay <async>                                          -> posedge $glbnet$crg_clkout0                     : 1.50 ns\nInfo: Max delay posedge $glbnet$crg_clkout0                      -> <async>                                         : 5.36 ns\nInfo: Max delay posedge $glbnet$crg_clkout0                      -> posedge $glbnet$crg_clkout1                     : 0.97 ns\nInfo: Max delay posedge $glbnet$crg_clkout0                      -> posedge $glbnet$eth_clocks_ref_clk$TRELLIS_IO_IN: 4.02 ns\nInfo: Max delay posedge $glbnet$crg_clkout1                      -> posedge $glbnet$crg_clkout0                     : 0.97 ns\nInfo: Max delay posedge $glbnet$eth_clocks_ref_clk$TRELLIS_IO_IN -> posedge $glbnet$crg_clkout0                     : 0.82 ns\n\nInfo: Slack histogram:\nInfo:  legend: * represents 58 endpoint(s)\nInfo:          + represents [1,58) endpoint(s)\nInfo: [  6470,   7118) |+\nInfo: [  7118,   7766) |+\nInfo: [  7766,   8414) |**+\nInfo: [  8414,   9062) |***+\nInfo: [  9062,   9710) |*****+\nInfo: [  9710,  10358) |**********+\nInfo: [ 10358,  11006) |***********+\nInfo: [ 11006,  11654) |**************+\nInfo: [ 11654,  12302) |****************+\nInfo: [ 12302,  12950) |************************+\nInfo: [ 12950,  13598) |********************+\nInfo: [ 13598,  14246) |************************************+\nInfo: [ 14246,  14894) |************************************************+\nInfo: [ 14894,  15542) |************************************************************ \nInfo: [ 15542,  16190) |******************************************+\nInfo: [ 16190,  16838) |*******************************+\nInfo: [ 16838,  17486) |****************************+\nInfo: [ 17486,  18134) |*****************+\nInfo: [ 18134,  18782) |****************************+\nInfo: [ 18782,  19430) |******************+\n\nInfo: Program finished normally.\n",
+   "mode": "pnr",
+   "ok": true,
+   "scope": "soc",
+   "synth_cells": null,
+   "sys_clk_mhz": 50.0,
+   "target_mhz": 50.0,
+   "timing_met": true,
+   "toolchain": "Yosys 0.66 / nextpnr-0.10",
+   "util": {
+    "bram": {
+     "available": 208,
+     "used": 150
+    },
+    "dsp": {
+     "available": 156,
+     "used": 6
+    },
+    "ff": {
+     "available": 83640,
+     "used": 7746
+    },
+    "logic": {
+     "available": 83640,
+     "used": 20947
+    }
+   },
+   "warnings": []
+  },
+  "returncode": 0,
+  "stderr_tail": "",
+  "util": {
+   "bram": {
+    "available": 208,
+    "used": 150
+   },
+   "dsp": {
+    "available": 156,
+    "used": 6
+   },
+   "ff": {
+    "available": 83640,
+    "used": 7746
+   },
+   "logic": {
+    "available": 83640,
+    "used": 20947
+   }
+  }
+ },
+ "rtl_abort": {
+  "mode": "abort",
+  "ok": true,
+  "proc_returncode": 0,
+  "records": [
+   {
+    "abort_cycles": 0,
+    "aborted": true,
+    "path": "pret150_75.dimacs",
+    "result": 0,
+    "valid": true
+   },
+   {
+    "abort_cycles": 0,
+    "aborted": true,
+    "path": "pret150_75.dimacs",
+    "result": 0,
+    "valid": true
+   },
+   {
+    "abort_cycles": 0,
+    "aborted": true,
+    "path": "pret150_75.dimacs",
+    "result": 0,
+    "valid": true
+   },
+   {
+    "abort_cycles": null,
+    "aborted": false,
+    "path": "aim50.dimacs",
+    "result": 1,
+    "valid": true
+   },
+   {
+    "abort_cycles": null,
+    "aborted": false,
+    "path": "uf20.dimacs",
+    "result": 1,
+    "valid": true
+   },
+   {
+    "abort_cycles": null,
+    "aborted": false,
+    "path": "aalto_2.dimacs",
+    "result": 0,
+    "valid": true
+   }
+  ]
+ },
+ "rtl_pilots": [
+  {
+   "cap_exceeded": true,
+   "cap_reason": "no result after 2002000 cycles",
+   "id": "MRB0-005",
+   "mode": "pilot",
+   "ok": true,
+   "proc_returncode": 0,
+   "sim_cycle_cap": 2000000
+  },
+  {
+   "cap_exceeded": true,
+   "cap_reason": "no result after 2002000 cycles",
+   "id": "MRB0-011",
+   "mode": "pilot",
+   "ok": true,
+   "proc_returncode": 0,
+   "sim_cycle_cap": 2000000
+  },
+  {
+   "cap_exceeded": true,
+   "cap_reason": "no result after 2002000 cycles",
+   "id": "MRB0-017",
+   "mode": "pilot",
+   "ok": true,
+   "proc_returncode": 0,
+   "sim_cycle_cap": 2000000
+  },
+  {
+   "cap_exceeded": true,
+   "cap_reason": "no result after 2002000 cycles",
+   "id": "MRB0-026",
+   "mode": "pilot",
+   "ok": true,
+   "proc_returncode": 0,
+   "sim_cycle_cap": 2000000
+  },
+  {
+   "cap_exceeded": false,
+   "cyc": [
+    4103,
+    9427,
+    101449,
+    58690,
+    89376,
+    4727,
+    0,
+    0,
+    0
+   ],
+   "id": "MRB0-077",
+   "mode": "pilot",
+   "ok": true,
+   "poll_every": 2000,
+   "proc_returncode": 0,
+   "result": 1,
+   "sim_cycle_cap": 2000000,
+   "stats": {
+    "backtrack": 70,
+    "check_cnt": 5153,
+    "cycles_hi": 0,
+    "cycles_lo": 267772,
+    "decide": 124,
+    "deleted": 0,
+    "fixed": 2,
+    "height": 252,
+    "learn_iter": 1574,
+    "learn_merge": 9188,
+    "level": 31,
+    "longest": 32,
+    "longest_simplified": 27,
+    "min_iter": 1853,
+    "min_merge": 4421,
+    "reduce": 0,
+    "rephase": 0,
+    "reset": 0,
+    "retry": 70,
+    "simplified": 25,
+    "state": 0,
+    "total": 264
+   }
+  },
+  {
+   "cap_exceeded": true,
+   "cap_reason": "no result after 2002000 cycles",
+   "id": "MRB0-078",
+   "mode": "pilot",
+   "ok": true,
+   "proc_returncode": 0,
+   "sim_cycle_cap": 2000000
+  }
+ ],
+ "rtl_semantic": {
+  "mode": "semantic",
+  "ok": true,
+  "proc_returncode": 0,
+  "sequence": [
+   {
+    "formula": [
+     [
+      1
+     ],
+     [
+      -1,
+      2
+     ]
+    ],
+    "got": 1,
+    "valid": true,
+    "want": "sat"
+   },
+   {
+    "formula": [
+     [
+      1
+     ],
+     [
+      -1
+     ]
+    ],
+    "got": 0,
+    "valid": true,
+    "want": "unsat"
+   },
+   {
+    "formula": [
+     [
+      1,
+      2
+     ],
+     [
+      -1,
+      2
+     ]
+    ],
+    "got": 1,
+    "valid": true,
+    "want": "sat"
+   }
+  ]
+ }
+}

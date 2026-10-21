@@ -1,0 +1,4 @@
+{"command": "qualify", "event": "worker_start", "pid": 38054, "t_mono": 2163446.615516833, "t_utc": 1792086216.6897879}
+{"event": "worker_attached", "fpga_id": 3, "session_id": "d7bb5d08-306f-4228-aa21-e4d44a6aff27", "t_mono": 2163446.781223458, "t_utc": 1792086216.855497}
+{"abort_recovery": {"attempts": [{"case": "pret150_75", "ok": false, "transport": true}], "ok": false}, "event": "worker_result", "ok": false, "reason": "no active-busy abort demonstrated", "sequence": [{"elapsed_s": 1.6045488752424717, "formula": [[1], [-1, 2]], "got_result": 1, "valid": true, "want": "sat"}, {"elapsed_s": 0.6467234580777586, "formula": [[1], [-1]], "got_result": 0, "valid": true, "want": "unsat"}, {"elapsed_s": 1.3166463752277195, "formula": [[1, 2], [-1, 2]], "got_result": 1, "valid": true, "want": "sat"}], "t_mono": 2163451.577412541, "t_utc": 1792086221.6517508}
+{"event": "worker_done", "t_mono": 2163451.581531375, "t_utc": 1792086221.655869}

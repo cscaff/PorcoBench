@@ -1,0 +1,76 @@
+{
+ "attempt": 1,
+ "attempt_dir": "attempts/MRB0-097/attempt-001",
+ "certified": true,
+ "certified_kind": "sat_witness",
+ "check": null,
+ "claimed": "sat",
+ "commands": {
+  "check": null,
+  "solve": [
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/.tools/kissat/build/kissat",
+   "--seed=0",
+   "--time=1000",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-097/attempt-001/input.cnf",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v0/attempts/MRB0-097/attempt-001/proof.drat"
+  ]
+ },
+ "environment": {
+  "check_timeout_seconds": 3000,
+  "min_free_disk_bytes": 21474836480,
+  "output_file_limit_bytes": 8589934592,
+  "solve_timeout_seconds": 1000
+ },
+ "gbd_agreement": "agree",
+ "id": "MRB0-097",
+ "identity": {
+  "cnf_sha256": "9d0949306b0e31e943953f391be66877d1e4f35870bd1276a3f26d9ce72e86c3",
+  "compressed_sha256": "c30946252cab66c2e0680de58b3c383cd9d1fe7709040e09c42b24835e0724b6",
+  "input_bytes": 71144
+ },
+ "manifest": {
+  "alias": "mp1-squ_ali_s10x10_c39_abix_SAT.cnf.xz",
+  "category": "main",
+  "clauses": "5262",
+  "cnf_sha256": "9d0949306b0e31e943953f391be66877d1e4f35870bd1276a3f26d9ce72e86c3",
+  "family": "cardinality-constraints",
+  "id": "MRB0-097",
+  "literals": "12946",
+  "max_width": "4",
+  "mean_width": "2.46",
+  "result_gbd": "sat",
+  "tier": "M-low",
+  "variables": "1672"
+ },
+ "proof": {
+  "gz_bytes": 11024582,
+  "gz_path": "proof.drat.gz",
+  "gz_sha256": "d027f1ecea9e075bf69f02bc48a52f64c0f8931fd9476fd1940ff74d445b294c",
+  "raw_bytes": 21772798,
+  "raw_sha256": "582b09ed03780b6ba8802cf2d29310e2f859674fc37c7fc8210585f9cdc9a603",
+  "roundtrip_verified": true
+ },
+ "reason": "ok",
+ "schema": "calibrate-cpu-attempt/1",
+ "solve": {
+  "exit_code": 10,
+  "kissat_max_rss_bytes": 21055406080,
+  "kissat_process_time_seconds": 9.99,
+  "stderr_bytes": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_bytes": 39839,
+  "stdout_sha256": "6c5ad6c3320f7d0cfe39a9f31762e5ece9ff6efe469da2793cba95752fd61630",
+  "timeout": false,
+  "wall_seconds": 10.099201875040308
+ },
+ "terminal": true,
+ "witness": {
+  "assignment_size": 1672,
+  "check_seconds": 0.0029342500492930412,
+  "error": null,
+  "independent_check": true,
+  "parse_ok": true,
+  "present": true,
+  "witness_sha256": "4871c5f9f1f7d7c5aeab5eae1be7d7c2f52e573e515f714a1d8e6d5d426918e8"
+ }
+}
