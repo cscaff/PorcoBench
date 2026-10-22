@@ -296,7 +296,7 @@ timing contract.
   `session_expired_or_reassigned` evidence; and a Ctrl-C right after a
   board skip can submit one extra build.
 
-## 8. Extension: 20 fitting-but-uncertified instances (started 2026-10-20, IN PROGRESS)
+## 8. Extension: 20 fitting-but-uncertified instances (2026-10-20 → 2026-10-22, COMPLETE)
 
 §7's results stand unchanged. This extension adds measurements; it does not
 replace any of them. Full details and results are in
@@ -313,7 +313,18 @@ replace any of them. Full details and results are in
   impossible because the platform's board session is fixed at one hour, and
   2,650 s is the most that fits. It runs in a new run directory with its
   own prepare and qualify.
-- **Status (2026-10-22):** the CPU phase is complete. 5 of 20 are newly
-  certified: UNSAT MRB0-001, 003 and 037; SAT MRB0-009 and 021. The other
-  15 still hit the 5,000 s limit. The FPGA phase on those 5 started
-  automatically at 09:43Z.
+- **CPU result:** 5 of 20 newly certified, all agreeing with their labels:
+  UNSAT MRB0-001, 003 and 037; SAT MRB0-009 and 021. The other 15 still
+  hit the 5,000 s limit.
+- **FPGA result** (`calibration/pigweed-fpga-ext20-20261022T094311Z`, clean
+  `report`):
+  - **MRB0-009 SAT**, witness checked, after 2,342 s of chip time. It is the
+    first FPGA solve in the project that needed more than 1,000 s.
+  - Three resource errors: MRB0-003 (-4), MRB0-037 (-5) and MRB0-021 (-5,
+    after 1 s).
+  - One `transport_error`: MRB0-001, a board-0 connection drop at 2,344 s.
+    The halt was cleared by the user; the attempt is not re-run.
+  - No wrong answers.
+- **Takeaway:** the extension adds one solved instance (19 → 20 FPGA-solved
+  ids overall). Learned-clause memory, not time, remains the dominant
+  limit.

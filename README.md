@@ -24,9 +24,15 @@ Reasoning cloud FPGA platform. The repository contains:
     learned-clause memory.
   - 0 wrong answers. Outcomes were identical across repetitions and boards,
     and cycle counts were bit-identical for every non-timeout instance.
-- **Full write-up:** `FPGA_Readiness_Plan.md` §7. The extension
-  (instances uncertified at 1,000 s, rerun at 5,000 s CPU / 2,600 s FPGA) is
-  in `FPGA_Extension_Uncertified20_Report.md`.
+- **Extension** (`calibration/cpu-v1-5000s`,
+  `calibration/pigweed-fpga-ext20-20261022T094311Z`): the 20 chip-fitting
+  instances left uncertified at 1,000 s were rerun at 5,000 s on the CPU;
+  5 became certified.
+  - On the FPGA (2,600 s deadline, 1 repetition), MRB0-009 was solved (SAT,
+    2,342 s of chip time).
+  - 3 instances ran out of learned-clause memory; 1 lost its connection.
+- **Full write-up:** `FPGA_Readiness_Plan.md` §7–8 and
+  `FPGA_Extension_Uncertified20_Report.md`.
 
 No competition score and no CPU-vs-FPGA speedup are claimed: the two use
 different timing contracts.

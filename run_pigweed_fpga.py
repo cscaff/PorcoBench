@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
 """PigweedSAT native FPGA benchmark campaign on Manhattan Reasoning hardware.
 
-Commands (cwd Benchmark/, venv .venv-fpga):
+Commands (from the repository root, venv .venv-fpga):
 
-    run_pigweed_fpga.py prepare --out RUN
+    run_pigweed_fpga.py prepare --out RUN [--solve-timeout S] [--repetitions N]
+                                [--only-ids-manifest CSV] [--cpu-override DIR]
     run_pigweed_fpga.py qualify --out RUN
     run_pigweed_fpga.py run --out RUN [--resume]
     run_pigweed_fpga.py report --out RUN
 
-Fixed contract: manifest of 210 instances, frozen candidate snapshot
+Default contract: manifest of 210 instances, frozen candidate snapshot
 (PigWeedSAT clone HEAD 27e4de5e..., byte-identical, clean checkout), cfg =
 H.pigweed(H.Config(lit_page=16)), 50 MHz system clock and timing target,
-1,000 s host solve deadline, three repetitions per fresh-eligible instance.
+1,000 s host solve deadline, three repetitions per fresh-eligible instance;
+prepare's campaign options change the deadline, repetitions, id scope and
+CPU evidence sources and are recorded in run.json and the run identity.
 Host-observed timing only: no device-enforced solve deadline is claimed.
 
 Every mutating cloud step is journaled durably before it happens and
@@ -1360,7 +1363,7 @@ def cmd_run(out: str, resume: bool) -> int:
     try:
         if cloud is None:
             raise AccessBlocked(
-                "no credentials: complete `Benchmark/.venv-fpga/bin/mrg "
+                "no credentials: complete `.venv-fpga/bin/mrg "
                 "login` (device flow), then rerun with --resume")
         if not cloud.username:
             raise Blocker("no stored `mrg login` account name matching the "

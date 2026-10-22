@@ -1,7 +1,7 @@
 # Extension: 20 chip-fitting, CPU-uncertified instances (5,000 s CPU / 2,600 s FPGA)
 
-**Status (2026-10-22 09:50Z): IN PROGRESS.** CPU phase complete (5 of 20
-certified); the FPGA phase on those 5 is running. This report covers
+**Status (2026-10-22 14:45Z): COMPLETE.** CPU phase: 5 of 20 newly
+certified. FPGA phase on those 5: 1 solved (MRB0-009, SAT). This report covers
 the extension only. The original campaign's results are unchanged: see
 `Benchmark/FPGA_Readiness_Plan.md` §7 and
 `Benchmark/calibration/pigweed-fpga-20261014T022815Z/` (`report.md`,
@@ -110,7 +110,7 @@ These were reviewed (APPROVE after one fix) and tested (189 tests pass).
 | Phase | Status |
 |---|---|
 | CPU (cpu-v1-5000s) | **complete** 2026-10-22T09:27Z: 20/20 terminal, **5 certified**, 0 label conflicts (harness exit 2 = complete with uncertified instances) |
-| FPGA | started automatically 2026-10-22T09:43Z: `calibration/pigweed-fpga-ext20-20261022T094311Z` (prepare → qualify → supervised run → report; log `calibration/ext20-continuation.log`) |
+| FPGA | **complete** 2026-10-22T14:30Z: `calibration/pigweed-fpga-ext20-20261022T094311Z`, 5/5 attempts terminal (1 SAT, 3 resource errors, 1 transport error); started automatically at 09:43Z, one user-cleared halt |
 
 ### CPU phase: 5 of 20 newly certified at 5,000 s
 
@@ -143,7 +143,51 @@ These were reviewed (APPROVE after one fix) and tested (189 tests pass).
   on these results is negligible, but it was not a dedicated machine for
   those ~15 minutes.
 
-### FPGA phase
+### FPGA phase: 1 new solve, 3 memory limits, 1 dropped connection
 
-In progress. Only these 5 instances are in scope (1 repetition, 2,600 s
-deadline). Results will be added when the run completes.
+Run `calibration/pigweed-fpga-ext20-20261022T094311Z`: 2,600 s host
+deadline, 1 repetition, the 5 newly certified ids. `report` is clean
+(`identity_ok: true`, 0 binding errors). All three sessions landed on
+board 0, and every one was released with a completed reset job.
+
+| ID | CPU certificate | FPGA result | Device cycles | ≈ chip time @ 50 MHz |
+|---|---|---|---|---|
+| MRB0-009 | SAT | **SAT, witness checked** against the original formula | 117,105,253,124 | 2,342 s |
+| MRB0-003 | UNSAT | resource error -4 (no clause space) | 5,796,268,606 | 116 s |
+| MRB0-037 | UNSAT | resource error -5 (no literal page) | 4,387,262,084 | 88 s |
+| MRB0-021 | SAT | resource error -5 (no literal page) | 51,803,006 | 1 s |
+| MRB0-001 | UNSAT | `transport_error`: connection to board 0 lost 2,344 s after GO | — | — |
+
+- **There were no wrong answers.**
+- **MRB0-009 is the first FPGA solve in the project that needed more than
+  the original 1,000 s deadline.** It took 2,342 s of chip time; the CPU
+  needed 1,130 s.
+- **On-chip memory remains the dominant limit.** 3 of the 4 instances that
+  ran to an outcome exhausted learned-clause storage. That includes the SAT
+  instance MRB0-021, which failed after 1 second.
+- **MRB0-001's drop.** It occurred with no platform error code, while the
+  local network was healthy. The halt was cleared by the user and recorded
+  in `run.json` → `halt_clearances`. MRB0-001 stays recorded as
+  `transport_error`, because the runner never re-runs an attempt.
+  MRB0-009's connection on the same board outlived it (2,347.5 s vs
+  2,346.0 s from attach to end, and an older session), so the records rule
+  out a fixed platform connection-length cap at that point.
+- **Clock.** Over MRB0-009's 2,342 s solve, cycles ÷ (host GO→observation ×
+  50 MHz) = 1.0000063. That is about 6 ppm fast, within normal oscillator
+  tolerance, and consistent with the 50 MHz clock seen in the original
+  campaign.
+- **Cost:** 3 board sessions for this run (one rotation after MRB0-009).
+  This month's account usage stood at 893/1000 build-minutes after
+  session 1.
+
+## Conclusion
+
+Giving the CPU reference 5× more time certified 5 of the 20 previously
+uncertified chip-fitting instances. Of those 5, the FPGA solved 1
+(MRB0-009, SAT, at 2,342 s). The extension therefore adds one solved
+instance to the benchmark's FPGA record, beyond the original 19, and that
+solve needed a deadline longer than the original 1,000 s. Its other
+outcomes match the first campaign's main finding: on-chip learned-clause
+memory, not time, limits what PigWeedSAT solves. The 15 still-uncertified
+instances (mostly sgen and tseitin) remain unscored. Proving them on CPU
+would need either far more than 5,000 s or a different proof strategy.

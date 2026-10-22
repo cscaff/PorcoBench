@@ -59,3 +59,6 @@ calibration/stale/
 credentials.json
 *.key
 .env
+
+# run-directory flock files (empty, process-local)
+.lock

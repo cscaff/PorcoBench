@@ -1,0 +1,75 @@
+[ext20 10-21T14:42:39] waiting for the cpu-v1-5000s campaign to finish
+[ext20 10-21T14:42:43] waiting for the cpu-v1-5000s campaign to finish
+[ext20 10-22T09:43:11] cpu-v1-5000s ended with exit=2
+[ext20 10-22T09:43:11] prepare Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z
+[2026-10-22T09:43:11Z] prepare: freezing candidate from /Users/steinou/Documents/ManhattanReason/PigWeedSAT
+[2026-10-22T09:43:11Z] prepare: preflighting 210 instances (hash + strict parse + counts)
+[2026-10-22T09:43:13Z] prepare: validating retained CPU evidence through pure helpers
+[2026-10-22T09:57:31Z] prepare: fresh encoder screen at P=16 (frozen candidate subprocess)
+[2026-10-22T09:58:05Z] prepare: deriving eligibility inventory (all 210 rows retained)
+[2026-10-22T09:58:05Z] prepare: done; eligible=73/210; 5/20 requested ids eligible
+[ext20 10-22T09:58:05] newly eligible ids in scope: 5
+[ext20 10-22T09:58:05] qualify Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z
+[2026-10-22T09:58:05Z] qualify: RTL semantic sequence (one DUT, SAT->UNSAT->SAT, n=2)
+[2026-10-22T09:58:09Z] qualify: abort pattern (pret150_75 init/early/search, then solves)
+[2026-10-22T09:58:37Z] qualify: six pilots under nominal sim cap 2,000,000 cycles
+[2026-10-22T10:05:26Z] qualify: pilot MRB0-005: ok=True cap_exceeded=True
+[2026-10-22T10:12:51Z] qualify: pilot MRB0-011: ok=True cap_exceeded=True
+[2026-10-22T10:20:34Z] qualify: pilot MRB0-017: ok=True cap_exceeded=True
+[2026-10-22T10:28:09Z] qualify: pilot MRB0-026: ok=True cap_exceeded=True
+[2026-10-22T10:29:19Z] qualify: pilot MRB0-077: ok=True cap_exceeded=False
+[2026-10-22T10:37:00Z] qualify: pilot MRB0-078: ok=True cap_exceeded=True
+[2026-10-22T10:37:00Z] qualify: local full-SoC PnR at 50 MHz
+[2026-10-22T10:37:00Z] qualify: local PnR via official image digest sha256:a5c74a81bff5d38…
+[2026-10-22T10:45:54Z] qualify: all local gates passed
+[ext20 10-22T10:45:54] run Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z (supervisor v5)
+find: Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/attempts: No such file or directory
+[supervisor5 10-22T10:50:27] network stable for 10 probes
+[2026-10-22T10:50:27Z] run: plan 5 attempts (5 eligible ids x 1 reps, pilots first; deadline 2600 s)
+[2026-10-22T10:50:29Z] session: build job bbdb2d46-5124-4c29-87fa-1125276fecc0 submitted; polling to terminal
+[2026-10-22T10:50:29Z] session: build running fpga=None
+[2026-10-22T11:05:34Z] session: build complete fpga=0
+[2026-10-22T11:05:34Z] session #1: board 0 session de2df4a8… expires 2026-10-22T12:05:34.340048Z
+[2026-10-22T11:05:44Z] attempt MRB0-001 rep1 #1: lease 3560s
+[2026-10-22T11:44:50Z] attempt MRB0-001 rep1 #1: status=transport_error
+[2026-10-22T11:44:52Z] release: board 0 reset complete (job 60c7c44d-a0c7-4f02-b310-17bd9023217d)
+[2026-10-22T11:44:52Z] BLOCKED: transport failure at MRB0-001 rep 1; no replay/retry; campaign halted (board released)
+[supervisor5 10-22T11:44:52] rc=3 phase=run_blocked iter=1 crashes=0 flash_relaunches=0
+SUPERVISOR_BLOCKER
+[ext20 10-22T11:44:52] supervisor exit=3
+[ext20 10-22T11:44:52] report Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z
+[2026-10-22T11:44:53Z] report: {"not_run": 4, "transport_error": 1}; binding_errors=0
+[ext20 10-22T11:44:53] finished (supervisor exit=3)
+[ext20-resume 10-22T13:10:21] waiting 60 s before resume
+[ext20-resume 10-22T13:10:25] waiting 60 s before resume
+[ext20-resume 10-22T13:11:25] run Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z (supervisor v5, resume)
+[supervisor5 10-22T13:16:00] network stable for 10 probes
+[2026-10-22T13:16:00Z] reconcile: 10 journal entries
+[2026-10-22T13:16:01Z] reconcile: clean
+[2026-10-22T13:16:01Z] run: plan 5 attempts (5 eligible ids x 1 reps, pilots first; deadline 2600 s)
+[2026-10-22T13:16:03Z] session: build job 6963ffd8-e30b-40ba-a597-e806e98fd616 submitted; polling to terminal
+[2026-10-22T13:16:03Z] session: build running fpga=None
+[2026-10-22T13:31:00Z] session: build complete fpga=0
+[2026-10-22T13:31:00Z] session #2: board 0 session 497fb61e… expires 2026-10-22T14:30:59.829343Z
+[2026-10-22T13:31:11Z] supervise: TERM child (None)
+[2026-10-22T13:31:11Z] attempt MRB0-003 rep1 #1: lease 3558s
+[2026-10-22T13:33:22Z] attempt MRB0-003 rep1 #1: status=resource_error
+[2026-10-22T13:33:23Z] attempt MRB0-009 rep1 #1: lease 3427s
+[2026-10-22T14:12:31Z] attempt MRB0-009 rep1 #1: status=sat
+[2026-10-22T14:12:31Z] run: lease 1079s < 3400s; rotating session
+[2026-10-22T14:12:33Z] release: board 0 reset complete (job 04fb9d14-b974-4e1a-82c4-b4e8dfbc1f0d)
+[2026-10-22T14:12:35Z] session: build job 561911ce-4de0-41d8-994d-ec4e289785c8 submitted; polling to terminal
+[2026-10-22T14:12:35Z] session: build running fpga=None
+[2026-10-22T14:28:48Z] session: build complete fpga=0
+[2026-10-22T14:28:49Z] session #3: board 0 session bbb2dcf6… expires 2026-10-22T15:28:48.322207Z
+[2026-10-22T14:28:59Z] attempt MRB0-021 rep1 #1: lease 3559s
+[2026-10-22T14:29:08Z] attempt MRB0-021 rep1 #1: status=resource_error
+[2026-10-22T14:29:08Z] attempt MRB0-037 rep1 #1: lease 3550s
+[2026-10-22T14:30:43Z] attempt MRB0-037 rep1 #1: status=resource_error
+[2026-10-22T14:30:46Z] release: board 0 reset complete (job 62a58696-05da-43dd-8966-5928a4614ae9)
+[2026-10-22T14:30:46Z] run: campaign complete
+[supervisor5 10-22T14:30:46] rc=0 phase=run_done iter=1 crashes=0 flash_relaunches=0
+SUPERVISOR_DONE
+[ext20-resume 10-22T14:30:46] supervisor exit=0
+[2026-10-22T14:30:46Z] report: {"resource_error": 3, "sat": 1, "transport_error": 1}; binding_errors=0
+[ext20-resume 10-22T14:30:46] finished (supervisor exit=0)

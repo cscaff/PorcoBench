@@ -1,0 +1,10 @@
+{
+ "note": "Byte-exact organizer files this run was prepared, qualified and run with. To re-run `report` after later organizer edits, copy these next to the tests and run them, then delete the copies.",
+ "files": {
+  "benchmark_cnf.py": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+  "calibrate_cpu.py": "4ef17539c8e25ad536f3f0a0a3d2286e991ccd157ca3c4ff1d35a44381cbf242",
+  "pigweed_fpga_worker.py": "5e1f0f6e7194264d266c2edd4428ade02198efbbd20860dcf95690dc26c1b8d3",
+  "run_pigweed_fpga.py": "6e1352c31e605c1fe3181363b459980d7d84fec0bc7a60635e6384f7c5d321f3",
+  "screen_pigweed.py": "d0318a137a998b4e446e706b811e5028513f9ce0fd3dd8274a1c757e84180100"
+ }
+}

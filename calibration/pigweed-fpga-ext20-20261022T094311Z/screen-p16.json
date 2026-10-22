@@ -1,0 +1,2542 @@
+{
+ "MRB0-001": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.154297,
+   "clause_word_frac": 0.154297,
+   "lit_word_frac": 0.371094,
+   "occupancy": 0.371094
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-002": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.101318,
+   "clause_word_frac": 0.106201,
+   "lit_word_frac": 0.175781,
+   "occupancy": 0.175781
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-003": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.051758,
+   "clause_word_frac": 0.051758,
+   "lit_word_frac": 0.197266,
+   "occupancy": 0.197266
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-004": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.134766,
+   "clause_word_frac": 0.157227,
+   "lit_word_frac": 0.449219,
+   "occupancy": 0.449219
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-005": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.06958,
+   "clause_word_frac": 0.06958,
+   "lit_word_frac": 0.416016,
+   "occupancy": 0.416016
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-006": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.140625,
+   "clause_word_frac": 0.164062,
+   "lit_word_frac": 0.46875,
+   "occupancy": 0.46875
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-007": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.061523,
+   "clause_word_frac": 0.061523,
+   "lit_word_frac": 0.236328,
+   "occupancy": 0.236328
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-008": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.152344,
+   "clause_word_frac": 0.177734,
+   "lit_word_frac": 0.507812,
+   "occupancy": 0.507812
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-009": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.105469,
+   "clause_word_frac": 0.123047,
+   "lit_word_frac": 0.351562,
+   "occupancy": 0.351562
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-010": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.158203,
+   "clause_word_frac": 0.18457,
+   "lit_word_frac": 0.527344,
+   "occupancy": 0.527344
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-011": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.117188,
+   "clause_word_frac": 0.136719,
+   "lit_word_frac": 0.390625,
+   "occupancy": 0.390625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-012": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.146484,
+   "clause_word_frac": 0.170898,
+   "lit_word_frac": 0.488281,
+   "occupancy": 0.488281
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-013": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.132324,
+   "clause_word_frac": 0.134766,
+   "lit_word_frac": 0.259766,
+   "occupancy": 0.259766
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-014": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.167236,
+   "clause_word_frac": 0.169678,
+   "lit_word_frac": 0.330078,
+   "occupancy": 0.330078
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-015": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.128418,
+   "clause_word_frac": 0.130859,
+   "lit_word_frac": 0.251953,
+   "occupancy": 0.251953
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-016": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.159668,
+   "clause_word_frac": 0.162109,
+   "lit_word_frac": 0.314453,
+   "occupancy": 0.314453
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-017": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.064453,
+   "clause_word_frac": 0.064453,
+   "lit_word_frac": 0.193359,
+   "occupancy": 0.193359
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-018": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.091797,
+   "clause_word_frac": 0.197266,
+   "lit_word_frac": 0.189453,
+   "occupancy": 0.197266
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-019": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.154297,
+   "clause_word_frac": 0.154297,
+   "lit_word_frac": 0.462891,
+   "occupancy": 0.462891
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-020": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.288818,
+   "clause_word_frac": 0.453857,
+   "lit_word_frac": 0.330078,
+   "occupancy": 0.453857
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-021": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.497803,
+   "clause_word_frac": 0.497803,
+   "lit_word_frac": 0.998047,
+   "occupancy": 0.998047
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-022": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.424072,
+   "clause_word_frac": 0.424072,
+   "lit_word_frac": 0.902344,
+   "occupancy": 0.902344
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-023": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.771484,
+   "clause_word_frac": 0.783691,
+   "lit_word_frac": 0.703125,
+   "occupancy": 0.783691
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-024": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.250488,
+   "clause_word_frac": 0.470215,
+   "lit_word_frac": 0.46875,
+   "occupancy": 0.470215
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-025": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.335693,
+   "clause_word_frac": 0.341797,
+   "lit_word_frac": 0.488281,
+   "occupancy": 0.488281
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-026": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.692871,
+   "clause_word_frac": 0.700195,
+   "lit_word_frac": 0.984375,
+   "occupancy": 0.984375
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-027": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.537109,
+   "clause_word_frac": 0.544922,
+   "lit_word_frac": 0.757812,
+   "occupancy": 0.757812
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-028": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.372803,
+   "clause_word_frac": 0.378174,
+   "lit_word_frac": 0.503906,
+   "occupancy": 0.503906
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-029": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.273926,
+   "clause_word_frac": 0.290039,
+   "lit_word_frac": 0.429688,
+   "occupancy": 0.429688
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-030": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.495605,
+   "clause_word_frac": 0.516113,
+   "lit_word_frac": 0.601562,
+   "occupancy": 0.601562
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-031": {
+  "build_reason": "literal store needs 16544 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-032": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.658203,
+   "clause_word_frac": 0.716797,
+   "lit_word_frac": 0.867188,
+   "occupancy": 0.867188
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-033": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.658691,
+   "clause_word_frac": 0.717285,
+   "lit_word_frac": 0.869141,
+   "occupancy": 0.869141
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-034": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.273438,
+   "clause_word_frac": 0.273438,
+   "lit_word_frac": 0.625,
+   "occupancy": 0.625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-035": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.275146,
+   "clause_word_frac": 0.275146,
+   "lit_word_frac": 0.628906,
+   "occupancy": 0.628906
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-036": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.273438,
+   "clause_word_frac": 0.273438,
+   "lit_word_frac": 0.625,
+   "occupancy": 0.625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-037": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.348145,
+   "clause_word_frac": 0.350098,
+   "lit_word_frac": 0.878906,
+   "occupancy": 0.878906
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-038": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.188965,
+   "clause_word_frac": 0.263184,
+   "lit_word_frac": 0.371094,
+   "occupancy": 0.371094
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-039": {
+  "build_reason": "literal store needs 17408 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-040": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.389648,
+   "clause_word_frac": 0.4375,
+   "lit_word_frac": 0.9375,
+   "occupancy": 0.9375
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-041": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.3396,
+   "clause_word_frac": 0.380859,
+   "lit_word_frac": 0.820312,
+   "occupancy": 0.820312
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-042": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.853516,
+   "clause_word_frac": 0.869141,
+   "lit_word_frac": 0.9375,
+   "occupancy": 0.9375
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-043": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.536865,
+   "clause_word_frac": 0.536865,
+   "lit_word_frac": 0.824219,
+   "occupancy": 0.824219
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-044": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.558838,
+   "clause_word_frac": 0.558838,
+   "lit_word_frac": 0.883789,
+   "occupancy": 0.883789
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-045": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.293701,
+   "clause_word_frac": 0.293701,
+   "lit_word_frac": 0.553711,
+   "occupancy": 0.553711
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-046": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.402588,
+   "clause_word_frac": 0.402588,
+   "lit_word_frac": 0.621094,
+   "occupancy": 0.621094
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-047": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.419922,
+   "clause_word_frac": 0.419922,
+   "lit_word_frac": 0.790039,
+   "occupancy": 0.790039
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-048": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.419922,
+   "clause_word_frac": 0.419922,
+   "lit_word_frac": 0.787109,
+   "occupancy": 0.787109
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-049": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.508057,
+   "clause_word_frac": 0.508057,
+   "lit_word_frac": 0.808594,
+   "occupancy": 0.808594
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-050": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.314941,
+   "clause_word_frac": 0.314941,
+   "lit_word_frac": 0.592773,
+   "occupancy": 0.592773
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-051": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.356934,
+   "clause_word_frac": 0.356934,
+   "lit_word_frac": 0.671875,
+   "occupancy": 0.671875
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-052": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.46167,
+   "clause_word_frac": 0.46167,
+   "lit_word_frac": 0.87207,
+   "occupancy": 0.87207
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-053": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.273438,
+   "clause_word_frac": 0.273438,
+   "lit_word_frac": 0.546875,
+   "occupancy": 0.546875
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-054": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.244141,
+   "clause_word_frac": 0.244141,
+   "lit_word_frac": 0.488281,
+   "occupancy": 0.488281
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-055": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.224609,
+   "clause_word_frac": 0.224609,
+   "lit_word_frac": 0.449219,
+   "occupancy": 0.449219
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-056": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.263672,
+   "clause_word_frac": 0.263672,
+   "lit_word_frac": 0.527344,
+   "occupancy": 0.527344
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-057": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.304932,
+   "clause_word_frac": 0.304932,
+   "lit_word_frac": 0.480469,
+   "occupancy": 0.480469
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-058": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.272949,
+   "clause_word_frac": 0.272949,
+   "lit_word_frac": 0.512695,
+   "occupancy": 0.512695
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-059": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.376709,
+   "clause_word_frac": 0.376709,
+   "lit_word_frac": 0.69043,
+   "occupancy": 0.69043
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-060": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.503906,
+   "clause_word_frac": 0.503906,
+   "lit_word_frac": 0.942383,
+   "occupancy": 0.942383
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-061": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.45752,
+   "clause_word_frac": 0.45752,
+   "lit_word_frac": 0.71875,
+   "occupancy": 0.71875
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-062": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.330322,
+   "clause_word_frac": 0.330322,
+   "lit_word_frac": 0.530273,
+   "occupancy": 0.530273
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-063": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.432129,
+   "clause_word_frac": 0.432129,
+   "lit_word_frac": 0.681641,
+   "occupancy": 0.681641
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-064": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.484375,
+   "clause_word_frac": 0.484375,
+   "lit_word_frac": 0.884766,
+   "occupancy": 0.884766
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-065": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.314941,
+   "clause_word_frac": 0.314941,
+   "lit_word_frac": 0.59082,
+   "occupancy": 0.59082
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-066": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.251953,
+   "clause_word_frac": 0.251953,
+   "lit_word_frac": 0.472656,
+   "occupancy": 0.472656
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-067": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.280518,
+   "clause_word_frac": 0.292236,
+   "lit_word_frac": 0.418945,
+   "occupancy": 0.418945
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-068": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.493896,
+   "clause_word_frac": 0.507812,
+   "lit_word_frac": 0.667969,
+   "occupancy": 0.667969
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-069": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.506104,
+   "clause_word_frac": 0.524658,
+   "lit_word_frac": 0.710938,
+   "occupancy": 0.710938
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-070": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.329102,
+   "clause_word_frac": 0.341553,
+   "lit_word_frac": 0.537109,
+   "occupancy": 0.537109
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-071": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.791016,
+   "clause_word_frac": 0.808594,
+   "lit_word_frac": 0.84375,
+   "occupancy": 0.84375
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-072": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.467529,
+   "clause_word_frac": 0.481445,
+   "lit_word_frac": 0.65625,
+   "occupancy": 0.65625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-073": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.458984,
+   "clause_word_frac": 0.474365,
+   "lit_word_frac": 0.612305,
+   "occupancy": 0.612305
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-074": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.500244,
+   "clause_word_frac": 0.515625,
+   "lit_word_frac": 0.667969,
+   "occupancy": 0.667969
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-075": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.305664,
+   "clause_word_frac": 0.317383,
+   "lit_word_frac": 0.457031,
+   "occupancy": 0.457031
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-076": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.776855,
+   "clause_word_frac": 0.799316,
+   "lit_word_frac": 0.875977,
+   "occupancy": 0.875977
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-077": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.283936,
+   "clause_word_frac": 0.30127,
+   "lit_word_frac": 0.560547,
+   "occupancy": 0.560547
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-078": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.264893,
+   "clause_word_frac": 0.281006,
+   "lit_word_frac": 0.5,
+   "occupancy": 0.5
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-079": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.27002,
+   "clause_word_frac": 0.286133,
+   "lit_word_frac": 0.511719,
+   "occupancy": 0.511719
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-080": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.34668,
+   "clause_word_frac": 0.361572,
+   "lit_word_frac": 0.515625,
+   "occupancy": 0.515625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-081": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.172607,
+   "clause_word_frac": 0.172607,
+   "lit_word_frac": 0.392578,
+   "occupancy": 0.392578
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-082": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.695801,
+   "clause_word_frac": 0.710449,
+   "lit_word_frac": 0.615234,
+   "occupancy": 0.710449
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-083": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.180908,
+   "clause_word_frac": 0.346924,
+   "lit_word_frac": 0.777344,
+   "occupancy": 0.777344
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-084": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.371094,
+   "clause_word_frac": 0.6875,
+   "lit_word_frac": 0.798828,
+   "occupancy": 0.798828
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-085": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.236328,
+   "clause_word_frac": 0.431641,
+   "lit_word_frac": 0.515625,
+   "occupancy": 0.515625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-086": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.191406,
+   "clause_word_frac": 0.191406,
+   "lit_word_frac": 0.574219,
+   "occupancy": 0.574219
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-087": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.169434,
+   "clause_word_frac": 0.438965,
+   "lit_word_frac": 0.353516,
+   "occupancy": 0.438965
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-088": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.158203,
+   "clause_word_frac": 0.158203,
+   "lit_word_frac": 0.474609,
+   "occupancy": 0.474609
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-089": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.1875,
+   "clause_word_frac": 0.1875,
+   "lit_word_frac": 0.5625,
+   "occupancy": 0.5625
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-090": {
+  "build_reason": null,
+  "build_status": "loaded",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": {
+   "clause_id_frac": 0.216797,
+   "clause_word_frac": 0.482422,
+   "lit_word_frac": 0.455078,
+   "occupancy": 0.482422
+  },
+  "semantics_status": "ok",
+  "unsupported_bucket": null
+ },
+ "MRB0-091": {
+  "build_reason": "literal store needs 41184 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-092": {
+  "build_reason": "clause store needs 16520 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-093": {
+  "build_reason": "clause store needs 26144 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-094": {
+  "build_reason": "literal store needs 32736 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-095": {
+  "build_reason": "5207 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-096": {
+  "build_reason": "literal store needs 28320 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-097": {
+  "build_reason": "5262 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-098": {
+  "build_reason": "literal store needs 24848 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-099": {
+  "build_reason": "6747 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-100": {
+  "build_reason": "5521 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-101": {
+  "build_reason": "6482 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-102": {
+  "build_reason": "literal store needs 17760 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-103": {
+  "build_reason": "6663 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-104": {
+  "build_reason": "7199 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-105": {
+  "build_reason": "6925 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-106": {
+  "build_reason": "clause store needs 16548 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-107": {
+  "build_reason": "literal store needs 32064 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-108": {
+  "build_reason": "literal store needs 21568 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-109": {
+  "build_reason": "4220 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-110": {
+  "build_reason": "6427 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-111": {
+  "build_reason": "clause store needs 16712 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-112": {
+  "build_reason": "4478 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-113": {
+  "build_reason": "4496 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-114": {
+  "build_reason": "4941 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-115": {
+  "build_reason": "4506 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-116": {
+  "build_reason": "5395 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-117": {
+  "build_reason": "5392 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-118": {
+  "build_reason": "4502 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-119": {
+  "build_reason": "4511 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-120": {
+  "build_reason": "3432 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-121": {
+  "build_reason": "5326 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-122": {
+  "build_reason": "4386 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-123": {
+  "build_reason": "4270 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-124": {
+  "build_reason": "5806 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-125": {
+  "build_reason": "5614 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-126": {
+  "build_reason": "4438 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-127": {
+  "build_reason": "2780 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-128": {
+  "build_reason": "2958 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-129": {
+  "build_reason": "2365 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-130": {
+  "build_reason": "literal store needs 33744 words > LE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "literal_store"
+ },
+ "MRB0-131": {
+  "build_reason": "16278 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-132": {
+  "build_reason": "16278 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-133": {
+  "build_reason": "3641 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-134": {
+  "build_reason": "8655 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-135": {
+  "build_reason": "5457 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-136": {
+  "build_reason": "5423 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-137": {
+  "build_reason": "6182 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-138": {
+  "build_reason": "clause store needs 19328 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-139": {
+  "build_reason": "clause store needs 20768 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-140": {
+  "build_reason": "clause store needs 19328 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-141": {
+  "build_reason": "clause store needs 19936 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-142": {
+  "build_reason": "clause store needs 19008 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-143": {
+  "build_reason": "clause store needs 27960 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-144": {
+  "build_reason": "4685 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-145": {
+  "build_reason": "5037 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-146": {
+  "build_reason": "6802 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-147": {
+  "build_reason": "9175 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-148": {
+  "build_reason": "6488 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-149": {
+  "build_reason": "7044 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-150": {
+  "build_reason": "7050 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-151": {
+  "build_reason": "5405 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-152": {
+  "build_reason": "4949 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-153": {
+  "build_reason": "5404 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-154": {
+  "build_reason": "4502 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-155": {
+  "build_reason": "clause store needs 27512 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-156": {
+  "build_reason": "clause store needs 28024 words > CE_MAX 16384",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clause_store"
+ },
+ "MRB0-157": {
+  "build_reason": "6618 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-158": {
+  "build_reason": "6990 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-159": {
+  "build_reason": "5796 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-160": {
+  "build_reason": "7545 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-161": {
+  "build_reason": "7796 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-162": {
+  "build_reason": "9018 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-163": {
+  "build_reason": "9088 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-164": {
+  "build_reason": "5016 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-165": {
+  "build_reason": "5432 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-166": {
+  "build_reason": "5505 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-167": {
+  "build_reason": "7469 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-168": {
+  "build_reason": "7468 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-169": {
+  "build_reason": "10430 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-170": {
+  "build_reason": "7150 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-171": {
+  "build_reason": "2520 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-172": {
+  "build_reason": "7823 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-173": {
+  "build_reason": "7821 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-174": {
+  "build_reason": "7829 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-175": {
+  "build_reason": "7835 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-176": {
+  "build_reason": "7831 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-177": {
+  "build_reason": "7825 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-178": {
+  "build_reason": "7837 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-179": {
+  "build_reason": "6232 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-180": {
+  "build_reason": "6232 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-181": {
+  "build_reason": "6232 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-182": {
+  "build_reason": "2475 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-183": {
+  "build_reason": "7056 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-184": {
+  "build_reason": "2279 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-185": {
+  "build_reason": "7382 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-186": {
+  "build_reason": "5874 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-187": {
+  "build_reason": "7406 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-188": {
+  "build_reason": "7346 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-189": {
+  "build_reason": "7390 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-190": {
+  "build_reason": "2565 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-191": {
+  "build_reason": "2540 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-192": {
+  "build_reason": "2575 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-193": {
+  "build_reason": "6991 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-194": {
+  "build_reason": "7287 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-195": {
+  "build_reason": "6563 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-196": {
+  "build_reason": "7334 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-197": {
+  "build_reason": "7850 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-198": {
+  "build_reason": "8019 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-199": {
+  "build_reason": "5279 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-200": {
+  "build_reason": "5279 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-201": {
+  "build_reason": "5279 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-202": {
+  "build_reason": "5279 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-203": {
+  "build_reason": "5279 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-204": {
+  "build_reason": "5279 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-205": {
+  "build_reason": "7602 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-206": {
+  "build_reason": "5152 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-207": {
+  "build_reason": "7628 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-208": {
+  "build_reason": "7723 clauses > C_MAX 4096",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "clauses"
+ },
+ "MRB0-209": {
+  "build_reason": "2273 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ },
+ "MRB0-210": {
+  "build_reason": "2087 variables > N_MAX 2048",
+  "build_status": "unsupported",
+  "detail": "",
+  "empty_clauses_in_original": 0,
+  "field_flags": [],
+  "occupancy": null,
+  "semantics_status": "ok",
+  "unsupported_bucket": "variables"
+ }
+}

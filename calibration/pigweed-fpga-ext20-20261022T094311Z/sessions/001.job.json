@@ -1,0 +1,42 @@
+{
+ "_job_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/sessions/001.job.json",
+ "api_url": "https://api.manhattanreasoning.com",
+ "candidate_root": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/candidate",
+ "command": "qualify",
+ "events_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/sessions/001.events.jsonl",
+ "fixture_dir": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/candidate",
+ "fpga_id": 0,
+ "pilot_cnfs": [
+  [
+   "MRB0-005",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/inputs/MRB0-005.cnf"
+  ],
+  [
+   "MRB0-011",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/inputs/MRB0-011.cnf"
+  ],
+  [
+   "MRB0-017",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/inputs/MRB0-017.cnf"
+  ],
+  [
+   "MRB0-026",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/inputs/MRB0-026.cnf"
+  ],
+  [
+   "MRB0-077",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/inputs/MRB0-077.cnf"
+  ],
+  [
+   "MRB0-078",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/inputs/MRB0-078.cnf"
+  ]
+ ],
+ "release_job_id": "60c7c44d-a0c7-4f02-b310-17bd9023217d",
+ "release_skipped": false,
+ "released": true,
+ "released_utc": "2026-10-22T11:44:52Z",
+ "result_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/sessions/001.qualify.json",
+ "session_id": "de2df4a8-e835-42ee-9312-5ec89d0628e6",
+ "stderr_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-ext20-20261022T094311Z/sessions/001.stderr.log"
+}

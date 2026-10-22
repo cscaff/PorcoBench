@@ -1,0 +1,9 @@
+{
+ "build_stage": "build_gateware",
+ "created_at": "2026-10-22T10:50:28.484749Z",
+ "fpga_id": 0,
+ "job_id": "bbdb2d46-5124-4c29-87fa-1125276fecc0",
+ "status": "complete",
+ "type": "build_and_program",
+ "updated_at": "2026-10-22T11:05:34.341062Z"
+}

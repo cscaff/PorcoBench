@@ -1,0 +1,195 @@
+{
+ "campaign": {
+  "cpu_runs": [
+   {
+    "env": [
+     1000,
+     3000
+    ],
+    "path": "calibration/cpu-v0"
+   },
+   {
+    "env": [
+     5000,
+     20000
+    ],
+    "path": "calibration/cpu-v1-5000s"
+   }
+  ],
+  "only_ids": [
+   "MRB0-001",
+   "MRB0-003",
+   "MRB0-004",
+   "MRB0-006",
+   "MRB0-007",
+   "MRB0-008",
+   "MRB0-009",
+   "MRB0-010",
+   "MRB0-012",
+   "MRB0-019",
+   "MRB0-021",
+   "MRB0-037",
+   "MRB0-042",
+   "MRB0-080",
+   "MRB0-082",
+   "MRB0-084",
+   "MRB0-086",
+   "MRB0-088",
+   "MRB0-089",
+   "MRB0-090"
+  ],
+  "repetitions": 1,
+  "solve_timeout_s": 2600.0
+ },
+ "candidate_snapshot": {
+  "checkout_clean": true,
+  "dirty_paths": [],
+  "files": {
+   "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "NOTICE": "ef90aef7ffa1f2c6015c449f6e90fe81086b32b217c18a3bb11aa8006e9d8775",
+   "design.py": "30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+   "sat/aim50.dimacs": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+   "sat/uf20.dimacs": "b6e907efdea2337deec653c576f1b6ef38cb5e0ed3468c253b520b48d627a7e8",
+   "satlat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "satlat/driver.py": "ac51e9807f1b28944cc1c256d998a10b64d62b40b602b83a0e6d8a2718de873a",
+   "satlat/figure.py": "932bf7f9249ca547a4d973bf3f7741ffb4765adb57ff7b92b9fa29ef2d5e03e4",
+   "satlat/golden.py": "ca24f750f882b887f680911c5827bbed365e83e98f4df1b8b61210ee937136de",
+   "satlat/host.py": "2e6e1039972bb4fec474da24328c8248c8066216a52377caa5471a688a15bdf7",
+   "satlat/report.py": "77840e4492b1b9ec1ffaac134fd2d561ebd726304f06332cee3ca4e75469569c",
+   "satlat/rtlsim.py": "a7b3add4d3f4af0182e88c9b59d1f486f08dd7b97e62480f4a52045d70bd11e0",
+   "satlat/run_golden.py": "0c06a59fa5441080079fc98d312afb5e8a3fde1138209261affd2f21e59c7e58",
+   "unsat/aalto_2.dimacs": "b7180ccefe0e419773c995c71d80dd88d6d158dd01751425a9e77d885b779401",
+   "unsat/pret150_75.dimacs": "979f18526888346d34bcbfaa2f02e4f547bea5ef267006e15797a0920ce6c63d"
+  },
+  "git_head": "27e4de5e2868ddf366163a99466c07bbc1149b31"
+ },
+ "counts": {
+  "eligible": 73,
+  "rows": 210
+ },
+ "cpu_run": "calibration/cpu-v0",
+ "created_utc": "2026-10-22T09:43:11Z",
+ "halt_clearances": [
+  {
+   "cleared_utc": "2026-10-22T13:10:10Z",
+   "decision": "user (chat, 2026-10-22): clear halt, run the remaining 4",
+   "justification": "MRB0-001 lost its board-0 connection 2,340 s into a 2,600 s solve (no platform error code; local network healthy; board released, reset 60c7c44d). Not a candidate or correctness failure. MRB0-001 stays transport_error (no replay); a second long-attempt drop would indicate a platform connection limit.",
+   "previous_halt_reason": "transport failure at MRB0-001 rep 1; no replay/retry; campaign halted (board released)",
+   "previous_phase": "run_blocked"
+  }
+ ],
+ "identity": {
+  "artifacts": {
+   "evidence_validation": "1abc90456b094f1cf35f4144bd0fdf2cf224d61716b645a91d313a0555770d2c",
+   "inputs_tree": "cf48a717d7db0e16a760cb07e4a9fdf9b20407bcb3d5f642268c327c05a07213",
+   "inventory": "6a4a2b30d8adaa33e385735ca80ec32d91319c0124bd5246af2a16bcf3ffe854",
+   "manifest_snapshot": "23305e51e46e326b1bd150b97190dcac99e4b3030e3a6a0cbc691932d97315f6",
+   "qualification": "6e01b7109c4cbb63b1613028d58dcbe55244a9b77d9075d650bed9273c37926c"
+  },
+  "candidate": {
+   "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+   "NOTICE": "ef90aef7ffa1f2c6015c449f6e90fe81086b32b217c18a3bb11aa8006e9d8775",
+   "design.py": "30b56cd25c31492e9ce377dbbd7129c8a69775d80fb02960a14825b0c6b975a4",
+   "sat/aim50.dimacs": "2debeaf0ecdf4ca71173413bb0dc9f90d68478234ab6ea4c62c4885b2e149991",
+   "sat/uf20.dimacs": "b6e907efdea2337deec653c576f1b6ef38cb5e0ed3468c253b520b48d627a7e8",
+   "satlat/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "satlat/driver.py": "ac51e9807f1b28944cc1c256d998a10b64d62b40b602b83a0e6d8a2718de873a",
+   "satlat/figure.py": "932bf7f9249ca547a4d973bf3f7741ffb4765adb57ff7b92b9fa29ef2d5e03e4",
+   "satlat/golden.py": "ca24f750f882b887f680911c5827bbed365e83e98f4df1b8b61210ee937136de",
+   "satlat/host.py": "2e6e1039972bb4fec474da24328c8248c8066216a52377caa5471a688a15bdf7",
+   "satlat/report.py": "77840e4492b1b9ec1ffaac134fd2d561ebd726304f06332cee3ca4e75469569c",
+   "satlat/rtlsim.py": "a7b3add4d3f4af0182e88c9b59d1f486f08dd7b97e62480f4a52045d70bd11e0",
+   "satlat/run_golden.py": "0c06a59fa5441080079fc98d312afb5e8a3fde1138209261affd2f21e59c7e58",
+   "unsat/aalto_2.dimacs": "b7180ccefe0e419773c995c71d80dd88d6d158dd01751425a9e77d885b779401",
+   "unsat/pret150_75.dimacs": "979f18526888346d34bcbfaa2f02e4f547bea5ef267006e15797a0920ce6c63d"
+  },
+  "config": {
+   "api_url": "https://api.manhattanreasoning.com",
+   "build_ceiling_s": 14400.0,
+   "cpu_runs": [
+    {
+     "env": [
+      1000,
+      3000
+     ],
+     "path": "calibration/cpu-v0"
+    },
+    {
+     "env": [
+      5000,
+      20000
+     ],
+     "path": "calibration/cpu-v1-5000s"
+    }
+   ],
+   "lease_min_go_s": 3280.0,
+   "lease_min_load_s": 3400.0,
+   "lease_min_qualify_s": 2400.0,
+   "lit_page": 16,
+   "max_board_skips": 3,
+   "only_ids": [
+    "MRB0-001",
+    "MRB0-003",
+    "MRB0-004",
+    "MRB0-006",
+    "MRB0-007",
+    "MRB0-008",
+    "MRB0-009",
+    "MRB0-010",
+    "MRB0-012",
+    "MRB0-019",
+    "MRB0-021",
+    "MRB0-037",
+    "MRB0-042",
+    "MRB0-080",
+    "MRB0-082",
+    "MRB0-084",
+    "MRB0-086",
+    "MRB0-088",
+    "MRB0-089",
+    "MRB0-090"
+   ],
+   "poll_s": 0.05,
+   "repetitions": 1,
+   "sandbox_digest": "sha256:a5c74a81bff5d3874c6a10993d99236f9aa52b2d7d01368cc7d2156f20e19034",
+   "sim_cycle_cap": 2000000,
+   "skip_fpga_ids": [
+    6
+   ],
+   "solve_timeout_s": 2600.0,
+   "sys_clk_hz": 50000000,
+   "timing_target_mhz": 50.0,
+   "wd_go_s": 2660.0,
+   "wd_load_s": 120.0,
+   "wd_qualify_s": 600.0,
+   "wd_readback_s": 120.0,
+   "wd_recovery_s": 120.0
+  },
+  "organizer": {
+   "benchmark_cnf.py": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+   "calibrate_cpu.py": "4ef17539c8e25ad536f3f0a0a3d2286e991ccd157ca3c4ff1d35a44381cbf242",
+   "pigweed_fpga_worker.py": "5e1f0f6e7194264d266c2edd4428ade02198efbbd20860dcf95690dc26c1b8d3",
+   "run_pigweed_fpga.py": "6e1352c31e605c1fe3181363b459980d7d84fec0bc7a60635e6384f7c5d321f3",
+   "screen_pigweed.py": "d0318a137a998b4e446e706b811e5028513f9ce0fd3dd8274a1c757e84180100"
+  },
+  "sdk": {
+   "amaranth": "0.5.8",
+   "commit": "d77d68d19f0cddf5730aa8d5f17b64df4a333632",
+   "package_tree_sha256": "e51fe860b8e2de3cb026b5c4960ae792489a5c4e8e29aea9f796f9fcdcd0ddb9",
+   "python": "3.12.13",
+   "requests": "2.34.2",
+   "version": "0.1.10",
+   "websockets": "17.2"
+  }
+ },
+ "manifest": "manifest.csv",
+ "phase": "run_done",
+ "qualify_gates": {
+  "pnr": true,
+  "rtl_abort": true,
+  "rtl_pilots": true,
+  "rtl_semantic": true
+ },
+ "schema": "pigweed-fpga-run/1",
+ "updated_utc": "2026-10-22T14:30:46Z"
+}
