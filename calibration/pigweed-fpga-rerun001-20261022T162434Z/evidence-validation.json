@@ -1,0 +1,1290 @@
+{
+ "cpu_run_identity": {
+  "calibration/cpu-v0": {
+   "check_timeout_seconds": 3000,
+   "drat_trim_sha256": "2a92f76b682bc64ab76ebd1d23f188e66ff138cf7f8172f80ec7ea94ecc5389a",
+   "harness_sha256": "d48bcd32628e78f844d1098840bde499bf9dc3b004e93422df52e8e656715cc6",
+   "kissat_sha256": "2c139b29fa40d469cc39f4024d74fd82198b561a2f64b7883a7af1308dfebf40",
+   "manifest_sha256": "23305e51e46e326b1bd150b97190dcac99e4b3030e3a6a0cbc691932d97315f6",
+   "parser_sha256": "c93f914bd0163f1884c69f41c558517df994a14e890e1f961a3c5beaa66dafdb",
+   "solve_timeout_seconds": 1000
+  },
+  "calibration/cpu-v1-5000s": {
+   "check_timeout_seconds": 20000,
+   "drat_trim_sha256": "2a92f76b682bc64ab76ebd1d23f188e66ff138cf7f8172f80ec7ea94ecc5389a",
+   "harness_sha256": "4ef17539c8e25ad536f3f0a0a3d2286e991ccd157ca3c4ff1d35a44381cbf242",
+   "kissat_sha256": "2c139b29fa40d469cc39f4024d74fd82198b561a2f64b7883a7af1308dfebf40",
+   "manifest_sha256": "73927b7bf4a6d90612cfc3393b591d99a77e3e85263a206125f9dfa9dfe6b013",
+   "output_file_limit_bytes": 68719476736,
+   "parser_sha256": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+   "solve_timeout_seconds": 5000
+  }
+ },
+ "instances": {
+  "MRB0-001": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-002": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-003": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-004": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-005": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-006": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-007": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-008": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-009": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-010": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-011": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-012": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-013": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-014": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-015": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-016": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-017": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-018": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-019": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-020": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-021": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-022": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-023": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-024": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-025": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-026": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-027": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-028": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-029": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-030": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-031": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-032": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-033": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-034": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-035": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-036": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-037": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-038": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-039": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-040": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-041": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-042": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-043": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-044": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-045": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-046": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-047": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-048": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-049": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-050": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-051": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-052": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-053": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-054": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-055": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-056": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-057": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-058": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-059": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-060": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-061": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-062": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-063": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-064": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-065": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-066": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-067": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-068": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-069": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-070": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-071": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-072": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-073": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-074": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-075": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-076": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-077": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-078": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-079": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-080": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-081": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-082": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-083": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-084": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-085": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-086": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-087": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-088": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-089": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-090": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v1-5000s"
+  },
+  "MRB0-091": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-092": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-093": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-094": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-095": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-096": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-097": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-098": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-099": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-100": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-101": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-102": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-103": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-104": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-105": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-106": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-107": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-108": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-109": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-110": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-111": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-112": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-113": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-114": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-115": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-116": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-117": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-118": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-119": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-120": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-121": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-122": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-123": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-124": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-125": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-126": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-127": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-128": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-129": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-130": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-131": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-132": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-133": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-134": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-135": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-136": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-137": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-138": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-139": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-140": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-141": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-142": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-143": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-144": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-145": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-146": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-147": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-148": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-149": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-150": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-151": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-152": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-153": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-154": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-155": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-156": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-157": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-158": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-159": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-160": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-161": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-162": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-163": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-164": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-165": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-166": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-167": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-168": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-169": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-170": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-171": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-172": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-173": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-174": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-175": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-176": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-177": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-178": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-179": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-180": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-181": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-182": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-183": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-184": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-185": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-186": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-187": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-188": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-189": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-190": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-191": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-192": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-193": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-194": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-195": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-196": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-197": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-198": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-199": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-200": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-201": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-202": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-203": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-204": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-205": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "sat_witness",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-206": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-207": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-208": {
+   "attempt": 1,
+   "certified": true,
+   "certified_kind": "unsat_proof",
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-209": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  },
+  "MRB0-210": {
+   "attempt": 1,
+   "certified": false,
+   "certified_kind": null,
+   "cpu_run": "calibration/cpu-v0"
+  }
+ },
+ "note": "re-validation of the retained CPU runs with the organizer parser; later runs override earlier ones per id; no Kissat/drat-trim rerun, no FPGA proof claimed",
+ "validator": {
+  "benchmark_cnf": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+  "calibrate_cpu": "4ef17539c8e25ad536f3f0a0a3d2286e991ccd157ca3c4ff1d35a44381cbf242"
+ }
+}

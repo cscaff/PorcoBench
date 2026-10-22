@@ -1,0 +1,51 @@
+{
+ "binding_errors": [],
+ "campaign": {
+  "cpu_runs": [
+   {
+    "env": [
+     1000,
+     3000
+    ],
+    "path": "calibration/cpu-v0"
+   },
+   {
+    "env": [
+     5000,
+     20000
+    ],
+    "path": "calibration/cpu-v1-5000s"
+   }
+  ],
+  "only_ids": [
+   "MRB0-001"
+  ],
+  "planned_ids": 1,
+  "repetitions": 1,
+  "solve_timeout_s": 2600.0
+ },
+ "eligibility": {
+  "by_reason": {
+   "eligible": 73,
+   "non_fitting": 122,
+   "uncertified": 57
+  },
+  "eligible": 73,
+  "rows_210": 210
+ },
+ "generated_utc": "2026-10-22T18:25:39Z",
+ "identity_ok": true,
+ "no_official_score": true,
+ "rows": 1,
+ "schema": "pigweed-fpga-summary/1",
+ "status_counts": {
+  "timeout": 1
+ },
+ "timing": {
+  "censoring": "medians aggregate validated completions only; timeouts/resource errors censored explicitly",
+  "completed": 0,
+  "device_seconds_withheld_unless_clock_confirmed": true,
+  "median_cycles": null,
+  "median_host_total_s": null
+ }
+}

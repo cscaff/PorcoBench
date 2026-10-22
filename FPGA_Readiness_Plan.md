@@ -325,7 +325,10 @@ replace any of them. Full details and results are in
   - Three resource errors: MRB0-003 (-4), MRB0-037 (-5) and MRB0-021 (-5,
     after 1 s).
   - One `transport_error`: MRB0-001, a board-0 connection drop at 2,344 s.
-    The halt was cleared by the user; the attempt is not re-run.
+    The halt was cleared by the user. At the user's request MRB0-001 was
+    re-run in a separate one-instance run
+    (`calibration/pigweed-fpga-rerun001-20261022T162434Z`, same settings):
+    **timeout** at the full 2,600 s on board 1, with no drop.
   - No wrong answers.
 - **Takeaway:** the extension adds one solved instance (19 → 20 FPGA-solved
   ids overall). Learned-clause memory, not time, remains the dominant

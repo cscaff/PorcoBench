@@ -30,7 +30,9 @@ Reasoning cloud FPGA platform. The repository contains:
   5 became certified.
   - On the FPGA (2,600 s deadline, 1 repetition), MRB0-009 was solved (SAT;
     117.1 G device cycles, 2,342 s host-observed).
-  - 3 instances ran out of learned-clause memory; 1 lost its connection.
+  - 3 instances ran out of learned-clause memory. MRB0-001 lost its
+    connection, and on re-run (`calibration/pigweed-fpga-rerun001-*`) it
+    timed out at the full 2,600 s.
 - **Full write-up:** `FPGA_Readiness_Plan.md` §7–8 and
   `FPGA_Extension_Uncertified20_Report.md`.
 

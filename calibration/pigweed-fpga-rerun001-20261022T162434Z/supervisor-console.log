@@ -1,0 +1,14 @@
+find: Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/attempts: No such file or directory
+[supervisor5 10-22T17:27:52] network stable for 10 probes
+[2026-10-22T17:27:52Z] run: plan 1 attempts (1 eligible ids x 1 reps, pilots first; deadline 2600 s)
+[2026-10-22T17:27:54Z] session: build job 9916864a-3ebd-4e6f-bb15-ac5234660a63 submitted; polling to terminal
+[2026-10-22T17:27:54Z] session: build running fpga=None
+[2026-10-22T17:42:01Z] session: build complete fpga=1
+[2026-10-22T17:42:01Z] session #1: board 1 session cd87d257… expires 2026-10-22T18:42:00.753741Z
+[2026-10-22T17:42:12Z] attempt MRB0-001 rep1 #1: lease 3558s
+[2026-10-22T18:25:37Z] supervise: TERM child (None)
+[2026-10-22T18:25:37Z] attempt MRB0-001 rep1 #1: status=timeout
+[2026-10-22T18:25:39Z] release: board 1 reset complete (job 34aa1754-b8a7-4eab-98d2-16233a8524f1)
+[2026-10-22T18:25:39Z] run: campaign complete
+[supervisor5 10-22T18:25:39] rc=0 phase=run_done iter=1 crashes=0 flash_relaunches=0
+SUPERVISOR_DONE

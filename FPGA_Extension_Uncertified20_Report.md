@@ -186,14 +186,34 @@ duration.
   This month's account usage stood at 893/1000 build-minutes after
   session 1.
 
+### Re-run of MRB0-001 (user-requested, 2026-10-22)
+
+The ext20 record for MRB0-001 is left unchanged (`transport_error`). It was
+re-run as a separate one-instance run,
+`calibration/pigweed-fpga-rerun001-20261022T162434Z`, with identical
+settings: 2,600 s deadline, 1 repetition, cpu-v1 evidence. That run had its
+own prepare and its full local qualify passed (subset manifest
+`manifest.rerun-MRB0-001.csv`).
+
+- **Result: `timeout`.** It ran the full 2,600 s (host GO→observation
+  2,600.005 s) on board 1 without a connection drop. It was aborted at the
+  deadline, and the post-abort recovery check passed. The board was released
+  (reset job `34aa1754`), and `report` is clean.
+- PigWeedSAT on this platform has been deterministic: identical outcomes and
+  bit-identical cycles across repetitions and boards in the first campaign.
+  The dropped attempt at 2,344 s would therefore not have finished within
+  2,600 s either.
+
 ## Conclusion
 
 Giving the CPU reference 5× more time certified 5 of the 20 previously
 uncertified chip-fitting instances. Of those 5, the FPGA solved 1
-(MRB0-009, SAT, at 2,342 s). The extension therefore adds one solved
-instance to the benchmark's FPGA record, beyond the original 19, and that
-solve needed a deadline longer than the original 1,000 s. Its other
-outcomes match the first campaign's main finding: on-chip learned-clause
-memory, not time, limits what PigWeedSAT solves. The 15 still-uncertified
-instances (mostly sgen and tseitin) remain unscored. Proving them on CPU
-would need either far more than 5,000 s or a different proof strategy.
+(MRB0-009, SAT; 117.1 G cycles, 2,342 s host-observed). Three ran out of
+learned-clause memory, and MRB0-001 timed out at 2,600 s on re-run. The
+extension therefore adds one solved instance to the benchmark's FPGA record,
+beyond the original 19, and that solve needed a deadline longer than the
+original 1,000 s. Its other outcomes match the first campaign's main
+finding: on-chip learned-clause memory, not time, mostly limits what
+PigWeedSAT solves. The 15 still-uncertified instances (mostly sgen and
+tseitin) remain unscored. Proving them on CPU would need either far more
+than 5,000 s or a different proof strategy.

@@ -1,0 +1,42 @@
+{
+ "_job_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/sessions/001.job.json",
+ "api_url": "https://api.manhattanreasoning.com",
+ "candidate_root": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/candidate",
+ "command": "qualify",
+ "events_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/sessions/001.events.jsonl",
+ "fixture_dir": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/candidate",
+ "fpga_id": 1,
+ "pilot_cnfs": [
+  [
+   "MRB0-005",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/inputs/MRB0-005.cnf"
+  ],
+  [
+   "MRB0-011",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/inputs/MRB0-011.cnf"
+  ],
+  [
+   "MRB0-017",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/inputs/MRB0-017.cnf"
+  ],
+  [
+   "MRB0-026",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/inputs/MRB0-026.cnf"
+  ],
+  [
+   "MRB0-077",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/inputs/MRB0-077.cnf"
+  ],
+  [
+   "MRB0-078",
+   "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/inputs/MRB0-078.cnf"
+  ]
+ ],
+ "release_job_id": "34aa1754-b8a7-4eab-98d2-16233a8524f1",
+ "release_skipped": false,
+ "released": true,
+ "released_utc": "2026-10-22T18:25:39Z",
+ "result_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/sessions/001.qualify.json",
+ "session_id": "cd87d257-5905-4f44-beb8-c9f3dfdfb26c",
+ "stderr_path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/pigweed-fpga-rerun001-20261022T162434Z/sessions/001.stderr.log"
+}

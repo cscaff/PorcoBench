@@ -1,0 +1,2 @@
+id,tier,family,repetition,expected,status,attempt,result_code,cycles,parse_s,encode_s,load_s,host_total_s,host_t0_to_obs_s,late,device_seconds,reason
+MRB0-001,S,long-learned-clauses,1,unsat,timeout,1,,,0.0005717920139431953,0.0006578750908374786,1.4226378751918674,2604.40492012538,2600.0050115422346,False,,
