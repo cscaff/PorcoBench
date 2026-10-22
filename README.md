@@ -28,8 +28,8 @@ Reasoning cloud FPGA platform. The repository contains:
   `calibration/pigweed-fpga-ext20-20261022T094311Z`): the 20 chip-fitting
   instances left uncertified at 1,000 s were rerun at 5,000 s on the CPU;
   5 became certified.
-  - On the FPGA (2,600 s deadline, 1 repetition), MRB0-009 was solved (SAT,
-    2,342 s of chip time).
+  - On the FPGA (2,600 s deadline, 1 repetition), MRB0-009 was solved (SAT;
+    117.1 G device cycles, 2,342 s host-observed).
   - 3 instances ran out of learned-clause memory; 1 lost its connection.
 - **Full write-up:** `FPGA_Readiness_Plan.md` §7–8 and
   `FPGA_Extension_Uncertified20_Report.md`.

@@ -150,18 +150,24 @@ deadline, 1 repetition, the 5 newly certified ids. `report` is clean
 (`identity_ok: true`, 0 binding errors). All three sessions landed on
 board 0, and every one was released with a completed reset job.
 
-| ID | CPU certificate | FPGA result | Device cycles | ≈ chip time @ 50 MHz |
-|---|---|---|---|---|
-| MRB0-009 | SAT | **SAT, witness checked** against the original formula | 117,105,253,124 | 2,342 s |
-| MRB0-003 | UNSAT | resource error -4 (no clause space) | 5,796,268,606 | 116 s |
-| MRB0-037 | UNSAT | resource error -5 (no literal page) | 4,387,262,084 | 88 s |
-| MRB0-021 | SAT | resource error -5 (no literal page) | 51,803,006 | 1 s |
-| MRB0-001 | UNSAT | `transport_error`: connection to board 0 lost 2,344 s after GO | — | — |
+| ID | CPU certificate | FPGA result | Device cycles | Host GO→observation | ≈ at nominal 50 MHz |
+|---|---|---|---|---|---|
+| MRB0-009 | SAT | **SAT, witness checked** against the original formula | 117,105,253,124 | 2,342.09 s | 2,342.1 s |
+| MRB0-003 | UNSAT | resource error -4 (no clause space) | 5,796,268,606 | 116.09 s | 115.9 s |
+| MRB0-037 | UNSAT | resource error -5 (no literal page) | 4,387,262,084 | 87.80 s | 87.7 s |
+| MRB0-021 | SAT | resource error -5 (no literal page) | 51,803,006 | 1.11 s | 1.0 s |
+| MRB0-001 | UNSAT | `transport_error`: connection to board 0 lost 2,344 s after GO | — | — | — |
+
+The attempt records keep `clock_confirmed: false` and leave `device_seconds`
+blank: the platform does not report the board clock. The last column is
+cycles ÷ 50 MHz, the nominal clock requested at build time, not a measured
+duration.
 
 - **There were no wrong answers.**
 - **MRB0-009 is the first FPGA solve in the project that needed more than
-  the original 1,000 s deadline.** It took 2,342 s of chip time; the CPU
-  needed 1,130 s.
+  the original 1,000 s deadline.** It took 117.1 G device cycles and
+  2,342.09 s host-observed from GO to the observed result; the CPU needed
+  1,130 s.
 - **On-chip memory remains the dominant limit.** 3 of the 4 instances that
   ran to an outcome exhausted learned-clause storage. That includes the SAT
   instance MRB0-021, which failed after 1 second.
@@ -172,10 +178,10 @@ board 0, and every one was released with a completed reset job.
   MRB0-009's connection on the same board outlived it (2,347.5 s vs
   2,346.0 s from attach to end, and an older session), so the records rule
   out a fixed platform connection-length cap at that point.
-- **Clock.** Over MRB0-009's 2,342 s solve, cycles ÷ (host GO→observation ×
-  50 MHz) = 1.0000063. That is about 6 ppm fast, within normal oscillator
-  tolerance, and consistent with the 50 MHz clock seen in the original
-  campaign.
+- **Clock.** For MRB0-009, cycles ÷ (host GO→observation × 50 MHz) =
+  1.0000063. That is consistent with the nominal 50 MHz clock at the ppm
+  level, as in the original campaign. It is not a measurement of the board's
+  oscillator: host-clock drift of the same size would give the same ratio.
 - **Cost:** 3 board sessions for this run (one rotation after MRB0-009).
   This month's account usage stood at 893/1000 build-minutes after
   session 1.

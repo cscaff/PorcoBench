@@ -318,8 +318,10 @@ replace any of them. Full details and results are in
   hit the 5,000 s limit.
 - **FPGA result** (`calibration/pigweed-fpga-ext20-20261022T094311Z`, clean
   `report`):
-  - **MRB0-009 SAT**, witness checked, after 2,342 s of chip time. It is the
-    first FPGA solve in the project that needed more than 1,000 s.
+  - **MRB0-009 SAT**, witness checked, after 117.1 G device cycles (2,342 s
+    host-observed from GO; device seconds are withheld because the platform
+    does not confirm the clock). It is the first FPGA solve in the project
+    that needed more than 1,000 s.
   - Three resource errors: MRB0-003 (-4), MRB0-037 (-5) and MRB0-021 (-5,
     after 1 s).
   - One `transport_error`: MRB0-001, a board-0 connection drop at 2,344 s.
