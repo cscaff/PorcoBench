@@ -123,9 +123,13 @@ These were reviewed (APPROVE after one fix) and tested (189 tests pass).
 | MRB0-003 | S | sgen | UNSAT, DRAT verified | 4,618 s | 8,737 s | 2.1 GB |
 
 - All 5 certificates agree with the benchmark labels.
-- **MRB0-037 was solved within 1,000 s even in cpu-v0.** What failed there
-  was the 3,000 s proof-check limit; the 20,000 s check limit fixed it. For
-  the other four, the extra solve time was what made the difference.
+- **MRB0-037 produced the same proof both times.** Kissat solved it within
+  1,000 s in both runs, and the two proofs are byte-identical (sha256
+  `3d78863f…`). In cpu-v0, drat-trim stopped with its own internal timeout
+  after 2,824 s, under the 3,000 s limit. In cpu-v1 the same proof
+  verified in 2,069 s. The records do not show why the first check stopped
+  early, so the higher check limit is not established as the cause. For the
+  other four, the extra solve time made the difference.
 - **Still uncertified (15):** every remaining sgen instance (004, 006, 007,
   008, 010, 012), all six tseitin-formulas instances (019, 084, 086, 088,
   089, 090), pigeon-hole MRB0-042, scheduling MRB0-080 and sudoku-php
