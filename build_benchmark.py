@@ -18,7 +18,7 @@ Recipe (Proposal §4; SAT_Corpus_Feasibility_Assessment.md Part III):
   * verify   : every accepted instance is downloaded from GBD, decompressed, strictly
                parsed (benchmark_cnf.parse_dimacs) and must match the tier file's
                variables / clauses / literals; failures are rejected and replaced
-  * pinning  : if Benchmark/manifest.csv exists, it pins the benchmark: only its instances
+  * pinning  : if manifest.csv exists, it pins the benchmark: only its instances
                are accepted, each file must match its recorded compressed and CNF SHA-256,
                the regenerated manifest must equal the pinned file byte-for-byte (so
                metadata drift fails instead of silently rewriting it), and a failing
@@ -27,14 +27,15 @@ Recipe (Proposal §4; SAT_Corpus_Feasibility_Assessment.md Part III):
                unpinned online bootstrap (fresh downloads; --offline refused). --repin
                deliberately pins a new selection.
 
-Usage (from the workspace root):
-    PigWeedSAT/.venv/bin/python -B Benchmark/build_benchmark.py            # fetch + build
-    PigWeedSAT/.venv/bin/python -B Benchmark/build_benchmark.py --offline  # cached bytes only
-    PigWeedSAT/.venv/bin/python -B Benchmark/build_benchmark.py --dry-run  # selection only
-    PigWeedSAT/.venv/bin/python -B Benchmark/build_benchmark.py --repin    # new pinned version
+Usage (from the repository root; needs ../gbd_tiers.csv, see summary.txt):
+    .venv-fpga/bin/python -B build_benchmark.py            # fetch + build
+    .venv-fpga/bin/python -B build_benchmark.py --offline  # cached bytes only
+    .venv-fpga/bin/python -B build_benchmark.py --dry-run  # selection only
+    .venv-fpga/bin/python -B build_benchmark.py --repin    # new pinned version
 
-Outputs (deterministic, no timestamps): Benchmark/manifest.csv, Benchmark/summary.txt,
-Benchmark/cnf/<gbd-hash>.cnf.xz. Downloads and the fetch log live in Benchmark/.cache/.
+Outputs (deterministic, no timestamps): manifest.csv, summary.txt,
+cnf/<gbd-hash>.cnf.xz. Downloads and the fetch log live in .cache/. To only
+download and verify the pinned instances, use scripts/fetch_corpus.py.
 Distribution is link-only: manifest.csv + this script are the shareable benchmark definition;
 cnf/ is a local organizer build cache (76 instances carry no explicit license; see the
 manifest's license_status column) and must not be packaged or re-hosted as-is.

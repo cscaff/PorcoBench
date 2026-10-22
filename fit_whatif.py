@@ -16,10 +16,10 @@ on PigWeedSAT, no RTL is elaborated, no PigWeedSAT file is modified).
               Kissat's elimination/reconstruction stack is not written, so a
               model of the simplified formula is NOT a model of the original.
 
-Usage:
-  PigWeedSAT/.venv/bin/python -B Benchmark/fit_whatif.py capacity
-  PigWeedSAT/.venv/bin/python -B Benchmark/fit_whatif.py preprocess
-Inputs: Benchmark/calibration/combined_results.csv and the retained
+Usage (from the repository root; PigWeedSAT checked out as ../PigWeedSAT):
+  .venv-fpga/bin/python -B fit_whatif.py capacity
+  .venv-fpga/bin/python -B fit_whatif.py preprocess
+Inputs: calibration/combined_results.csv and the retained (local-only)
 calibration/cpu-v0/attempts/<ID>/attempt-001/input.cnf files.
 """
 

@@ -1,0 +1,266 @@
+{
+ "breakdowns": {
+  "by_category": {
+   "crafted": {
+    "certified": 1,
+    "conflict": 0,
+    "median_certified_checker_seconds": 8736.519,
+    "median_certified_solve_seconds": 4617.8396,
+    "median_certified_witness_seconds": null,
+    "total": 5,
+    "unresolved": 4
+   },
+   "main": {
+    "certified": 4,
+    "conflict": 0,
+    "median_certified_checker_seconds": 5319.9813,
+    "median_certified_solve_seconds": 1658.2249,
+    "median_certified_witness_seconds": 0.001,
+    "total": 15,
+    "unresolved": 11
+   }
+  },
+  "by_expected_result": {
+   "sat": {
+    "certified": 2,
+    "conflict": 0,
+    "median_certified_checker_seconds": null,
+    "median_certified_solve_seconds": 1658.2249,
+    "median_certified_witness_seconds": 0.001,
+    "total": 7,
+    "unresolved": 5
+   },
+   "unsat": {
+    "certified": 3,
+    "conflict": 0,
+    "median_certified_checker_seconds": 5319.9813,
+    "median_certified_solve_seconds": 2187.5333,
+    "median_certified_witness_seconds": null,
+    "total": 13,
+    "unresolved": 10
+   }
+  },
+  "by_family": {
+   "binary-tree-parity": {
+    "certified": 1,
+    "conflict": 0,
+    "median_certified_checker_seconds": null,
+    "median_certified_solve_seconds": 1658.2249,
+    "median_certified_witness_seconds": 0.001,
+    "total": 1,
+    "unresolved": 0
+   },
+   "linvrinv": {
+    "certified": 1,
+    "conflict": 0,
+    "median_certified_checker_seconds": 2069.4489,
+    "median_certified_solve_seconds": 841.1355,
+    "median_certified_witness_seconds": null,
+    "total": 1,
+    "unresolved": 0
+   },
+   "long-learned-clauses": {
+    "certified": 1,
+    "conflict": 0,
+    "median_certified_checker_seconds": 5319.9813,
+    "median_certified_solve_seconds": 2187.5333,
+    "median_certified_witness_seconds": null,
+    "total": 1,
+    "unresolved": 0
+   },
+   "pigeon-hole": {
+    "certified": 0,
+    "conflict": 0,
+    "median_certified_checker_seconds": null,
+    "median_certified_solve_seconds": null,
+    "median_certified_witness_seconds": null,
+    "total": 1,
+    "unresolved": 1
+   },
+   "scheduling": {
+    "certified": 0,
+    "conflict": 0,
+    "median_certified_checker_seconds": null,
+    "median_certified_solve_seconds": null,
+    "median_certified_witness_seconds": null,
+    "total": 1,
+    "unresolved": 1
+   },
+   "sgen": {
+    "certified": 2,
+    "conflict": 0,
+    "median_certified_checker_seconds": 8736.519,
+    "median_certified_solve_seconds": 4617.8396,
+    "median_certified_witness_seconds": 0.0002,
+    "total": 8,
+    "unresolved": 6
+   },
+   "sudoku-php": {
+    "certified": 0,
+    "conflict": 0,
+    "median_certified_checker_seconds": null,
+    "median_certified_solve_seconds": null,
+    "median_certified_witness_seconds": null,
+    "total": 1,
+    "unresolved": 1
+   },
+   "tseitin-formulas": {
+    "certified": 0,
+    "conflict": 0,
+    "median_certified_checker_seconds": null,
+    "median_certified_solve_seconds": null,
+    "median_certified_witness_seconds": null,
+    "total": 6,
+    "unresolved": 6
+   }
+  },
+  "by_tier": {
+   "S": {
+    "certified": 3,
+    "conflict": 0,
+    "median_certified_checker_seconds": 8736.519,
+    "median_certified_solve_seconds": 2187.5333,
+    "median_certified_witness_seconds": 0.0002,
+    "total": 10,
+    "unresolved": 7
+   },
+   "S-tight": {
+    "certified": 2,
+    "conflict": 0,
+    "median_certified_checker_seconds": 2069.4489,
+    "median_certified_solve_seconds": 1658.2249,
+    "median_certified_witness_seconds": 0.001,
+    "total": 10,
+    "unresolved": 8
+   }
+  }
+ },
+ "counts": {
+  "attempted": 20,
+  "certified_total": 5,
+  "claimed_sat": 2,
+  "claimed_unknown_or_timeout": 15,
+  "claimed_unsat": 3,
+  "label_conflicts": 0,
+  "proof_checked_unsat": 3,
+  "records": 20,
+  "trivial_original_unsat": 0,
+  "unresolved": 15,
+  "witness_checked_sat": 2
+ },
+ "identity": {
+  "check_timeout_seconds": 20000,
+  "drat_trim_sha256": "2a92f76b682bc64ab76ebd1d23f188e66ff138cf7f8172f80ec7ea94ecc5389a",
+  "harness_sha256": "4ef17539c8e25ad536f3f0a0a3d2286e991ccd157ca3c4ff1d35a44381cbf242",
+  "kissat_sha256": "2c139b29fa40d469cc39f4024d74fd82198b561a2f64b7883a7af1308dfebf40",
+  "manifest_sha256": "73927b7bf4a6d90612cfc3393b591d99a77e3e85263a206125f9dfa9dfe6b013",
+  "output_file_limit_bytes": 68719476736,
+  "parser_sha256": "c0917f0f0df0142b471dd135dbdf55a3055bf4e6b403bb10c78ffe184bebc106",
+  "solve_timeout_seconds": 5000
+ },
+ "proofs": {
+  "gz_total_bytes": 77201012593,
+  "note": "quantiles cover proof-checked UNSAT certificates only; SAT-run proof traces are evidence, not certificates",
+  "raw_total_bytes": 359441156949,
+  "unsat_proof_gz_bytes_quantiles": {
+   "count": 3,
+   "max": 2063309428,
+   "min": 730340941,
+   "p50": 1673476256.0,
+   "p90": 1985342793.6,
+   "p99": 2055512764.56
+  },
+  "unsat_proof_raw_bytes_quantiles": {
+   "count": 3,
+   "max": 5604453620,
+   "min": 1711035576,
+   "p50": 4247499041.0,
+   "p90": 5333062704.2,
+   "p99": 5577314528.42
+  }
+ },
+ "provenance": {
+  "build_commands": {
+   "drat_trim": "make drat-trim (gcc drat-trim.c -std=c99 -O2 -o drat-trim)",
+   "kissat": "./configure && make -j4"
+  },
+  "disk": {
+   "free_bytes_at_start": 981363249152,
+   "path": "/Users/steinou/Documents/ManhattanReason/Benchmark/calibration/cpu-v1-5000s",
+   "total_bytes": 1995218165760
+  },
+  "host": {
+   "compiler": "Apple clang version 21.0.0 (clang-2100.0.123.102)",
+   "cpu": "Apple M1 Max",
+   "machine": "arm64",
+   "memory_bytes": 68719476736,
+   "os": "Darwin 25.6.0",
+   "platform": "macOS-26.6.2-arm64-arm-64bit",
+   "python": "3.12.13"
+  },
+  "safety_limits": {
+   "kill_grace_seconds": 5.0,
+   "min_free_disk_bytes": 21474836480,
+   "output_file_limit_bytes": 68719476736
+  },
+  "tool_commits": {
+   "drat_trim": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+   "kissat": "8af8e56f174b778aef3aa45af9f739b2a5f492c2"
+  },
+  "tools": {
+   "drat_trim_usage_first_line": [
+    "usage: drat-trim [INPUT] [<PROOF>] [<option> ...]"
+   ],
+   "kissat_build_text": "Version 4.0.4 8af8e56f174b778aef3aa45af9f739b2a5f492c2\nApple clang version 21.0.0 (clang-2100.0.123.102) -W -Wall -O3 -DNDEBUG\nFri Oct 9 22:23:07 EDT 2026 Darwin Manuels-MacBook-Pro-7.local 25.6.0 arm64",
+   "kissat_help_excerpt": [
+    "usage: kissat [ <option> ... ] [ <dimacs> [ <proof> ] ]",
+    "  -f      force writing proofs (to existing CNF alike file)",
+    "  --force              same as '-f' (force writing proof)",
+    "  --time=<seconds>",
+    "  --flushproof=<bool>        flush proof lines immediately [false]",
+    "  --seed=0...                random seed [0]",
+    "If '<proof>' is specified then a proof trace is written to the",
+    "given file.  If the file name is '-' then the proof is written",
+    "is used.  For real files the binary proof format is used unless",
+    "Writing of compressed proof files follows the same principle"
+   ],
+   "kissat_help_mentions_seed": true,
+   "kissat_help_mentions_time": true,
+   "kissat_version_line": "4.0.4"
+  }
+ },
+ "times": {
+  "certified_checker_wall_seconds": {
+   "count": 3,
+   "max": 8736.519,
+   "min": 2069.4489,
+   "p50": 5319.9813,
+   "p90": 8053.2115,
+   "p99": 8668.1883
+  },
+  "certified_solve_bins": {
+   "0.1-1": 0,
+   "1-10": 0,
+   "10-100": 0,
+   "100-1000": 1,
+   "<0.1": 0
+  },
+  "certified_solve_wall_seconds": {
+   "count": 5,
+   "max": 4617.8396,
+   "min": 841.1355,
+   "p50": 1658.2249,
+   "p90": 3645.7171,
+   "p99": 4520.6273
+  },
+  "certified_witness_check_seconds": {
+   "count": 2,
+   "max": 0.001,
+   "min": 0.0002,
+   "p50": 0.0006,
+   "p90": 0.0009,
+   "p99": 0.001
+  },
+  "timing_semantics": "proof-enabled Kissat wall time including input parsing and proof I/O; not proof-free CPU speed and not projected FPGA runtime"
+ }
+}

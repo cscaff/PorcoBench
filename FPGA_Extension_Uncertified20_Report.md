@@ -1,7 +1,7 @@
 # Extension: 20 chip-fitting, CPU-uncertified instances (5,000 s CPU / 2,600 s FPGA)
 
-**Status (2026-10-20 23:45Z): IN PROGRESS.** The CPU phase is running; the
-FPGA phase follows for the instances the CPU certifies. This report covers
+**Status (2026-10-22 09:50Z): IN PROGRESS.** CPU phase complete (5 of 20
+certified); the FPGA phase on those 5 is running. This report covers
 the extension only. The original campaign's results are unchanged: see
 `Benchmark/FPGA_Readiness_Plan.md` §7 and
 `Benchmark/calibration/pigweed-fpga-20261014T022815Z/` (`report.md`,
@@ -109,11 +109,37 @@ These were reviewed (APPROVE after one fix) and tested (189 tests pass).
 
 | Phase | Status |
 |---|---|
-| CPU (cpu-v1-5000s) | running since 2026-10-20T23:17Z. Interim at 2026-10-21T14:30Z: 9/20 done; certified so far MRB0-001 (UNSAT, proof), MRB0-003 (UNSAT, proof), MRB0-009 (SAT, witness) |
-| FPGA | armed: a detached watcher (`/tmp/pigweed-ext20-continue.sh`; log `calibration/ext20-continuation.log`) starts prepare → qualify → supervised run → report when the CPU campaign completes |
+| CPU (cpu-v1-5000s) | **complete** 2026-10-22T09:27Z: 20/20 terminal, **5 certified**, 0 label conflicts (harness exit 2 = complete with uncertified instances) |
+| FPGA | started automatically 2026-10-22T09:43Z: `calibration/pigweed-fpga-ext20-20261022T094311Z` (prepare → qualify → supervised run → report; log `calibration/ext20-continuation.log`) |
 
-The FPGA prepare path was dry-run on 2026-10-21 against the partial cpu-v1
-data. It recorded the 2,600 s / 1-repetition campaign with both CPU sources
-and found 3 of the 20 ids eligible at that point.
+### CPU phase: 5 of 20 newly certified at 5,000 s
 
-Results will be added here as each phase completes.
+| ID | Tier | Family | Certificate | Solve | Proof check | Proof (gz) |
+|---|---|---|---|---|---|---|
+| MRB0-037 | S-tight | linvrinv | UNSAT, DRAT verified | 841 s | 2,069 s | 0.7 GB |
+| MRB0-009 | S | sgen | SAT, witness checked | 1,130 s | — | 1.0 GB |
+| MRB0-021 | S-tight | binary-tree-parity | SAT, witness checked | 1,658 s | — | 1.8 GB |
+| MRB0-001 | S | long-learned-clauses | UNSAT, DRAT verified | 2,188 s | 5,320 s | 1.7 GB |
+| MRB0-003 | S | sgen | UNSAT, DRAT verified | 4,618 s | 8,737 s | 2.1 GB |
+
+- All 5 certificates agree with the benchmark labels.
+- **MRB0-037 was solved within 1,000 s even in cpu-v0.** What failed there
+  was the 3,000 s proof-check limit; the 20,000 s check limit fixed it. For
+  the other four, the extra solve time was what made the difference.
+- **Still uncertified (15):** every remaining sgen instance (004, 006, 007,
+  008, 010, 012), all six tseitin-formulas instances (019, 084, 086, 088,
+  089, 090), pigeon-hole MRB0-042, scheduling MRB0-080 and sudoku-php
+  MRB0-082. Each hit the 5,000 s limit; for 019, 006 and 088 Kissat's own
+  time limit fired first ("unknown"). None hit the 64 GiB proof cap; the
+  largest compressed proof was 6.7 GB.
+- **Timing caveat:** between 2026-10-21 14:13Z and 14:28Z, two short
+  single-process jobs (a fresh-clone test run and an FPGA prepare dry-run)
+  ran on the same 10-core machine while MRB0-012 was solving. Kissat is
+  single-threaded and MRB0-012 timed out at 5,000 s anyway, so the effect
+  on these results is negligible, but it was not a dedicated machine for
+  those ~15 minutes.
+
+### FPGA phase
+
+In progress. Only these 5 instances are in scope (1 repetition, 2,600 s
+deadline). Results will be added when the run completes.

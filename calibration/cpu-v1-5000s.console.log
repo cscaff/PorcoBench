@@ -1,0 +1,42 @@
+[run] MRB0-001: attempt 1 (1/20)
+[done] MRB0-001: claimed=unsat CERTIFIED unsat_proof gbd=agree
+[run] MRB0-003: attempt 1 (2/20)
+[done] MRB0-003: claimed=unsat CERTIFIED unsat_proof gbd=agree
+[run] MRB0-004: attempt 1 (3/20)
+[done] MRB0-004: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-006: attempt 1 (4/20)
+[done] MRB0-006: claimed=None uncertified (solver_unknown) gbd=None
+[run] MRB0-007: attempt 1 (5/20)
+[done] MRB0-007: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-008: attempt 1 (6/20)
+[done] MRB0-008: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-009: attempt 1 (7/20)
+[done] MRB0-009: claimed=sat CERTIFIED sat_witness gbd=agree
+[run] MRB0-010: attempt 1 (8/20)
+[done] MRB0-010: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-012: attempt 1 (9/20)
+[done] MRB0-012: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-019: attempt 1 (10/20)
+[done] MRB0-019: claimed=None uncertified (solver_unknown) gbd=None
+[run] MRB0-021: attempt 1 (11/20)
+[done] MRB0-021: claimed=sat CERTIFIED sat_witness gbd=agree
+[run] MRB0-037: attempt 1 (12/20)
+[done] MRB0-037: claimed=unsat CERTIFIED unsat_proof gbd=agree
+[run] MRB0-042: attempt 1 (13/20)
+[done] MRB0-042: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-080: attempt 1 (14/20)
+[done] MRB0-080: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-082: attempt 1 (15/20)
+[done] MRB0-082: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-084: attempt 1 (16/20)
+[done] MRB0-084: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-086: attempt 1 (17/20)
+[done] MRB0-086: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-088: attempt 1 (18/20)
+[done] MRB0-088: claimed=None uncertified (solver_unknown) gbd=None
+[run] MRB0-089: attempt 1 (19/20)
+[done] MRB0-089: claimed=None uncertified (solve_timeout) gbd=None
+[run] MRB0-090: attempt 1 (20/20)
+[done] MRB0-090: claimed=None uncertified (solve_timeout) gbd=None
+campaign complete: 20 records, 5 certified, 0 conflicts
+[cpu-v1 launcher 10-22T09:26:57] exit=2

@@ -1,0 +1,105 @@
+{
+ "id_status": {
+  "MRB0-001": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-001/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-003": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-003/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-004": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-004/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-006": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-006/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-007": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-007/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-008": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-008/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-009": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-009/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-010": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-010/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-012": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-012/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-019": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-019/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-021": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-021/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-037": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-037/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-042": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-042/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-080": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-080/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-082": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-082/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-084": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-084/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-086": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-086/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-088": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-088/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-089": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-089/attempt-001",
+   "status": "terminal"
+  },
+  "MRB0-090": {
+   "attempt": 1,
+   "attempt_dir": "attempts/MRB0-090/attempt-001",
+   "status": "terminal"
+  }
+ },
+ "infra_block": null
+}

@@ -313,4 +313,7 @@ replace any of them. Full details and results are in
   impossible because the platform's board session is fixed at one hour, and
   2,650 s is the most that fits. It runs in a new run directory with its
   own prepare and qualify.
-- **Status:** the CPU phase is running; the FPGA phase is pending.
+- **Status (2026-10-22):** the CPU phase is complete. 5 of 20 are newly
+  certified: UNSAT MRB0-001, 003 and 037; SAT MRB0-009 and 021. The other
+  15 still hit the 5,000 s limit. The FPGA phase on those 5 started
+  automatically at 09:43Z.
