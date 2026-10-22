@@ -199,10 +199,11 @@ own prepare and its full local qualify passed (subset manifest
   2,600.005 s) on board 1 without a connection drop. It was aborted at the
   deadline, and the post-abort recovery check passed. The board was released
   (reset job `34aa1754`), and `report` is clean.
-- PigWeedSAT on this platform has been deterministic: identical outcomes and
-  bit-identical cycles across repetitions and boards in the first campaign.
-  The dropped attempt at 2,344 s would therefore not have finished within
-  2,600 s either.
+- This clean timeout is strong evidence that MRB0-001 does not finish under
+  the 2,600 s contract. It does not prove what the interrupted board-0
+  attempt would have done. The first campaign showed bit-identical cycles
+  only for attempts that completed, and a timeout record keeps no cycle
+  count, so the two timeouts cannot be compared directly.
 
 ## Conclusion
 
